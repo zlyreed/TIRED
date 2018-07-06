@@ -1,14 +1,18 @@
 ## Process testing data:
-There are normally three data folder (**Vivon_Matlab**, **Oximeter Data**, **Noraxon_mat**) under each testing (testing No. is different than the subject No. since the same subject might attend different tests)
+- Record the subject/testing information into excel files.
+  - There are normally three data folders (**Vivon_Matlab**, **OximeterData**, **Noraxon_mat**) under each testing (testing No. is different than the subject No. since the same subject might attend multiple tests). 
 
-   - From Vicon    
-     - Force
-     - Event
-     - VMG
-     - possible EMG (EMG was recorded in Vicon before using Noraxon)
+- Process the raw data into .mat files. 
+
+   - From Vicon (including **Force**, __Events__, __VMG__, __possible EMG__)
+     - For short trials (such as reference trials: resting and MVC)
+	 
+	 - For long trials 
+	 	 
+	 - For extremely long trials 
 
      
-   - From Noraxon
+   - From Noraxon (The .mat files can be exported directly from Noraxon software)
      - EMG
      - Biomonitor
    
