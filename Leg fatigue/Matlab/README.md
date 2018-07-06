@@ -6,9 +6,19 @@
 
    - From Vicon (including **Force**, __Events__, __VMG__, and __possible EMG__)
      - From Raw data: 
-		 - For short trials (such as reference trials: resting and MVC)
-		 
-		 - For long trials 
+		 - For short trials (such as reference trials: resting and MVC100)
+		   - Run "BatchSaveMat_shortTrials.m" (make sure input correct "testNo"; comment out the EMG section if necessary)
+		     - It calls "LegFatigueTesting_subjects info.xls", which has the directory information for the Vicon trials and output location.
+			 - Before run the program, make sure the Vicon Nexus program (Nexus 2.3) is opened and the desired subject and trial folder was located (no need to open the trial).
+			 - The cell (with header and data) as a ".mat" file will be saved in the "output" folder.
+			 - Notes: Trial_list={'Resting_1','Resting_2','MVC100_1a','MVC100_1b','MVC100_2a','MVC100_2b','MVC100_3a','MVC100_3b','MVC100_4a','MVC100_4b','MVC100_5a','MVC100_5b'}
+			 
+		 - For long trials (proximately less than 20 mins/130000frame/1300seconds?? need check)
+		   - Run "processCSV_total.m" (make sure input correct "testNo"; comment out the EMG section with "saveAllEMGMat" if necessary)
+			 - Before run the program, the ".csv" files for the desired trials should be exported from Vicon Nexus.
+			   - Use "batch" process in Nexus to export ASCII (.csv files) (only can export all, instead of selected devices)
+			 - The header ("cell") and data ("numeric array") will be saved into two ".mat" files respectively to the "output" folder.
+			 - Notes: filenames={'MVC30_Fatigue1.csv','MVC30_Fatigue2.csv','MVC60_Fatigue1.csv','MVC60_Fatigue2.csv'};
 			 
 		 - For extremely long trials 
 		 
