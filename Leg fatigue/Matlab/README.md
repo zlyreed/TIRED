@@ -21,6 +21,9 @@
 			 - Notes: filenames={'MVC30_Fatigue1.csv','MVC30_Fatigue2.csv','MVC60_Fatigue1.csv','MVC60_Fatigue2.csv'};
 			 
 		 - For extremely long trials 
+		   - Run "processCSV_total.m" carefully
+		     - save separate csv file for EMG, force/event, and acceleration, respectively.
+			 - make sure change file/selected functions accordingly, before run "processCSV_total.m": such as commentting out "saveAllEMGMat", "saveAllForceEventMat", or "saveAllAccelerationMat" correspondingly (save different type of data one by one).
 		 
 	 - Get max. exertion force level (MVC100_cell) 
 		 - Input the corresponding MVC100 trials into "LegFatigueTesting_RPE_recording.xlsx" (at least fill the Vicon Trial file name for each trial)
