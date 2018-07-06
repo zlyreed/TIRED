@@ -3,17 +3,10 @@
      - Force
      - Event
      - VMG
-<<<<<<< HEAD
-     - possible EMG (before using Noraxon, EMG was recorded in Vicon)
+     - possible EMG (EMG was recorded in Vicon before using Noraxon)
 
      
    - From Noraxon
-=======
-     - possible EMG
-
-     
-   - From Naraxon
->>>>>>> master
      - EMG
      - Biomonitor
    
@@ -21,4 +14,3 @@
      - Event
      - Oxygen reading
    
-  
