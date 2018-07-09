@@ -40,6 +40,6 @@
   - The RPE Events was manually input to the oximeter;
   - Run "plot_force_RPE_S15_4plots.m": 
     - Check event/event time (check "Time_event" in matlab): the number of events in Nonion may not match with that in Vicon events (due to human errors, besides no 'start" and "end" recording events in Vicon)
-
+    - Notes (7/9/2018): look at the last subject's RPE input...
 	 
  
