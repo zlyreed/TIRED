@@ -35,7 +35,8 @@
      - Oxygen reading
  
 - **2. Obtain maximum exertion force level (MVC100_cell)** 
-	 - Input the corresponding MVC100 trial informtion into "LegFatigueTesting_RPE_recording.xlsx" (at least fill each Vicon Trial file name)
-	 - run "MVC_data.m" (make sure input correct "totalTest" number)--> output **"MVC100_cell.mat"** (use this one: for each trial, use the max average Force in a moving 1-second window, and average the max values if there are two trials) and "MVC100_cell_absoluteMax.mat" (pick the larger one between two trials) 
-	 - Notes (7/6/2018): process Test # 15-17 to get trial mat files first, and then run "MVC_data.m".
+	 - Input the corresponding MVC100 trial informtion into "LegFatigueTesting_RPE_recording.xlsx" (at least fill the file name for each Vicon trial)
+	 - Make sure all the MVC100 trial have been processed in Step 1 (their .mat files are available)
+	 - Run [MVC_data.m](MVC_data.m) (make sure input correct "totalTest" number),which calls two functions (getTimeStampsofEvents.m and getMostConsistent.m) from "funtions" folder--> output **"MVC100_cell.mat"** (use this one: for each trial, use the max average Force in a moving 1-second window, and average the max values if there are two trials) and "MVC100_cell_absoluteMax.mat" (pick the larger one between two trials) 
+	 
  
