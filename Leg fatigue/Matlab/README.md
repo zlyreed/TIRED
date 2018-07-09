@@ -13,7 +13,7 @@
 		 - Notes: Trial_list={'Resting_1','Resting_2','MVC100_1a','MVC100_1b','MVC100_2a','MVC100_2b','MVC100_3a','MVC100_3b','MVC100_4a','MVC100_4b','MVC100_5a','MVC100_5b'}
 		 
 	 - For __long trials__ (proximately less than 20 mins/130000frame/1300seconds?? need check)
-	   - Run "\Matlab_batch\processCSV_total.m" (make sure input correct "testNo"; comment out the EMG section with "saveAllEMGMat" if necessary)
+	   - Run "\Matlab_batch\ [processCSV_total.m](processCSV_total.m) (calls functions in "processCSV_total" folder" (make sure input correct "testNo"; comment out the EMG section with "saveAllEMGMat" if necessary)
 		 - Before run the program, the ".csv" files for the desired trials should be exported from Vicon Nexus.
 		   - Use "batch" process in Nexus to export ASCII (.csv files) (only can export all, instead of selected devices)
 		 - The header ("cell") and data ("numeric array") will be saved into two ".mat" files respectively to the "output" folder.
