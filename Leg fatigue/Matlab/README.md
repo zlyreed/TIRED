@@ -4,8 +4,8 @@
 - LegFatigueTesting_subjects info.xlsx (or LegFatigueTesting_subjects info_laptop.xlsx): record subject information, measurements and trial order
 - LegFatigueTesting_RPE_recording.xlsx: more detailed testing information with RPE readings and trial locations.
 
-**2. Process the raw data into .mat files.**
-- From Vicon (including **Force**, __Events__, __VMG__ and __possible EMG__)
+**2. Process the Vicon raw data into .mat files.**
+- From Vicon files(including **Force**, __Events__, __VMG__ and __possible EMG__) to .mat files
   - For __short trials__ (such as reference trials: resting and MVC100)
     - Run "\Matlab_batch\ [BatchSaveMat_shortTrials.m](BatchSaveMat_shortTrials.m)" (make sure input correct "testNo"; comment out the EMG section if necessary)
 	  - It calls "LegFatigueTesting_subjects info.xls", which has the directory information for the Vicon trials and output location.
@@ -24,19 +24,21 @@
     - Run "\Matlab_batch\processCSV_total.m" carefully
 	  - save separate csv files for EMG, force/event, and acceleration, respectively.
 	  - make sure change file/selected functions accordingly, before run "processCSV_total.m": such as commentting out "saveAllEMGMat", "saveAllForceEventMat", or "saveAllAccelerationMat" correspondingly (save different type of data one by one).
+
+- Obtain maximum exertion force level **(MVC100_cell)** 
+  - Input the corresponding MVC100 trial informtion into "LegFatigueTesting_RPE_recording.xlsx" (at least fill the file name for each Vicon trial)
+  - Make sure all the MVC100 trials have been processed in the previous step (i.e., their .mat files are available)
+  - Run [MVC_data.m](MVC_data.m) (make sure input correct "totalTest" number),which calls two functions (getTimeStampsofEvents.m and getMostConsistent.m) from "funtions" folder--> output **"MVC100_cell.mat"** (use this one: for each trial, use the max average Force in a moving 1-second window, and average the max values if there are two trials) and "MVC100_cell_absoluteMax.mat" (pick the larger one between two trials) 
  	 
 		 
-- From Noraxon (The .mat files can be exported directly from Noraxon software)
-  - EMG
-  - Biomonitor Data
+**3. Process Noraxon data**
+  - The .mat files can be exported directly from Noraxon software:
+    - EMG
+    - Biomonitor Data
 
-- From Nonion (Oximeter)
+**4. Process Nonion (Oximeter)**
   - Event (manually input)
   - NIRS reading
 
-**3. Obtain maximum exertion force level (MVC100_cell)** 
- - Input the corresponding MVC100 trial informtion into "LegFatigueTesting_RPE_recording.xlsx" (at least fill the file name for each Vicon trial)
- - Make sure all the MVC100 trials have been processed in the previous step (i.e., their .mat files are available)
- - Run [MVC_data.m](MVC_data.m) (make sure input correct "totalTest" number),which calls two functions (getTimeStampsofEvents.m and getMostConsistent.m) from "funtions" folder--> output **"MVC100_cell.mat"** (use this one: for each trial, use the max average Force in a moving 1-second window, and average the max values if there are two trials) and "MVC100_cell_absoluteMax.mat" (pick the larger one between two trials) 
 	 
  
