@@ -1,8 +1,10 @@
 ## Process testing data:
-- **Record the subject/testing information into excel files.**
+- **1. Record the subject/testing information into excel files.**
   - There are normally three data folders (**Vicon_Matlab**, **OximeterData**, **Noraxon_mat**) under each testing (testing No. is different than the subject No. since the same subject might attend multiple tests). 
+  - LegFatigueTesting_subjects info.xlsx (or LegFatigueTesting_subjects info_laptop.xlsx): record subject information, measurements and trial order
+  - LegFatigueTesting_RPE_recording.xlsx: more detailed testing information with RPE readings and trial locations.
 
-- ** Step 1. Process the raw data into .mat files.**
+- **2. Process the raw data into .mat files.**
 
    - From Vicon (including **Force**, __Events__, __VMG__ and __possible EMG__)
 	 - For __short trials__ (such as reference trials: resting and MVC100)
@@ -34,9 +36,9 @@
      - Event
      - Oxygen reading
  
-- **Step 2. Obtain maximum exertion force level (MVC100_cell)** 
+- **3. Obtain maximum exertion force level (MVC100_cell)** 
 	 - Input the corresponding MVC100 trial informtion into "LegFatigueTesting_RPE_recording.xlsx" (at least fill the file name for each Vicon trial)
-	 - Make sure all the MVC100 trials have been processed in Step 1 (their .mat files are available)
+	 - Make sure all the MVC100 trials have been processed in the previous step (i.e., their .mat files are available)
 	 - Run [MVC_data.m](MVC_data.m) (make sure input correct "totalTest" number),which calls two functions (getTimeStampsofEvents.m and getMostConsistent.m) from "funtions" folder--> output **"MVC100_cell.mat"** (use this one: for each trial, use the max average Force in a moving 1-second window, and average the max values if there are two trials) and "MVC100_cell_absoluteMax.mat" (pick the larger one between two trials) 
 	 
  
