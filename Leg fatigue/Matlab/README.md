@@ -4,9 +4,9 @@
 
 - **1. Process the raw data into .mat files.**
 
-   - From Vicon (including **Force**, __Events__, __VMG__, and __possible EMG__)
+   - From Vicon (including **Force**, __Events__, __VMG__ and __possible EMG__)
 	 - For __short trials__ (such as reference trials: resting and MVC100)
-	   - Run "\Matlab_batch\BatchSaveMat_shortTrials.m" (make sure input correct "testNo"; comment out the EMG section if necessary)
+	   - Run "\Matlab_batch\[BatchSaveMat_shortTrials.m](BatchSaveMat_shortTrials.m)" (make sure input correct "testNo"; comment out the EMG section if necessary)
 		 - It calls "LegFatigueTesting_subjects info.xls", which has the directory information for the Vicon trials and output location.
 		 - Before run the program, make sure the Vicon Nexus program (Nexus 2.3) is opened and the desired subject and trial folder was located (no need to open the trial).
 		 - The cell (with header and data) as a ".mat" file will be saved in the "output" folder.
