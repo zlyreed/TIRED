@@ -4,7 +4,7 @@
 - LegFatigueTesting_subjects info.xlsx (or LegFatigueTesting_subjects info_laptop.xlsx): record subject information, measurements and trial order
 - LegFatigueTesting_RPE_recording.xlsx: more detailed testing information with RPE readings and trial locations.
 
-**2. Process the Vicon raw data into .mat files.**
+**2. Process Vicon data**
 - From Vicon files(including **Force**, __Events__, __VMG__ and __possible EMG__) to .mat files
   - For __short trials__ (such as reference trials: resting and MVC100)
     - Run "\Matlab_batch\ [BatchSaveMat_shortTrials.m](BatchSaveMat_shortTrials.m)" (make sure input correct "testNo"; comment out the EMG section if necessary)
@@ -36,7 +36,7 @@
     - EMG
     - Biomonitor Data
 
-**4. Process Nonion (Oximeter)**
+**4. Process Nonion (Oximeter) data**
   - Event (manually input)
   - NIRS reading
 
