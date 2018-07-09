@@ -24,17 +24,16 @@
    - Run "\Matlab_batch\processCSV_total.m" carefully
 	 - save separate csv files for EMG, force/event, and acceleration, respectively.
 	 - make sure change file/selected functions accordingly, before run "processCSV_total.m": such as commentting out "saveAllEMGMat", "saveAllForceEventMat", or "saveAllAccelerationMat" correspondingly (save different type of data one by one).
- 
-	 
+ 	 
 		 
-  - From Noraxon (The .mat files can be exported directly from Noraxon software)
-     - EMG
-     - Biomonitor
-   
-   - From Nonion (Oximeter)
-     - Event
-     - Oxygen reading
- 
+- From Noraxon (The .mat files can be exported directly from Noraxon software)
+ - EMG
+ - Biomonitor Data
+
+- From Nonion (Oximeter)
+ - Event (manually input)
+ - NIRS reading
+
 **3. Obtain maximum exertion force level (MVC100_cell)** 
  - Input the corresponding MVC100 trial informtion into "LegFatigueTesting_RPE_recording.xlsx" (at least fill the file name for each Vicon trial)
  - Make sure all the MVC100 trials have been processed in the previous step (i.e., their .mat files are available)
