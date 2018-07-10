@@ -38,8 +38,8 @@
 
 **4. Process Nonion Oximeter (NIRS) data**
   - The RPE Events was manually input to the oximeter;
-  - Run "plot_force_RPE_S15_4plots.m": 
+  - Run [plot_Force_ECG_RPE_4plots.m](plot_Force_ECG_RPE_4plots.m) (make sure MVC100_cell.mat available; calls functions in "function" folder) to align all the data with Vicon time and output Oximeter and RPE data into .mat files: 
     - Check event/event time (check "Time_event" in matlab): the number of events in Nonion may not match with that in Vicon events (due to human errors, besides no 'start" and "end" recording events in Vicon)
-    - Notes (7/9/2018): look at the last subject's RPE input...
+    
 	 
  
