@@ -33,7 +33,7 @@
 		 
 **3. Process Noraxon data**
   - The .mat files can be exported directly from Noraxon software:
-    - EMG
+    - EMG (it was recorded in Vicon system for the first 11 tests)
     - Biomonitor Data
 
 **4. Process Nonion Oximeter (NIRS) data**
@@ -41,5 +41,17 @@
   - Run [plot_Force_ECG_RPE_4plots.m](plot_Force_ECG_RPE_4plots.m) (make sure MVC100_cell.mat available; calls functions in "function" folder) to align all the data with Vicon time and output Oximeter and RPE data into .mat files: 
     - Check event/event time (check "Time_event" in matlab): the number of events in Nonion may not match with that in Vicon events (due to human errors, besides no 'start" and "end" recording events in Vicon)
     
-	 
+**5. Extract features from experimental data**
+  - extractRPEclass: Identify the fatigue level from RPE values 
+    - "light" = 6 to 12; "tired" = 16 to 25 (check the number! RPE ranged from 6 to 20)
+	- "pull"= 5; "stop"=21;
+	- "window_length"=5 (second)
+  
+  - extractForceFeatures: 
+  
+  - extractOxiFeatures:
+  
+  - extractEMGFeatures: 
+  
+  - extractAccelerationFeatures:
  
