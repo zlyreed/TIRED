@@ -39,8 +39,12 @@
 **4. Process Nonion Oximeter (NIRS) data**
   - The RPE Events was manually input to the oximeter;
   - Run [plot_Force_ECG_RPE_4plots.m](plot_Force_ECG_RPE_4plots.m) (make sure MVC100_cell.mat available; calls functions in "function" folder) to align all the data with Vicon time and output Oximeter and RPE data into .mat files: 
-    - Check event/event time (check "Time_event" in matlab): the number of events in Nonion may not match with that in Vicon events (due to human errors, besides no 'start" and "end" recording events in Vicon)
-    
+    - Check event/event time (check "Time_event" in matlab): 
+	  - Due to human errors,the number of events in Nonion may not match with that in Vicon events 
+      - The number of events in Vicon should be same as that in "RPE_recording_Sxx.docx"  (no 'start" and "end" recording events in Vicon); the time in the docx file: "Insert"--> "Data&Time" (e.g., 10:49:01 AM)
+	  - notes: in case there are missing events in Vicon, predicted event label can be added based on the time in "RPE_recording" file.
+	  
+	  
 **5. Extract features from experimental data**
   - extractRPEclass: Identify the fatigue level from RPE values 
     - "light" = 6 to 12; "tired" = 16 to 25 (check the number! RPE ranged from 6 to 20)
