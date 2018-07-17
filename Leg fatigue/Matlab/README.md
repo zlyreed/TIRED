@@ -25,7 +25,7 @@
 	  - save separate csv files for EMG, force/event, and acceleration, respectively.
 	  - make sure change file/selected functions accordingly, before run "processCSV_total.m": such as commentting out "saveAllEMGMat", "saveAllForceEventMat", or "saveAllAccelerationMat" correspondingly (save different type of data one by one).
 
-- Obtain maximum exertion force level **(MVC100_cell)** 
+- Obtain maximum exertion force level **(MVC100_cell.mat)** 
   - Input the corresponding MVC100 trial informtion into "LegFatigueTesting_RPE_recording.xlsx" (at least fill the file name for each Vicon trial)
   - Make sure all the MVC100 trials have been processed in the previous step (i.e., their .mat files are available)
   - Run [MVC_data.m](MVC_data.m) (make sure input correct "totalTest" number),which calls two functions (getTimeStampsofEvents.m and getMostConsistent.m) from "funtions" folder--> output **"MVC100_cell.mat"** (use this one: for each trial, use the max average Force in a moving 1-second window, and average the max values if there are two trials) and "MVC100_cell_absoluteMax.mat" (pick the larger one between two trials) 
