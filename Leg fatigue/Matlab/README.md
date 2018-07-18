@@ -76,4 +76,8 @@
   - extractAccelerationFeatures:
     
 	- Notes: Check 'Acceleration_medFrq.m' function (FFT and median frequency on Acceleration data)
- 
+
+**6. Use "Classification Learner" app in Matlab.2017b**	
+
+**7. Feature selection approach**
+  - Use [ClassificationModels_test.m](ClassificationModels_test.m)
