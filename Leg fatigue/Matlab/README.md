@@ -8,7 +8,7 @@
 - From Vicon files(including **Force**, __Events__, __VMG__ and __possible EMG__) to .mat files
   - For __short trials__ (such as reference trials: resting and MVC100)
     - Run "\Matlab_batch\ [BatchSaveMat_shortTrials.m](BatchSaveMat_shortTrials.m)" (make sure input correct "testNo"; comment out the EMG section if necessary)
-	  - It calls "LegFatigueTesting_subjects info.xls", which has the directory information for the Vicon trials and output location.
+	  - It calls "LegFatigueTesting_subjects info.xls" (make sure it updates as the same file in folder 'LegFatigue_matlab'), which has the directory information for the Vicon trials and output location.
 	  - Before run the program, make sure the Vicon Nexus program (Nexus 2.3) is opened and the desired subject and trial folder was located (no need to open the trial).
 	  - The cell (with header and data) as a ".mat" file will be saved in the "output" folder.
 	  - Notes: Trial_list={'Resting_1','Resting_2','MVC100_1a','MVC100_1b','MVC100_2a','MVC100_2b','MVC100_3a','MVC100_3b','MVC100_4a','MVC100_4b','MVC100_5a','MVC100_5b'}
@@ -47,8 +47,8 @@
 	  
 **5. Extract features from experimental data**
   - extractRPEclass: Identify the fatigue level from RPE values 
-    - "light" = 6 to 12; "tired" = 16 to 25 (check the number! RPE ranged from 6 to 20)
-	- "pull"= 5; "stop"=21;
+    - "light" = 6 to 12; "tired" = 16 to 20 (check the number! RPE ranged from 6 to 20)
+	- "pull"= 6; "stop"=20;
 	- "window_length"=5 (second)
   
   - extractForceFeatures: 
