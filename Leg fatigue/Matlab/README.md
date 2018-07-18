@@ -66,7 +66,7 @@
     
   
   - extractEMGFeatures: 
-    - **Input**:EMGData,RPE_ClassTable,Fs_EMG (EMG frequency),T_average (averaging time),fftlength (# seconds of data to perform FFT)
+    - **Input**: EMGData,RPE_ClassTable,Fs_EMG (EMG frequency),T_average (averaging time),fftlength (# seconds of data to perform FFT)
 	- **Output**: 
 	- Notes: 
 	  - New EMG data was located in "Data" (first column=time, started before 0 second); old EMG data: in "EMG_data", the first column=time (starts from 0 second);
