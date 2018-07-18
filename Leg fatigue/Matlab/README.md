@@ -76,4 +76,13 @@
   - extractAccelerationFeatures:
     
 	- Notes: Check 'Acceleration_medFrq.m' function (FFT and median frequency on Acceleration data)
- 
+
+**6. Use "Classification Learner" app in Matlab.2017b**	
+
+**7. Feature selection approach**
+  - Use [ClassificationModels_test.m](ClassificationModels_test.m)
+  
+  
+Notes (7/18/2018):
+ - add % of force level 
+ - add % of powder of low frequency band(15.625-62.5Hz) vs. high frequency band (62.5-250Hz) 
