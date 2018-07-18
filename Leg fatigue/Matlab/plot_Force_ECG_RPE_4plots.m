@@ -16,7 +16,7 @@ load MVC100_cell.mat
 [~,~,RAW_info]=xlsread('LegFatigueTesting_RPE_recording.xlsx','Info');
 
 %%  ************Input the desired testing number (testingNo) to locate directory of the testing data ************
-testingNo=17; 
+testingNo=20; 
 TestData_path=RAW_info{testingNo+2,4};  % testing data diretory
 SubjectNo=RAW_info{testingNo+2,3}; % subject No
 
@@ -164,7 +164,7 @@ for tn=1:size(TrialList,2)
         
         
         %get "pull" label in oximeter (double check the alignment)
-        ViconLabel_selectedP='pull'; % the label selected for aligning data
+        ViconLabel_selectedP='pull'; 
         p_label0=strcmp(event_vicon,ViconLabel_selectedP);
         p_label=find(p_label0==1);
         OxiLabel_selectedP=event_Oxi{1,p_label};  % the selected letter/label index in oximeter ("start pulling")
@@ -175,7 +175,7 @@ for tn=1:size(TrialList,2)
             Oxi_selectedTimeP=Oxi_raw{Oxi_selecetedrowP,TimeColumn}-offset_time;
             figure (tn)
             subplot(4,1,1)
-            text(Oxi_selectedTimeP,15,ViconLabel_selectedP,'Color','red')
+            text(Oxi_selectedTimeP,15,ViconLabel_selectedP,'Color','red') %pull label in Oximeter
         end
         
         figure(tn)
@@ -220,7 +220,11 @@ for tn=1:size(TrialList,2)
     Respiration=Data{1,9};  %'Noraxon Desk Receiver.BIO 1 Respiration, uV'
     maxResp=max(Respiration);
 %     maxER=max([maxECG maxResp]);
-    
+
+   % other information
+   skinTemp=Data{1,11};  %'Noraxon Desk Receiver.BIO 1 Temperature, °C'
+   
+     
     figure(tn)
     subplot(4,1,2)
     plot(time_Bio,RR_interval,'b')
