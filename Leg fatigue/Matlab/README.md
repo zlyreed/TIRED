@@ -17,8 +17,7 @@
     - Run "\Matlab_batch\ [processCSV_total.m](processCSV_total.m) (which calls functions in "processCSV_total" folder"; make sure input correct "testNo"; comment out the EMG section with "saveAllEMGMat" if necessary)
 	  - Before run the program, the ".csv" files for the desired trials should be exported from Vicon Nexus.
 	    - if use "batch" process in Nexus to export ASCII (.csv files), it seems only can export all devices instead of selected ones.
-	  - The header ("cell") and data ("numeric array") will be saved into two ".mat" files respectively to the "output" folder.
-	  - Notes: filenames={'MVC30_Fatigue1.csv','MVC30_Fatigue2.csv','MVC60_Fatigue1.csv','MVC60_Fatigue2.csv'};
+	  - The header ("cell") and data ("numeric array") will be saved into two ".mat" files respectively to the "output" folder.	  - Notes: filenames={'MVC30_Fatigue1.csv','MVC30_Fatigue2.csv','MVC60_Fatigue1.csv','MVC60_Fatigue2.csv'};
 	 
   - For __extremely long trials__ 
     - Run "\Matlab_batch\processCSV_total.m" carefully
@@ -83,6 +82,7 @@
   - Use [ClassificationModels_test.m](ClassificationModels_test.m)
   
   
-Notes (7/18/2018):
- - add % of force level 
+Notes (7/19/2018):
+ - Use folder "Testing13_S14_featurTest
  - add % of powder of low frequency band(15.625-62.5Hz) vs. high frequency band (62.5-250Hz) 
+ - fix Accelearation FFT
