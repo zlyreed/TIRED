@@ -55,7 +55,7 @@
 	
   
   - extractForceFeatures: 
-    - **Input**: ForceEvent_data, RPE_ClassTable
+    - **Input**: ForceEvent_data, MVC100_force, RPE_ClassTable
 	- **Output**: force.forceMean, force.forceSTD, force.forceCV (coefficient of variation, in percentage), force.timeOffset (the time difference in windows)
 	
 	
