@@ -16,9 +16,10 @@ load MVC100_cell.mat
 [~,~,RAW_info]=xlsread('LegFatigueTesting_RPE_recording.xlsx','Info');
 
 %%  ************Input the desired testing number (testingNo) to locate directory of the testing data ************
-testingNo=20; 
+testingNo=21; 
 TestData_path=RAW_info{testingNo+2,4};  % testing data diretory
 SubjectNo=RAW_info{testingNo+2,3}; % subject No
+TestingOrder=cell2mat(RAW_info(testingNo+2,5:8));  % the order for four fatiguing trials:'MVC30_Fatigue1','MVC30_Fatigue2','MVC60_Fatigue1','MVC60_Fatigue2' 
 
 
 %% ------Fatigue trials----------
@@ -26,7 +27,7 @@ TrialList={'MVC30_Fatigue1','MVC30_Fatigue2','MVC60_Fatigue1','MVC60_Fatigue2'};
 % trial Name
 for tn=1:size(TrialList,2)
 
-    
+    TrialOrder=TestingOrder(1,tn);
     TrialName=TrialList{1,tn};  % trial Name
     
     % open the corresponding trials
@@ -273,7 +274,7 @@ for tn=1:size(TrialList,2)
     % plot title
     picTitle=['Testing' num2str(testingNo) '-Subject' num2str(SubjectNo)];
     figure (tn)
-    title([picTitle '_' TrialName],'Interpreter','none');
+    title([picTitle '_' TrialName '_TestingOrder=' num2str(TrialOrder)],'Interpreter','none');
     
     
     figure(tn)
