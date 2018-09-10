@@ -70,7 +70,7 @@
 	- **Output**: 
 	- Notes: 
 	  - New EMG data was located in "Data" (first column=time, started before 0 second); old EMG data: in "EMG_data", the first column=time (starts from 0 second);
-	  - Check 'EMG_medFrq.m' function (FFT and median frequency on EMG data)
+	  - Check '[EMG_medFrq.m](EMG_medFrq.m)' function (FFT and median frequency on EMG data)
 	
 	
   - extractAccelerationFeatures:
