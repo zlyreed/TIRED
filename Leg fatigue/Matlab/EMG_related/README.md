@@ -22,3 +22,5 @@ Notes: Plot the original amplitude/power spectrum, explore the possible filters 
 3. **Rectify**
 
 4. **Spectral Analysis**
+- To plot time-median/mean frequency 
+- 9/12/2018: continue working on 'EMG_FFT_fatigue.m' and 'testEMGfunctions_timeFrequencyPlot.m' (under folder ...\MuscleFatigue_Testing\LegFatigue_matlab\Check later\Muscle-Fatigue-Experiment_github)
