@@ -10,7 +10,8 @@
    
      - ![7EMG_legfatigue](figures/7EMG_legfatigue.png "7EMG_legfatigue")
    
-   - VMG
+   - VMG: recorded on three locations (muscle, bone and "fatty" area)
+    - ![VMG_3locations](figures/VMG_3locations.png "VMG_3locations")
    
    - NIRS
    
