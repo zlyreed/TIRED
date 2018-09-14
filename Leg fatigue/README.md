@@ -3,10 +3,10 @@
    - 60% or 30% of the maximum exertion trials (MVC30_Fatigue or MVC60_Fatigue): hold until fatigue (RPE values were asked every 20-60seconds)
    - The maximum exertion level was checked everty time after the fatiguing trials
    
-   ** Measurements:**
+   **Measurements:**
    - EMG: recorded on seven leg muscles
    
-   ![7EMG_legfatigue](pictures/7EMG_legfatigue.png "7EMG_legfatigue")
+   ![7EMG_legfatigue](figures/7EMG_legfatigue.png "7EMG_legfatigue")
    
    - VMG
    
