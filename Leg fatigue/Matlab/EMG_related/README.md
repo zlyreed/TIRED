@@ -16,7 +16,11 @@
 - CFD research group ([FatigueFrequencyAnalysisC3D.m](FatigueFrequencyAnalysisC3D.m)): used a 4th order, 0-lag, Butterworth band-pass filter (cutoff = [20 400] and a few other options) to raw EMG signal.
 - "ABC of EMG": Given the recommended amplifier bandpass settings from 10 Hz high-pass up to at least 500 Hz low pass (SENIAM,ISEK); most of the surface EMG frequency power is located between 10 and 250 Hz... The peak frequency is typically located between 50 and 80 Hz.
 
+<<<<<<< HEAD
  Notes about filters: 
+=======
+Notes: 
+>>>>>>> master
 - General approach: Plot the original amplitude/power spectrum, explore the possible filters and take a look at the filtered data/spectrum([test_emgSpectra.m](test_emgSpectra.m)).
 - The additional "stop" filter (to remove 60Hz and other frequency) doesn't seem to change time-frequency results (moving window to look at median/mean frequency change wrt time).
 - The median/mean frequency during resting period (baseline noise, which is close to white noise) are not consistent (**not sure what kind of filter can help with it**). 
