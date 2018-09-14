@@ -27,3 +27,14 @@ Notes: Plot the original amplitude/power spectrum, explore the possible filters 
 4. **Spectral Analysis**
 - To plot time-median/mean frequency 
 - 9/12/2018: continue working on 'EMG_FFT_fatigue.m' and 'testEMGfunctions_timeFrequencyPlot.m' (under folder ...\MuscleFatigue_Testing\LegFatigue_matlab\Check later\Muscle-Fatigue-Experiment_github)
+
+
+
+Notes: 
+Please refer to the following papers (the list obviously includes only a small body of work) to get some ideas on using EMG data for assessing fatigue.([related post on Biomch](https://biomch-l.isbweb.org/threads/24744-EMG-Fatigue-Analysis?highlight=EMG+frequency))
+1) Cifrek, M., Medved, V., Tonkovic, S., Ostojic, S., 2009. Surface EMG based muscle fatigue evaluation in biomechanics. Clinical Biomechanics 24, 327-340.
+2)Dimitrova, N.A., Dimitrov, G.V., 2003. Interpretation of EMG changes with fatigue: facts, pitfalls, and fallacies. Journal of Electromyography and Kinesiology 13, 13-36.
+3)Viitasalo, J.H.T., Komi, P.V., 1977. Signal characteristics of EMG during fatigue. European Journal of Applied Physiology and Occupational Physiology 37, 111-121.
+4)Vøllestad, N.K., 1997. Measurement of human muscle fatigue. Journal of Neuroscience Methods 74, 219-227.
+5) Sparto, P.J., Parnianpour, M., Barria, E.A., Jagadeesh, J.M., 2000. Wavelet and short-time Fourier transform analysis of electromyography for detection of back muscle fatigue. IEEE Transactions on Rehabilitation Engineering 8, 433-436.
+6) Subasi, A., Kiymik, M.K., 2010. Muscle fatigue detection in EMG using time–frequency nethods, ICA and neural networks. Journal of Medical Systems 34, 777-785.
