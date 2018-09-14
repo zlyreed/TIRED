@@ -18,7 +18,7 @@
 
 
  Notes about filters: 
-- General approach: Plot the original amplitude/power spectrum, explore the possible filters and take a look at the filtered data/spectrum([test_emgSpectra.m](test_emgSpectra.m)).
+- General approach: Plot the original amplitude/power spectrum, explore the possible filters and take a look at the filtered data/spectrum([test_emgSpectra.m](test_emgSpectra.m), which calls [EMG_filter.m](EMG_filter.m) or [EMG_filter_bandonly.m](EMG_filter_bandonly.m) ).
 - The additional "stop" filter (to remove 60Hz and other frequency) doesn't seem to change time-frequency results (moving window to look at median/mean frequency change wrt time).
 - The median/mean frequency during resting period (baseline noise, which is close to white noise) are not consistent (**not sure what kind of filter can help with it**). 
 
@@ -30,7 +30,7 @@
 
 4. **Spectral Analysis**
 - Start with filtered EMG data;
-- To plot time-median/mean frequency 
+- To plot time-median/mean frequency: use [testEMGfunctions_timeFrequencyPlot.m](testEMGfunctions_timeFrequencyPlot.m)(calls [EMG_fftMFP.m](EMG_fftMFP.m))
 - 9/12/2018: continue working on 'EMG_FFT_fatigue.m' and 'testEMGfunctions_timeFrequencyPlot.m' (under folder ...\MuscleFatigue_Testing\LegFatigue_matlab\Check later\Muscle-Fatigue-Experiment_github)
 
 
