@@ -16,21 +16,26 @@
 - CFD research group ([FatigueFrequencyAnalysisC3D.m](FatigueFrequencyAnalysisC3D.m)): used a 4th order, 0-lag, Butterworth band-pass filter (cutoff = [20 400] and a few other options) to raw EMG signal.
 - "ABC of EMG": Given the recommended amplifier bandpass settings from 10 Hz high-pass up to at least 500 Hz low pass (SENIAM,ISEK); most of the surface EMG frequency power is located between 10 and 250 Hz... The peak frequency is typically located between 50 and 80 Hz.
 
-Notes: Plot the original amplitude/power spectrum, explore the possible filters and take a look at the filtered data/spectrum([test_emgSpectra.m](test_emgSpectra.m)).
-
+Notes: 
+- General approach: Plot the original amplitude/power spectrum, explore the possible filters and take a look at the filtered data/spectrum([test_emgSpectra.m](test_emgSpectra.m)).
+- The additional "stop" filter (to remove 60Hz and other frequency) doesn't seem to change time-frequency results (moving window to look at median/mean frequency change wrt time).
+- The median/mean frequency during resting period (baseline noise, which is close to white noise) are not consistent (**not sure what kind of filter can help with it**). 
 
 3. **Rectify**
+- Start with filtered EMG data;
 - obtain the absolute value ('abs(emg_filt)')
 - moving average, etc.
 
 
 4. **Spectral Analysis**
+- Start with filtered EMG data;
 - To plot time-median/mean frequency 
 - 9/12/2018: continue working on 'EMG_FFT_fatigue.m' and 'testEMGfunctions_timeFrequencyPlot.m' (under folder ...\MuscleFatigue_Testing\LegFatigue_matlab\Check later\Muscle-Fatigue-Experiment_github)
 
 
 
-**Notes: **
+**Notes:**
+
 Please refer to the following papers (the list obviously includes only a small body of work) to get some ideas on using EMG data for assessing fatigue([a related post on Biomch](https://biomch-l.isbweb.org/threads/24744-EMG-Fatigue-Analysis?highlight=EMG+frequency)).
 1. Cifrek, M., Medved, V., Tonkovic, S., Ostojic, S., 2009. [Surface EMG based muscle fatigue evaluation in biomechanics](https://www.ncbi.nlm.nih.gov/pubmed/19285766). Clinical Biomechanics 24, 327-340.
 2. Dimitrova, N.A., Dimitrov, G.V., 2003. [Interpretation of EMG changes with fatigue: facts, pitfalls, and fallacies](https://www.ncbi.nlm.nih.gov/pubmed/12488084). Journal of Electromyography and Kinesiology 13, 13-36.
