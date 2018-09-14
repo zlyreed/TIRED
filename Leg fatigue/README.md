@@ -6,7 +6,7 @@
    ** Measurements:**
    - EMG: recorded on seven leg muscles
    
-   ![7EMG_legfatigue](pictures/7EMG_legfatigue.png "7EMG_legfatigue")
+   ![7EMG_legfatigue](figures/7EMG_legfatigue.png "7EMG_legfatigue")
    
    - VMG
    
