@@ -36,5 +36,5 @@ Please refer to the following papers (the list obviously includes only a small b
 2. Dimitrova, N.A., Dimitrov, G.V., 2003. [Interpretation of EMG changes with fatigue: facts, pitfalls, and fallacies](https://www.ncbi.nlm.nih.gov/pubmed/12488084). Journal of Electromyography and Kinesiology 13, 13-36.
 3. Viitasalo, J.H.T., Komi, P.V., 1977. [Signal characteristics of EMG during fatigue](https://www.ncbi.nlm.nih.gov/pubmed/902652). European Journal of Applied Physiology and Occupational Physiology 37, 111-121.
 4. Vøllestad, N.K., 1997. [Measurement of human muscle fatigue](https://www.ncbi.nlm.nih.gov/pubmed/9219890). Journal of Neuroscience Methods 74, 219-227.
-5) Sparto, P.J., Parnianpour, M., Barria, E.A., Jagadeesh, J.M., 2000. Wavelet and short-time Fourier transform analysis of electromyography for detection of back muscle fatigue. IEEE Transactions on Rehabilitation Engineering 8, 433-436.
-6) Subasi, A., Kiymik, M.K., 2010. Muscle fatigue detection in EMG using time–frequency nethods, ICA and neural networks. Journal of Medical Systems 34, 777-785.
+5) Sparto, P.J., Parnianpour, M., Barria, E.A., Jagadeesh, J.M., 2000. [Wavelet and short-time Fourier transform analysis of electromyography for detection of back muscle fatigue](https://www.ncbi.nlm.nih.gov/pubmed/11001525). IEEE Transactions on Rehabilitation Engineering 8, 433-436.
+6) Subasi, A., Kiymik, M.K., 2010. [Muscle fatigue detection in EMG using time–frequency nethods, ICA and neural networks](https://www.ncbi.nlm.nih.gov/pubmed/20703933). Journal of Medical Systems 34, 777-785.
