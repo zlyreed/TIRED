@@ -88,3 +88,4 @@ Notes (9/15/2018):
  - add % of powder of low frequency band(15.625-62.5Hz) vs. high frequency band (62.5-250Hz) 
  - fix Accelearation FFT
  - In addition, the Borg RPE scale and [CSI](https://www.ncbi.nlm.nih.gov/pubmed/26115515) were positively correlated, suggesting that the factors due to cardiac stress might also contribute to fatigue state during physical exercise.
+ - [Heart rate variability analysis during muscle fatigue due to prolonged isometric contraction(https://www.ncbi.nlm.nih.gov/pubmed/29060120)
