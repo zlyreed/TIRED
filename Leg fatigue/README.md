@@ -14,7 +14,12 @@
     - ![VMG_3locations](figures/VMG_3locations.png "VMG_3locations")
     
    
-   - NIRS
+   - NIRS (two locations)
+     - left prefrontal area
+     - the right rectus femoris
+     
+   - Biomonitor
+     - ECG
    
    - Kinematics
    
