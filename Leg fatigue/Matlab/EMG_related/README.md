@@ -26,6 +26,7 @@
 - Start with filtered EMG data;
 - obtain the absolute value ('abs(emg_filt)')
 - moving average, etc.
+- use [EMG_RecRms.m](EMG_RecRms.m)
 
 
 4. **Spectral Analysis**
@@ -39,8 +40,9 @@
 - Use moving windows to obtain time-median/mean frequency plot: [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m)
 - Useful funtions will be used in feature extraction later:
   - filter EMG: [EMG_filter.m](EMG_filter.m) or [EMG_filter_bandonly.m](EMG_filter_bandonly.m) 
+  - rectify EMG using moving window: [EMG_RecRms.m](EMG_RecRms.m)
   - calculate late median or mean frequency: [MedianFMeanF.m](MedianFMeanF.m)
-  - calculate high to low power ratio: [HLpowerRatio.m](HLpowerRatio.m)
+  - calculate high to low power ratio: [HLpowerRatio.m](HLpowerRatio.m) and [areaCal.m](areaCal.m)
 
 
 **Notes:**
