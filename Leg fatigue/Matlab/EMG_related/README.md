@@ -31,7 +31,7 @@
 4. **Spectral Analysis**
 - Start with **filtered** EMG data;
 - To plot time-median/mean frequency: use [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m) (calls [MedianFMeanF.m](MedianFMeanF.m), [HLpowerRatio.m](HLpowerRatio.m) and [areaCal.m](areaCal.m) )
-- High-low frequency amplitude ratio: low=15-45 Hz and High > 95Hz (Allison, et al., 2002); Hight-to-Low power ratio seems have the similar trend as median frequency
+- High-low frequency amplitude ratio: low=15-45 Hz and High > 95Hz (Allison, et al., 2002); Hight-to-Low power ratio seems have the similar trend as the median frequency wrt time.
   - Another option: based on the previous study on power ratio of low-to-high frequency bands (Allison and Fujiwara 2002; Cardozo, Gonçalves, and Dolan 2011; Chowdhury et al. 2013), here you can also look at the power frequency ratio (P-R) between low frequency band (15.625—62.5Hz) and high frequency band (62.5—250Hz) 
 
 
