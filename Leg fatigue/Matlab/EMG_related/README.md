@@ -20,7 +20,7 @@
  Notes about filters: 
 - General approach: Plot the original amplitude/power spectrum, explore the possible filters and take a look at the filtered data/spectrum([test_emgSpectra.m](test_emgSpectra.m), which calls [EMG_filter.m](EMG_filter.m) or [EMG_filter_bandonly.m](EMG_filter_bandonly.m) ).
 - The additional "stop" filter (to remove 60Hz and other frequency) doesn't seem to change time-frequency results (moving window to look at median/mean frequency change wrt time).
-- The median/mean frequency during resting period (baseline noise, which is close to white noise) are not consistent (**not sure what kind of filter can help with it**). 
+- The median/mean frequency during resting period (baseline noise, which is close to white noise) are not consistent. The amplitude can be checked during resting since the power should be pretty low. 
 
 3. **Rectify**
 - Start with filtered EMG data;
@@ -31,6 +31,9 @@
 4. **Spectral Analysis**
 - Start with filtered EMG data;
 - To plot time-median/mean frequency: use [testEMGfunctions_timeFrequencyPlot.m](testEMGfunctions_timeFrequencyPlot.m)(calls [EMG_fftMFP.m](EMG_fftMFP.m))
+- High-low frequency amplitude ratio: low=15-45 Hz and High > 95Hz (Allison, et al., 2002);
+Notes:  based on the previous study on power ratio of low-to-high frequency bands (Allison and Fujiwara 2002; Cardozo, Gonçalves, and Dolan 2011; Chowdhury et al. 2013), here you can also look at the power frequency ratio (P-R) between low frequency band (15.625—62.5Hz) and high frequency band (62.5—250Hz) 
+
 - 9/12/2018: continue working on 'EMG_FFT_fatigue.m' and 'testEMGfunctions_timeFrequencyPlot.m' (under folder ...\MuscleFatigue_Testing\LegFatigue_matlab\Check later\Muscle-Fatigue-Experiment_github)
 
 
