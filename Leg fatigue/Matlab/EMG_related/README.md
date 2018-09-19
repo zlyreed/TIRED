@@ -31,15 +31,22 @@
 4. **Spectral Analysis**
 - Start with **filtered** EMG data;
 - To plot time-median/mean frequency: use [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m) (calls [MedianFMeanF.m](MedianFMeanF.m), [HLpowerRatio.m](HLpowerRatio.m) and [areaCal.m](areaCal.m) )
-- High-low frequency amplitude ratio: low=15-45 Hz and High > 95Hz (Allison, et al., 2002); Hight-to-Low power ratio seems have the similar trend as the median frequency wrt time.
+- High-low frequency amplitude ratio: low=15-45 Hz and High > 95Hz (Allison, et al., 2002); Hight-to-Low power ratio seems have the similar trend as the median frequency wrt time. Look at the function [HLpowerRatio.m](HLpowerRatio.m).
   - Another option: based on the previous study on power ratio of low-to-high frequency bands (Allison and Fujiwara 2002; Cardozo, Gonçalves, and Dolan 2011; Chowdhury et al. 2013), here you can also look at the power frequency ratio (P-R) between low frequency band (15.625—62.5Hz) and high frequency band (62.5—250Hz) 
 
+**Summary:**
+- Useful funtions will be used in feature extraction later:
+  - filter EMG: [EMG_filter.m](EMG_filter.m) or [EMG_filter_bandonly.m](EMG_filter_bandonly.m) 
+  - calcalate median or mean frequency: [MedianFMeanF.m](MedianFMeanF.m)
+  - calcualte high to low power ratio: [HLpowerRatio.m](HLpowerRatio.m)
+- Check the spectrum of the signal in the beginining and then determine on the filter options:  [test_emgSpectra.m](test_emgSpectra.m)
+- Use moving windows to obtain time-median/mean frequency plot: [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m)
 
 
 
 **Notes:**
 
-Please refer to the following papers (the list obviously includes only a small body of work) to get some ideas on using EMG data for assessing fatigue([a related post on Biomch](https://biomch-l.isbweb.org/threads/24744-EMG-Fatigue-Analysis?highlight=EMG+frequency)).
+- Please refer to the following papers (the list obviously includes only a small body of work) to get some ideas on using EMG data for assessing fatigue([a related post on Biomch](https://biomch-l.isbweb.org/threads/24744-EMG-Fatigue-Analysis?highlight=EMG+frequency)).
 1. Cifrek, M., Medved, V., Tonkovic, S., Ostojic, S., 2009. [Surface EMG based muscle fatigue evaluation in biomechanics](https://www.ncbi.nlm.nih.gov/pubmed/19285766). Clinical Biomechanics 24, 327-340.
 2. Dimitrova, N.A., Dimitrov, G.V., 2003. [Interpretation of EMG changes with fatigue: facts, pitfalls, and fallacies](https://www.ncbi.nlm.nih.gov/pubmed/12488084). Journal of Electromyography and Kinesiology 13, 13-36.
 3. Viitasalo, J.H.T., Komi, P.V., 1977. [Signal characteristics of EMG during fatigue](https://www.ncbi.nlm.nih.gov/pubmed/902652). European Journal of Applied Physiology and Occupational Physiology 37, 111-121.
@@ -47,4 +54,4 @@ Please refer to the following papers (the list obviously includes only a small b
 5) Sparto, P.J., Parnianpour, M., Barria, E.A., Jagadeesh, J.M., 2000. [Wavelet and short-time Fourier transform analysis of electromyography for detection of back muscle fatigue](https://www.ncbi.nlm.nih.gov/pubmed/11001525). IEEE Transactions on Rehabilitation Engineering 8, 433-436.
 6) Subasi, A., Kiymik, M.K., 2010. [Muscle fatigue detection in EMG using time–frequency nethods, ICA and neural networks](https://www.ncbi.nlm.nih.gov/pubmed/20703933). Journal of Medical Systems 34, 777-785.
 
-Online book for [spectral analysis](https://www.dspguide.com/ch9/1.htm)
+- Online book for [spectral analysis](https://www.dspguide.com/ch9/1.htm)
