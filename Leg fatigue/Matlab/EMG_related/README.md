@@ -35,13 +35,12 @@
   - Another option: based on the previous study on power ratio of low-to-high frequency bands (Allison and Fujiwara 2002; Cardozo, Gonçalves, and Dolan 2011; Chowdhury et al. 2013), here you can also look at the power frequency ratio (P-R) between low frequency band (15.625—62.5Hz) and high frequency band (62.5—250Hz) 
 
 **Summary:**
+- Check the spectrum of the signal in the beginning and then choose approperiate filters:  [test_emgSpectra.m](test_emgSpectra.m)
+- Use moving windows to obtain time-median/mean frequency plot: [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m)
 - Useful funtions will be used in feature extraction later:
   - filter EMG: [EMG_filter.m](EMG_filter.m) or [EMG_filter_bandonly.m](EMG_filter_bandonly.m) 
-  - calcalate median or mean frequency: [MedianFMeanF.m](MedianFMeanF.m)
-  - calcualte high to low power ratio: [HLpowerRatio.m](HLpowerRatio.m)
-- Check the spectrum of the signal in the beginining and then determine on the filter options:  [test_emgSpectra.m](test_emgSpectra.m)
-- Use moving windows to obtain time-median/mean frequency plot: [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m)
-
+  - calculate late median or mean frequency: [MedianFMeanF.m](MedianFMeanF.m)
+  - calculate high to low power ratio: [HLpowerRatio.m](HLpowerRatio.m)
 
 
 **Notes:**
