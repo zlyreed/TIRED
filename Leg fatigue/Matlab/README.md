@@ -33,7 +33,8 @@
 **3. Process Noraxon data**
   - The .mat files can be exported directly from Noraxon software:
     - EMG (it was recorded in Vicon system for the first 11 tests)
-    - Biomonitor Data
+    - Biomonitor Data: 
+      - work on choosing filter for ECG signal (band-pass filter 1-40Hz) (at ...\Research_NIOSH\ECG)
 
 **4. Process Nonion Oximeter (NIRS) data**
   - The RPE Events was manually input to the oximeter;
