@@ -10,7 +10,8 @@
   
  - HRV software [ARTiiFACT](http://www.artiifact.de/)
  - [PhysioZoo](https://physiozoo.com/)
-    - Github [mhrv](https://github.com/physiozoo/mhrv) 
+    - Github [webpage](https://github.com/physiozoo)
+    - Github [mhrv](https://github.com/physiozoo/mhrv) (try this one first)
 	- Github[physiozoo](https://github.com/physiozoo/physiozoo)
  - Github [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
  - [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
