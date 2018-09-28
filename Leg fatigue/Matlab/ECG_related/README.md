@@ -26,9 +26,9 @@
       - test the online dataset: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
  
  Other softwares
- - HRV software [ARTiiFACT](http://www.artiifact.de/) 
- - Greifswald, Germany: Github [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
- - [PhysioNet-WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
+ - Kaufmann, 2011: [ARTiiFACT](http://www.artiifact.de/) 
+ - Vollmer, 2017 (HRVTool v0.99 from Github): [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
+ - PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
  
  
  - Other reading
