@@ -6,6 +6,7 @@
 	<img src="pics/QRS.png" alt="drawing" width="400"/>
   - [R-R interval](https://emedicine.medscape.com/article/2172196-overview)
     ![R-R-interval-trace.png](pics/R-R-interval-trace.png "R-R-interval-trace")
+  - NN interval (normal-to-normal interval; filter RR intervals to produce NN intervals): all intervals between adjacent QRS complexes resulting sinus node depolarization.
 
 - Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
