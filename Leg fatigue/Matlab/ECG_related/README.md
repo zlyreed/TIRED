@@ -18,7 +18,7 @@
     - Github [mhrv](https://github.com/physiozoo/mhrv) (try this one first)
       - test the online dataset: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
       - Github[physiozoo](https://github.com/physiozoo/physiozoo)
- - Github [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV): maybe try to follow "Usage, example" on a personal computer
+ - Github [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV): maybe try to follow "Usage" example command on a personal computer
  - [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
  
  
