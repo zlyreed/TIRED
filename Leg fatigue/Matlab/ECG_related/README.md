@@ -2,7 +2,8 @@
 
 - Some basic [terms](https://www.physionet.org/tutorials/hrv/#hr-extraction)
   - [QRS](https://en.wikipedia.org/wiki/QRS_complex): The QRS complex is a name for the combination of three of the graphical deflections seen on a typical electrocardiogram (EKG or ECG). In other words, it's the main spike seen on an ECG line.
-    <img src="pics/QRS.png" alt="drawing" width="200"/>
+    
+	<img src="pics/QRS.png" alt="drawing" width="400"/>
   - [R-R interval](https://emedicine.medscape.com/article/2172196-overview)
     ![R-R-interval-trace.png](pics/R-R-interval-trace.png "R-R-interval-trace")
 
@@ -24,4 +25,4 @@
  
  
  - Other reading
-   - [from imotions: HRV and brain](https://imotions.com/blog/heart-rate-variability/)
+   - from imotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
