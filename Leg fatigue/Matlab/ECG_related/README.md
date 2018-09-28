@@ -24,4 +24,4 @@
  
  
  - Other reading
-   -[from imotions: HRV and brain](https://imotions.com/blog/heart-rate-variability/)
+   - [from imotions: HRV and brain](https://imotions.com/blog/heart-rate-variability/)
