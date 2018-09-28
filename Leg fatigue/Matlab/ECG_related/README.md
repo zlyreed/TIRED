@@ -6,7 +6,9 @@
 	<img src="pics/QRS.png" alt="drawing" width="400"/>
   - [R-R interval](https://emedicine.medscape.com/article/2172196-overview)
     ![R-R-interval-trace.png](pics/R-R-interval-trace.png "R-R-interval-trace")
-  - NN interval (normal-to-normal interval; filter RR intervals to produce NN intervals): all intervals between adjacent QRS complexes resulting sinus node depolarization.
+  - [Normal-to-Normal(NN) interval](https://psychology.stackexchange.com/questions/16076/what-is-the-difference-between-rr-intervals-and-nn-intervals-in-hrv-data)(filter RR intervals to produce NN intervals): all intervals between adjacent QRS complexes resulting sinus node depolarization.
+     - The difference between RR interval and NN interval: NN intervals refer to the intervals between **normal** R-peaks. During a measurement, artifacts may arise due to arrhythmic events or faulty sensors, for example (Citi, Brown & Barbieri, 2012). This may lead to abnormal R-peaks, which may in turn distort the statistical measures. To ensure reliable and valid data, only normal R-peaks are selected. Alternatively, the abnormal R-peaks can be corrected. 
+	 In practice, however, RR-intervals and NN-intervals are synonymous (Tarvainen, 2014; Wiki). The use of "NN-intervals" is merely used to emphasize that normal R-peaks were used. 
 
 - Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
