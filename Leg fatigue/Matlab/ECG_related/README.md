@@ -17,10 +17,8 @@
   - [An introduction to heart rate variability: methodological considerations and clinical applications, 2015](https://www.frontiersin.org/articles/10.3389/fphys.2015.00055/full#B1)
   
 
- - [PhysioZoo](https://physiozoo.com/)
-    - Github [webpage](https://github.com/physiozoo)
-	- Github [physiozoo](https://github.com/physiozoo/physiozoo)
-    - Github [mhrv](https://github.com/physiozoo/mhrv) (main toolbox functions)
+ - PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
+     - Github [mhrv](https://github.com/physiozoo/mhrv) (main toolbox functions)
 	  - follow "Usage" example: 
 	    1. Initialize MATLAB environment of the mhrv tools: 
 		```
@@ -43,11 +41,11 @@
 	    - Notes: missing padarray function (image processing toolbox); here using several online functions ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
       - test the online dataset: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
  
- - Other softwares
+  
+ - Other realted tools and reading:
 	- Kaufmann, 2011: [ARTiiFACT](http://www.artiifact.de/) 
 	- Vollmer, 2017 (HRVTool v0.99 from Github): [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
-	- PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
- 
- 
- - Other reading
-   - from imotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
+	- [PhysioZoo](https://physiozoo.com/)
+      - Github [webpage](https://github.com/physiozoo)
+	  - Github [physiozoo](https://github.com/physiozoo/physiozoo)
+	- from imotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
