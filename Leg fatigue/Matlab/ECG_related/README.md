@@ -9,7 +9,7 @@
   - [Normal-to-Normal(NN) interval](https://psychology.stackexchange.com/questions/16076/what-is-the-difference-between-rr-intervals-and-nn-intervals-in-hrv-data) (filter RR intervals to produce NN intervals): all intervals between adjacent QRS complexes resulting sinus node depolarization.
      - The difference between RR interval and NN interval: NN intervals refer to the intervals between **normal** R-peaks. During a measurement, artifacts may arise due to arrhythmic events or faulty sensors, for example (Citi, Brown & Barbieri, 2012). This may lead to abnormal R-peaks, which may in turn distort the statistical measures. To ensure reliable and valid data, only normal R-peaks are selected. Alternatively, the abnormal R-peaks can be corrected. 
 	 In practice, however, RR-intervals and NN-intervals are synonymous (Tarvainen, 2014; Wiki). The use of "NN-intervals" is merely used to emphasize that normal R-peaks were used. 
-
+  - [Heart Rate](https://en.wikipedia.org/wiki/Heart_rate): [The instantaneous heart rate](https://courses.kcumb.edu/physio/ecg%20primer/normecgcalcs.htm) can be calculated from the time between any two QRS complexes. 
 - Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
   - [wikipedia HRV](https://en.wikipedia.org/wiki/Heart_rate_variability)
@@ -34,7 +34,11 @@
 		     - MIT Signal files (.dat) are binary files containing samples of digitized signals. These store the waveforms, but they cannot be interpreted properly without their corresponding header files. These files are in the form: RECORDNAME.dat.
 			 - MIT Header files (.hea) are short text files that describe the contents of associated signal files. These files are in the form: RECORDNAME.hea.
 			 - MIT Annotation files are binary files containing annotations (labels that generally refer to specific samples in associated signal files). Annotation files should be read with their associated header files. If you see files in a directory called RECORDNAME.dat, or RECORDNAME.hea, any other file with the same name but different extension, for example RECORDNAME.atr, is an annotation file for that record.
-		3. Run HRV analysis: mhrv('db/mitdb/111', 'window_minutes', 15, 'plot', true);
+		
+		3. Run HRV analysis: 
+		```
+		mhrv('db/mitdb/111', 'window_minutes', 15, 'plot', true);
+		```
 
 	    - Notes: missing padarray function (image processing toolbox); here using several online functions ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
       - test the online dataset: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
