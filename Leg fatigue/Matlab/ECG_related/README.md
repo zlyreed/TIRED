@@ -22,7 +22,10 @@
 	- Github [physiozoo](https://github.com/physiozoo/physiozoo)
     - Github [mhrv](https://github.com/physiozoo/mhrv) (main toolbox functions)
 	  - follow "Usage" example: 
-	    1. Initialize MATLAB environment of the mhrv tools: 'mhrv_init [-f/--force]';
+	    1. Initialize MATLAB environment of the mhrv tools: 
+		```
+		mhrv_init [-f/--force];
+		```
 		2. If there is no example dataset,download the mitdb/111 record from PhysioNet to local folder named 'db': 'download_wfdb_records('mitdb', '111', 'db')';
 		   - [File Format](https://physionet.org/faq.shtml): 
 		     - MIT Signal files (.dat) are binary files containing samples of digitized signals. These store the waveforms, but they cannot be interpreted properly without their corresponding header files. These files are in the form: RECORDNAME.dat.
