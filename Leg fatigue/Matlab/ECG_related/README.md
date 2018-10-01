@@ -12,9 +12,10 @@
   - [Heart Rate](https://en.wikipedia.org/wiki/Heart_rate): [The instantaneous heart rate](https://courses.kcumb.edu/physio/ecg%20primer/normecgcalcs.htm) can be calculated from the time between any two QRS complexes. 
 - Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
-     <img src="pics/HRV_time-domain.png" alt="drawing" width="400"/>
+     
+	 <img src="pics/HRV_time-domain.png" alt="drawing" width="600"/>
 	 
-	 <img src="pics/HRV_frequency-domain.png" alt="drawing" width="400"/>
+	 <img src="pics/HRV_frequency-domain.png" alt="drawing" width="600"/>
 	 
   - [wikipedia HRV](https://en.wikipedia.org/wiki/Heart_rate_variability)
   - [Heart rate variability – a historical perspective, 2011](https://www.frontiersin.org/articles/10.3389/fphys.2011.00086/full)
