@@ -13,7 +13,7 @@
 - Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
      
-	 <img src="pics/HRV_time-domain.png" alt="drawing" width="600"/>
+	 <img src="pics/HRV_time-domain.png" alt="drawing" width="800"/>
 	 
 	 <img src="pics/HRV_frequency-domain.png" alt="drawing" width="600"/>
 	 
