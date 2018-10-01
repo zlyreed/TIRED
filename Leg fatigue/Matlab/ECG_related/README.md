@@ -12,13 +12,17 @@
   - [Heart Rate](https://en.wikipedia.org/wiki/Heart_rate): [The instantaneous heart rate](https://courses.kcumb.edu/physio/ecg%20primer/normecgcalcs.htm) can be calculated from the time between any two QRS complexes. 
 - Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
+     <img src="pics/HRV_time-domain.png" alt="drawing" width="400"/>
+	 
+	 <img src="pics/HRV_frequency-domain.png" alt="drawing" width="400"/>
+	 
   - [wikipedia HRV](https://en.wikipedia.org/wiki/Heart_rate_variability)
   - [Heart rate variability – a historical perspective, 2011](https://www.frontiersin.org/articles/10.3389/fphys.2011.00086/full)
   - [An introduction to heart rate variability: methodological considerations and clinical applications, 2015](https://www.frontiersin.org/articles/10.3389/fphys.2015.00055/full#B1)
   
 
  - PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
-     - Github [mhrv](https://github.com/physiozoo/mhrv) (main toolbox functions)
+     - Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox)
 	  - follow "Usage" example: 
 	    1. Initialize MATLAB environment of the mhrv tools: 
 		```
