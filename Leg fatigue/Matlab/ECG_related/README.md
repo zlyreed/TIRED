@@ -39,19 +39,20 @@
 		```
         - key functions:
 		  ```
-		  wfdb_header - Read record metadata from a WFDB header file (.hea).
-		  ecgrr - Construction of RR intervals from ECG data in PhysioNet format.
-		  filtrr - Filtering of RR interval time series to detect ectopic (out of place) beats.
-		  hrv_time - Time Domain: AVNN, SDNN, RMSSD, pNNx.
-		  hrv_freq - Frequency Domain: 
+		  **wfdb_header** - Read record metadata from a WFDB header file (.hea).
+		  **ecgrr** - Construction of RR intervals from ECG data in PhysioNet format.
+		    - ecgrr calls **rqrs** (Detection of R-peaks in ECG signals (based on PhysioNet's gqrs). Configurable for use with both human and animal ECGs._
+			- rqrs calls **jqrs/wjqrs** (An ECG peak-detector based on a modified Pan & Tompkins algorithm and a windowed version.
+		  **filtrr** - Filtering of RR interval time series to detect ectopic (out of place) beats.
+		  **hrv_time** - Time Domain: AVNN, SDNN, RMSSD, pNNx.
+		  **hrv_freq** - Frequency Domain: 
 			- Total and normalized power in (configurable) VLF, LF, HF and custom user-defined bands.
 			- Spectral power estimation using Lomb, Auto Regressive, Welch and FFT methods.
 			- Additional frequency-domain features: LF/HF ratio, LF and HF peak frequencies, power-law scaling exponent (beta).
-		  ```
-		  
+		  ```	  
 		  
 	    - Notes: 
-		  - Missing padarray function (image processing toolbox); here using several online functions ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
+		  - Missing padarray function (from Image Processing Toolbox); here using several online functions ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
 		  - [File Format from Q&A](https://physionet.org/faq.shtml): 
 		     - MIT Signal files (.dat) are binary files containing samples of digitized signals. These store the waveforms, but they cannot be interpreted properly without their corresponding header files. These files are in the form: RECORDNAME.dat.
 			 - MIT Header files (.hea) are short text files that describe the contents of associated signal files. These files are in the form: RECORDNAME.hea.
