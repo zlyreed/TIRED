@@ -39,13 +39,13 @@
 		```
         - key functions:
 		  ```
-		  **wfdb_header** - Read record metadata from a WFDB header file (.hea).
-		  **ecgrr** - Construction of RR intervals from ECG data in PhysioNet format.
+		  wfdb_header - Read record metadata from a WFDB header file (.hea).
+		  ecgrr - Construction of RR intervals from ECG data in PhysioNet format.
 		    - ecgrr calls **rqrs** (Detection of R-peaks in ECG signals (based on PhysioNet's gqrs). Configurable for use with both human and animal ECGs._
 			- rqrs calls **jqrs/wjqrs** (An ECG peak-detector based on a modified Pan & Tompkins algorithm and a windowed version.
-		  **filtrr** - Filtering of RR interval time series to detect ectopic (out of place) beats.
-		  **hrv_time** - Time Domain: AVNN, SDNN, RMSSD, pNNx.
-		  **hrv_freq** - Frequency Domain: 
+		  filtrr - Filtering of RR interval time series to detect ectopic (out of place) beats.
+		  hrv_time - Time Domain: AVNN, SDNN, RMSSD, pNNx.
+		  hrv_freq - Frequency Domain: 
 			- Total and normalized power in (configurable) VLF, LF, HF and custom user-defined bands.
 			- Spectral power estimation using Lomb, Auto Regressive, Welch and FFT methods.
 			- Additional frequency-domain features: LF/HF ratio, LF and HF peak frequencies, power-law scaling exponent (beta).
