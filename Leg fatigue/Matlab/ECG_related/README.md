@@ -52,7 +52,7 @@
 		  ```	  
 		  
 	    - Notes: 
-		  - Missing padarray function (from Image Processing Toolbox); here using several online functions ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
+		  - Missing padarray function (from Image Processing Toolbox); here using several [online functions](https://github.com/gpeyre/matlab-toolboxes/tree/master/toolbox_nlmeans/toolbox/ordfilt2) ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
 		  - [File Format from Q&A](https://physionet.org/faq.shtml): 
 		     - MIT Signal files (.dat) are binary files containing samples of digitized signals. These store the waveforms, but they cannot be interpreted properly without their corresponding header files. These files are in the form: RECORDNAME.dat.
 			 - MIT Header files (.hea) are short text files that describe the contents of associated signal files. These files are in the form: RECORDNAME.hea.
