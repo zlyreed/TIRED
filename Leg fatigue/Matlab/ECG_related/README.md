@@ -32,19 +32,33 @@
 		2. If there is no example dataset,download the mitdb/111 record from PhysioNet to local folder named 'db': 
 		```
 		download_wfdb_records('mitdb', '111', 'db')';
-		```
-		   - [File Format from Q&A](https://physionet.org/faq.shtml): 
-		     - MIT Signal files (.dat) are binary files containing samples of digitized signals. These store the waveforms, but they cannot be interpreted properly without their corresponding header files. These files are in the form: RECORDNAME.dat.
-			 - MIT Header files (.hea) are short text files that describe the contents of associated signal files. These files are in the form: RECORDNAME.hea.
-			 - MIT Annotation files are binary files containing annotations (labels that generally refer to specific samples in associated signal files). Annotation files should be read with their associated header files. If you see files in a directory called RECORDNAME.dat, or RECORDNAME.hea, any other file with the same name but different extension, for example RECORDNAME.atr, is an annotation file for that record.
-		
+		```  	
 		3. Run HRV analysis: 
 		```
 		mhrv('db/mitdb/111', 'window_minutes', 15, 'plot', true);
 		```
+        - key functions:
+		  ```
+		  wfdb_header - Read record metadata from a WFDB header file (.hea).
+		  ecgrr - Construction of RR intervals from ECG data in PhysioNet format.
+		  filtrr - Filtering of RR interval time series to detect ectopic (out of place) beats.
+		  hrv_time - Time Domain: AVNN, SDNN, RMSSD, pNNx.
+		  hrv_freq - Frequency Domain: 
+			- Total and normalized power in (configurable) VLF, LF, HF and custom user-defined bands.
+			- Spectral power estimation using Lomb, Auto Regressive, Welch and FFT methods.
+			- Additional frequency-domain features: LF/HF ratio, LF and HF peak frequencies, power-law scaling exponent (beta).
+		  ```
+		  
+		  
+	    - Notes: 
+		  - Missing padarray function (image processing toolbox); here using several online functions ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
+		  - [File Format from Q&A](https://physionet.org/faq.shtml): 
+		     - MIT Signal files (.dat) are binary files containing samples of digitized signals. These store the waveforms, but they cannot be interpreted properly without their corresponding header files. These files are in the form: RECORDNAME.dat.
+			 - MIT Header files (.hea) are short text files that describe the contents of associated signal files. These files are in the form: RECORDNAME.hea.
+			 - MIT Annotation files are binary files containing annotations (labels that generally refer to specific samples in associated signal files). Annotation files should be read with their associated header files. If you see files in a directory called RECORDNAME.dat, or RECORDNAME.hea, any other file with the same name but different extension, for example RECORDNAME.atr, is an annotation file for that record.
+	 
 
-	    - Notes: missing padarray function (image processing toolbox); here using several online functions ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
-      - test the online dataset: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
+ - Maybe test the online dataset in the future: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
  
   
  - Other realted tools and reading:
