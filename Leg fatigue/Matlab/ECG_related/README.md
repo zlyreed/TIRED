@@ -63,10 +63,12 @@
  
   
  - Other realted tools and reading:
-        - [Kubios](https://www.kubios.com/gallery/)
+ 
+
 	- Kaufmann, 2011: [ARTiiFACT](http://www.artiifact.de/) 
+	- [Kubios: from XS](https://www.kubios.com/gallery/)
 	- Vollmer, 2017 (HRVTool v0.99 from Github): [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
 	- [PhysioZoo](https://physiozoo.com/)
-      - Github [webpage](https://github.com/physiozoo)
+        - Github [webpage](https://github.com/physiozoo)
 	  - Github [physiozoo](https://github.com/physiozoo/physiozoo)
 	- from imotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
