@@ -63,6 +63,7 @@
  
   
  - Other realted tools and reading:
+        - [Kubios](https://www.kubios.com/gallery/)
 	- Kaufmann, 2011: [ARTiiFACT](http://www.artiifact.de/) 
 	- Vollmer, 2017 (HRVTool v0.99 from Github): [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
 	- [PhysioZoo](https://physiozoo.com/)
