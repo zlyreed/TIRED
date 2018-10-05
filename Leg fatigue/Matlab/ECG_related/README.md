@@ -62,7 +62,20 @@
 	 - Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):
 	    - confirm the RR-interval output:
 		  - normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds; 0.8 seconds in [cfd/gqrs.conf](gqrs.default.conf)
+		  - more information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
+		  - modify the [cfd/gqrs.conf](gqrs.default.conf):
+		    - current default: 
+			```
+			RRdelta	0.2	# Typical difference between successive RR intervals in seconds
+            RRmin	0.28	# Minimum RR interval ("refractory period"), in seconds
+		    ```
+			- Modify them to 
+			```
+			RRdelta	0.6	# Typical difference between successive RR intervals in seconds
+            RRmin	0.6	# Minimum RR interval ("refractory period"), in seconds
+			```
 		  
+		
 		- remove the flat region of the RR-interval data
 		
 		
