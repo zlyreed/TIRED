@@ -23,8 +23,7 @@
   
 
  - PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
-     - Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox)
-	  - follow "Usage" example: 
+      -  Test "Usage" **example**: refer to Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox): 
 	    1. Initialize MATLAB environment of the mhrv tools: 
 		```
 		mhrv_init [-f/--force];
@@ -59,7 +58,7 @@
 			 - MIT Annotation files are binary files containing annotations (labels that generally refer to specific samples in associated signal files). Annotation files should be read with their associated header files. If you see files in a directory called RECORDNAME.dat, or RECORDNAME.hea, any other file with the same name but different extension, for example RECORDNAME.atr, is an annotation file for that record.
 	      - Modify default parameter values of the mhrv toolbox: you can edit [cfg/defaults.yml](defaults.yml), and [cfd/gqrs.conf](gqrs.default.conf)
      
-	 - Work on the ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):
+	 - Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):
 	    - confirm the RR-interval output:
 		  - normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds; 0.8 seconds in [cfd/gqrs.conf](gqrs.default.conf)
 		  
