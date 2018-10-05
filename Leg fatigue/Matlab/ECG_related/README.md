@@ -85,7 +85,9 @@
 			RRdelta	0.6	# Typical difference between successive RR intervals in seconds
             RRmin	0.6	# Minimum RR interval ("refractory period"), in seconds
 			```
-		  
+		    - see [ECG2RRi_test.m](ECG2RRi_test.m)
+			
+			- also check [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m))
 		
 		- remove the flat 'steps" of the RR-interval data
 		
