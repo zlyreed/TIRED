@@ -89,7 +89,7 @@
 			
 			- also check [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m))
 		
-		- remove the flat 'steps" of the RR-interval data
+		- remove the flat 'steps" of the RR-interval data (Biomonitor ouput) using [rmvStep.m](rmvStep.m)
 		
 		
  - Maybe test the online dataset in the future: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
