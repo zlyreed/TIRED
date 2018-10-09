@@ -107,7 +107,7 @@
 	  - Github [physiozoo](https://github.com/physiozoo/physiozoo)
 	- from imotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
 	- HRV and Cognitive Neuroscience
-	  -
+	  - from CNS 2018 abstract
 	  ```
 	    Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices
 		Poster F102, Tuesday, March 27, 8:00-10:00 am, Exhibit Hall C
@@ -127,7 +127,7 @@
 		sensor technologies are required before wearable devices can achieve the same predictive capabilities of more traditional
 		laboratory physiological metrics.
 		Topic Area: PERCEPTION & ACTION: Vision
-	```
+	  ```
     - HRV on [neurogynth.org](http://neurosynth.org/analyses/terms/heart/)
 	   - [NeuroVault.org](https://www.frontiersin.org/articles/10.3389/fninf.2015.00008/full)
 	   - [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
