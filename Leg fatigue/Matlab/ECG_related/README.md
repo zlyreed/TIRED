@@ -27,6 +27,7 @@
 
        Also, the root mean square successive differences (RMSSD), and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 
      ```
+	 - Difference between [parasympathetic nervous system(PNS) and sympathetic nervous system (SNS)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
 	 
   - [wikipedia HRV](https://en.wikipedia.org/wiki/Heart_rate_variability)
   - [Heart rate variability – a historical perspective, 2011](https://www.frontiersin.org/articles/10.3389/fphys.2011.00086/full)
