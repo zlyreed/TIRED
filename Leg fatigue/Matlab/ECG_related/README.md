@@ -16,19 +16,7 @@
 	 <img src="pics/HRV_time-domain.png" alt="drawing" width="800"/>
 	 
 	 <img src="pics/HRV_frequency-domain.png" alt="drawing" width="600"/>
-	 
-	 - Notes from SX:
-	 ```
-	   HF, is associated with respiratory sinus arrhythmia, and has been attributed to parasympathetic (vagal) activity, LF is assumed to be under the influence of both parasympathetic and sympathetic activity, but predominately by sympathetic activity.
- 
-       In the frequency domain both low frequency (LF: 0.04–0.15 Hz) and high frequency (HF: 0.15–0.40 Hz) spectral powers have been used as indices of vagal activity, although there is some debate over the branch of the autonomic system that affects these measures [20]. Whereas there is little contention concerning HF power reflecting primarily parasympathetic influences, LF power has been shown to reflect both sympathetic and parasympathetic influences. 
-
-       LF/HF ratio (a putative measure of sympathovagal balance where higher numbers indicate greater relative sympathetic dominance) 
-
-       Also, the root mean square successive differences (RMSSD), and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 
-     ```
-	 - Difference between [parasympathetic nervous system(PNS) and sympathetic nervous system (SNS)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
-	 
+	  
   - [wikipedia HRV](https://en.wikipedia.org/wiki/Heart_rate_variability)
   - [Heart rate variability – a historical perspective, 2011](https://www.frontiersin.org/articles/10.3389/fphys.2011.00086/full)
   - [An introduction to heart rate variability: methodological considerations and clinical applications, 2015](https://www.frontiersin.org/articles/10.3389/fphys.2015.00055/full#B1)
@@ -106,8 +94,56 @@
         - Github [webpage](https://github.com/physiozoo)
 	  - Github [physiozoo](https://github.com/physiozoo/physiozoo)
 	- from imotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
-	- HRV and Cognitive Neuroscience
-	  - from CNS 2018 abstract
+	
+	- **HRV and Cognitive Neuroscience**
+	  - HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
+	    ```
+	    HF, is associated with respiratory sinus arrhythmia, and has been attributed to parasympathetic (vagal) activity, LF is assumed to be under the influence of both parasympathetic and sympathetic activity, but predominately by sympathetic activity.
+ 
+        In the frequency domain both low frequency (LF: 0.04–0.15 Hz) and high frequency (HF: 0.15–0.40 Hz) spectral powers have been used as indices of vagal activity, although there is some debate over the branch of the autonomic system that affects these measures [20]. Whereas there is little contention concerning HF power reflecting primarily parasympathetic influences, LF power has been shown to reflect both sympathetic and parasympathetic influences. 
+
+        LF/HF ratio (a putative measure of sympathovagal balance where higher numbers indicate greater relative sympathetic dominance) 
+
+        Also, the root mean square successive differences (RMSSD), and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 
+       ```
+	   - Difference between [parasympathetic nervous system(PNS) and sympathetic nervous system (SNS)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
+	  - Most studies during resting
+	    -
+	  
+	  - Studies during exercise
+	    -[Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
+		  -[sensor](http://www.myithlete.com/products/)
+	    -[Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/10393677)
+		-[Heart rate variability and physical exercise. Current status](https://www.ncbi.nlm.nih.gov/pubmed/17036185)
+		-[Stability over time of short-term heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/16362542)
+		-[The use of heart rate variability measures to assess autonomic control during exercise](https://www.ncbi.nlm.nih.gov/pubmed/16774653)
+		-[Heart rate variability and swimming](https://www.ncbi.nlm.nih.gov/pubmed/24958562)
+		-[Non-linear dynamics of heart rate variability during incremental cycling exercise,2018](https://www.ncbi.nlm.nih.gov/pubmed/30040499)
+		
+		
+		
+	
+	 
+    - HRV on prefrontal cortex
+	   - [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
+       	  - [neurogynth.org](http://neurosynth.org/analyses/terms/heart/)
+	      - [NeuroVault.org](https://www.frontiersin.org/articles/10.3389/fninf.2015.00008/full)
+	   
+	   - [Heart rate variability is associated with amygdala functional connectivity with MPFC across younger and older adults](https://www.ncbi.nlm.nih.gov/pubmed/27261160)
+	
+	- HRV on fatigue
+	  - Mental Fatigue
+	    -[Mental Fatigability and Heart Rate Variability in Mild Cognitive Impairment](https://www.ncbi.nlm.nih.gov/pubmed/26905050);
+		-[Dissociation between mental fatigue and motivational state during prolonged mental activity, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26217203);
+	  
+	  - Physical Fatigue
+	    -[Can cognitive activities during breaks in repetitive manual work accelerate recovery from fatigue? A controlled experiment, 2014](https://www.ncbi.nlm.nih.gov/pubmed/25375644)
+		-[Impacts of obesity and stress on neuromuscular fatigue development and associated heart rate variability, 2015](https://www.ncbi.nlm.nih.gov/pubmed/25042859)
+		-[Changes in physical activity and heart rate variability in chronic neck-shoulder pain: monitoring during work and leisure time, 2014](https://www.ncbi.nlm.nih.gov/pubmed/24162088)
+	    -[Shift Work and Heart Rate Variability Coherence: Pilot Study Among Nurses,2018](https://www.ncbi.nlm.nih.gov/pubmed/30232570)
+		
+	
+    - from CNS 2018 abstract
 	  ```
 	    Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices
 		Poster F102, Tuesday, March 27, 8:00-10:00 am, Exhibit Hall C
@@ -128,7 +164,3 @@
 		laboratory physiological metrics.
 		Topic Area: PERCEPTION & ACTION: Vision
 	  ```
-    - HRV on [neurogynth.org](http://neurosynth.org/analyses/terms/heart/)
-	   - [NeuroVault.org](https://www.frontiersin.org/articles/10.3389/fninf.2015.00008/full)
-	   - [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
-       - [Heart rate variability is associated with amygdala functional connectivity with MPFC across younger and older adults](https://www.ncbi.nlm.nih.gov/pubmed/27261160)
