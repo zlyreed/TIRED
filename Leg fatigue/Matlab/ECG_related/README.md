@@ -105,12 +105,14 @@
         LF/HF ratio (a putative measure of sympathovagal balance where higher numbers indicate greater relative sympathetic dominance) 
 
         Also, the root mean square successive differences (RMSSD), and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 
-       ```
+        ```
+		
 	   - Difference between [parasympathetic nervous system(PNS) and sympathetic nervous system (SNS)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
-	  - Most studies during resting
-	    -
+	 
+	 - HRV studies during resting
+	    -[Fatigue shifts and scatters heart rate variability in elite endurance athletes,2013](https://www.ncbi.nlm.nih.gov/pubmed/23951198)
 	  
-	  - Studies during exercise
+	 - HRV studies during exercise
 	    -[Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
 		  -[sensor](http://www.myithlete.com/products/)
 	    -[Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/10393677)
@@ -133,10 +135,12 @@
 	
 	- HRV on fatigue
 	  - Mental Fatigue
+	  
 	    -[Mental Fatigability and Heart Rate Variability in Mild Cognitive Impairment](https://www.ncbi.nlm.nih.gov/pubmed/26905050);
 		-[Dissociation between mental fatigue and motivational state during prolonged mental activity, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26217203);
 	  
 	  - Physical Fatigue
+	  
 	    -[Can cognitive activities during breaks in repetitive manual work accelerate recovery from fatigue? A controlled experiment, 2014](https://www.ncbi.nlm.nih.gov/pubmed/25375644)
 		-[Impacts of obesity and stress on neuromuscular fatigue development and associated heart rate variability, 2015](https://www.ncbi.nlm.nih.gov/pubmed/25042859)
 		-[Changes in physical activity and heart rate variability in chronic neck-shoulder pain: monitoring during work and leisure time, 2014](https://www.ncbi.nlm.nih.gov/pubmed/24162088)
