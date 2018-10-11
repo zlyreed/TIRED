@@ -76,12 +76,12 @@
 			```
 		    - use [ECG2RRi_test.m](ECG2RRi_test.m) to compare the RRi calucated from ECG (mhrv, rqrs: R-peak detection) and Biomonitor-output RRi, which were comparable after changing [cfd/gqrs.conf](gqrs.default.conf) as above.
 						
-			- check data from a sample trial [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m))
-			  - decide on what to use for nni:
-			    1. rri output from Biomonitor --> remove flat "step" data in rri (using [rmvStep.m](rmvStep.m))--> filtered (use "filtrr") --> maybe resample the nni??
-				2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
-				3. rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
-			  - HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
+		- check data from a sample trial [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m))
+		  - need to decide on what to use for nni:
+			1. rri output from Biomonitor --> remove flat "step" data in rri (using [rmvStep.m](rmvStep.m))--> filtered (use "filtrr") --> maybe resample the nni??
+		    2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
+			3. rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
+		  - HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
 		
 		
 		
