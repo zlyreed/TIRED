@@ -82,7 +82,7 @@
 		    2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
 			3. rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
 		  - HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
-		  - Align RPE reading
+		  - Align RPE reading (modify in "plot_Force_ECG_RPE_4plots.m ", check the biomonitor part) 10/11/2018
 		
 		
 		
