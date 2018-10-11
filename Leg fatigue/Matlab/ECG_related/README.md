@@ -78,10 +78,10 @@
 						
 			- check data from a sample trial[mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m))
 			  - decide on what to use for nni:
-			    - rri output from Biomonitor --> remove flat "step" data in rri(using [rmvStep.m](rmvStep.m))--> filtered (use "filtrr") --> maybe resample the nni??
-				- rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
-				- rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
-			  - HRV analysis using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
+			    1. rri output from Biomonitor --> remove flat "step" data in rri(using [rmvStep.m](rmvStep.m))--> filtered (use "filtrr") --> maybe resample the nni??
+				2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
+				3. rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
+			  - HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
 		
 		
 		

@@ -8,9 +8,10 @@ function [time_sel_mid,points_mid]=rmvStep(time, stepData)
 % stepData: RR interval data output from biomonitor (points with steps/some same value
 % points)
 
-% time_sel=correspoding time with selected point
-% points= points with differet values (the points with same values are
-% removed; where the beginning of the step was selected)
+% time_sel_mid=correspoding time with selected point
+% points_mid= points with differet values (the points with same values are
+% removed; where the mid-point of the step was selected)
+
 
 % #####
 

@@ -101,14 +101,14 @@ legend(p,{'RRi-from ECG','NNi-from ECG(filtered and resampled)','RRi-Biomonitor'
 
 %% ************* Calculate HRV time and frequency using moving windows ********
 % what to use for the HRV analysis
-% NNI=nni2; % use the RRi from Biomonitor ouput, which was filtered (not resampled yet)
-% TIME=tnn2;
+NNI=nni2; % use the RRi from Biomonitor ouput, which was filtered (not resampled yet)
+TIME=tnn2;
 
 % NNI=nni; % use the RRi from Biomonitor ouput, which was filtered and resampled
 % TIME=tnn;
 
-NNI=nni_ECG; % use the NNI from ECG (filtered and resampled)
-TIME=tnn_ECG;
+% NNI=nni_ECG; % use the NNI from ECG (filtered and resampled)
+% TIME=tnn_ECG;
 
 %setup windows
 totalN=length(NNI);
@@ -253,92 +253,3 @@ for np=1:length(hrv_FragmentationName)
 end
 
 
-
-%
-% % Length of signal in seconds
-% t_max = floor(header_info.total_seconds);
-%
-% % Duration of signal
-% duration = header_info.duration;
-%
-% % Length of each window in seconds and samples (make sure the window is not longer than the signal)
-% t_win = min([window_minutes * 60, t_max]);
-% window_samples = t_win * ecg_Fs;
-%
-%
-% % Number of windows
-% num_win = floor(ecg_N / window_samples);
-% if (isnan(num_win))
-%     % This can happen in some records where number of samples is not provided
-%     num_win = 1;
-% end
-%
-% % % Account for window index offset and limit
-% % if (window_index_offset >= num_win)
-% %     error('Invalid window index offset: was %d, but there are only %d %d-minute windows',...
-% %            window_index_offset, num_win, window_minutes);
-% % end
-% % window_max_index = min(num_win, window_index_offset + window_index_limit) - 1;
-%
-% window_max_index=num_win;
-%
-% % Output initialization
-% % hrv_metrics_tables = cell(num_win, 1);
-% hrv_metrics_tables = table;
-% plot_datas = cell(num_win, 1);
-%
-% %for curr_win_idx = 1 : window_max_index
-% code_color0=[1 0 1;0 0 1;1 0 0];
-% code_color=[code_color0;code_color0;code_color0];
-%
-% for curr_win_idx = 0: window_max_index-1
-%
-%     % Calculate sample indices of the current window
-%     window_start_sample = curr_win_idx * window_samples + 1;
-%     window_end_sample   = window_start_sample + window_samples - 1;
-%     if (window_end_sample == 0); window_end_sample = []; end
-%
-%     nni_window=nni([window_start_sample,window_end_sample]);
-%
-%
-%     % Time Domain metrics
-%     [hrv_td, pd_time ]= hrv_time(nni_window);
-%
-%     % Freq domain metrics
-%     [hrv_fd, ~, ~,  pd_freq ] = hrv_freq(nni_window);
-% %      [hrv_fd2, ~, ~,  pd_freq2 ] = hrv_freq(RRi);
-%
-%     hrv_metrics_tables(curr_win_idx+1,:)=[hrv_td,hrv_fd];
-%
-%     figure (1)
-%     subplot(2,1,2)
-%     hold on
-%     plot(trr_window,rri_window,'x','color',code_color(curr_win_idx+1,:))
-%     plot(trr_window,rri_window,'color',code_color(curr_win_idx+1,:))
-%     plot(tnn_window,nni_window,'x','color',code_color(curr_win_idx+2,:))
-%     plot(tnn_window,nni_window,'color',code_color(curr_win_idx+2,:))
-%
-%
-%     xlabel('time (s)')
-%     ylabel(' RR interval (s)')
-%     xlim([0,round(max(time0))+50])
-%
-% end
-%
-% %% compare with Biomonitor RR interval output
-% figure(1)
-% subplot(2,1,2)
-% hold on
-% plot(time0,RRi/1000,'c')
-% xlim([0,round(max(time0))+50])
-%
-%
-% % %% use RRi output as input to mhrv functions
-% % for winI = 0: window_max_index-1
-% %      % Calculate sample indices of the current window
-% %     window_start_sample = winI * window_samples + 1;
-% %     window_end_sample   = window_start_sample + window_samples - 1;
-% %     if (window_end_sample == 0); window_end_sample = []; end
-% %
-% %
-% %     [hrv_td, pd_time ]= hrv_time(rri_window);
