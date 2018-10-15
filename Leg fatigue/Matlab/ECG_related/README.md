@@ -21,7 +21,6 @@
   - [Heart rate variability – a historical perspective, 2011](https://www.frontiersin.org/articles/10.3389/fphys.2011.00086/full)
   - [An introduction to heart rate variability: methodological considerations and clinical applications, 2015](https://www.frontiersin.org/articles/10.3389/fphys.2015.00055/full#B1)
   
-
  - PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
      -  Test "Usage" **example**: refer to Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox): 
 	   
@@ -45,11 +44,11 @@
 			- rqrs calls **jqrs/wjqrs** (An ECG peak-detector based on a modified Pan & Tompkins algorithm and a windowed version.
 		  filtrr - Filtering of RR interval time series to detect ectopic (out of place) beats.
 		  hrv_time - Time Domain: 
-		             - AVNN: Average NN interval duration.
-					 - SDNN: Standard deviation of NN interval durations.
-					 - RMSSD: Square root of mean summed squares of NN interval differences.
-					 - pNNx: The percentage of NN intervals which differ by at least x (ms)(default 50) from their preceding interval. The value of x in milliseconds can be set with the optional parameter 'pnn_thresh_ms'.
-					 - SEM: Standard error of the mean NN interval length.
+		      - AVNN: Average NN interval duration.
+			- SDNN: Standard deviation of NN interval durations.
+			- RMSSD: Square root of mean summed squares of NN interval differences.
+			- pNNx: The percentage of NN intervals which differ by at least x (ms)(default 50) from their preceding interval. The value of x in milliseconds can be set with the optional parameter 'pnn_thresh_ms'.
+			- SEM: Standard error of the mean NN interval length.
 		  hrv_freq - Frequency Domain: 
 			- Total and normalized power in (configurable) VLF, LF, HF and custom user-defined bands.
 			- Spectral power estimation using Lomb, Auto Regressive, Welch and FFT methods.
