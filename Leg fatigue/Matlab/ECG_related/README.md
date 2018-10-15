@@ -44,7 +44,12 @@
 		    - ecgrr calls **rqrs** (Detection of R-peaks in ECG signals (based on PhysioNet's gqrs). Configurable for use with both human and animal ECGs._
 			- rqrs calls **jqrs/wjqrs** (An ECG peak-detector based on a modified Pan & Tompkins algorithm and a windowed version.
 		  filtrr - Filtering of RR interval time series to detect ectopic (out of place) beats.
-		  hrv_time - Time Domain: AVNN, SDNN, RMSSD, pNNx.
+		  hrv_time - Time Domain: 
+		             - AVNN: Average NN interval duration.
+					 - SDNN: Standard deviation of NN interval durations.
+					 - RMSSD: Square root of mean summed squares of NN interval differences.
+					 - pNNx: The percentage of NN intervals which differ by at least x (ms)(default 50) from their preceding interval. The value of x in milliseconds can be set with the optional parameter 'pnn_thresh_ms'.
+					 - SEM: Standard error of the mean NN interval length.
 		  hrv_freq - Frequency Domain: 
 			- Total and normalized power in (configurable) VLF, LF, HF and custom user-defined bands.
 			- Spectral power estimation using Lomb, Auto Regressive, Welch and FFT methods.
