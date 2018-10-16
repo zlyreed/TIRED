@@ -134,33 +134,29 @@
 	
 	- **HRV and Cognitive Neuroscience**
 	  - HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
-	    ```
-	    HF, is associated with respiratory sinus arrhythmia, and has been attributed to parasympathetic (vagal) activity, LF is assumed to be under the influence of both parasympathetic and sympathetic activity, but predominately by sympathetic activity.
- 
-        In the frequency domain both low frequency (LF: 0.04–0.15 Hz) and high frequency (HF: 0.15–0.40 Hz) spectral powers have been used as indices of vagal activity, although there is some debate over the branch of the autonomic system that affects these measures [20]. Whereas there is little contention concerning HF power reflecting primarily parasympathetic influences, LF power has been shown to reflect both sympathetic and parasympathetic influences. 
-
-        LF/HF ratio (a putative measure of sympathovagal balance where higher numbers indicate greater relative sympathetic dominance) 
-
-        Also, the root mean square successive differences (RMSSD), and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 
-        ```
-		
-		   - Difference between [parasympathetic nervous system(PNS) and sympathetic nervous system (SNS)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
-		 
-		   - HRV studies during resting
-			 - [Fatigue shifts and scatters heart rate variability in elite endurance athletes,2013](https://www.ncbi.nlm.nih.gov/pubmed/23951198)
-		  
-		   - HRV studies during exercise
-			 - [Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
-			   - [sensor](http://www.myithlete.com/products/)
-			 - [Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/10393677)
-			 - [Heart rate variability and physical exercise. Current status](https://www.ncbi.nlm.nih.gov/pubmed/17036185)
-			 - [Stability over time of short-term heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/16362542)
-			 - [The use of heart rate variability measures to assess autonomic control during exercise](https://www.ncbi.nlm.nih.gov/pubmed/16774653)
-			 - [Heart rate variability and swimming](https://www.ncbi.nlm.nih.gov/pubmed/24958562)
-			 - [Non-linear dynamics of heart rate variability during incremental cycling exercise,2018](https://www.ncbi.nlm.nih.gov/pubmed/30040499)
+	    - HF (0.15–0.40 Hz): associated with respiratory sinus arrhythmia, and has been attributed to parasympathetic (vagal) activity.
+		- LF (0.04–0.15 Hz): assumed to be under the influence of both parasympathetic and sympathetic activity, but predominately by sympathetic activity.
+        - LF/HF ratio: a putative measure of sympathovagal balance where higher numbers indicate greater relative sympathetic dominance. 
+        - Root Mean Square Successive Differences (RMSSD)and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 
+	 		
+	
+        - Difference between [parasympathetic nervous system(**PNS**) and sympathetic nervous system (**SNS**)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
+	 
+	    - HRV studies during resting
+		  - [Fatigue shifts and scatters heart rate variability in elite endurance athletes,2013](https://www.ncbi.nlm.nih.gov/pubmed/23951198)
+	  
+	    - HRV studies during exercise
+		  - [Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
+		    - [sensor](http://www.myithlete.com/products/)
+		  - [Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/10393677)
+		  - [Heart rate variability and physical exercise. Current status](https://www.ncbi.nlm.nih.gov/pubmed/17036185)
+		  - [Stability over time of short-term heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/16362542)
+		  - [The use of heart rate variability measures to assess autonomic control during exercise](https://www.ncbi.nlm.nih.gov/pubmed/16774653)
+		  - [Heart rate variability and swimming](https://www.ncbi.nlm.nih.gov/pubmed/24958562)
+		  - [Non-linear dynamics of heart rate variability during incremental cycling exercise,2018](https://www.ncbi.nlm.nih.gov/pubmed/30040499)
 
 	 
-      - HRV on prefrontal cortex
+      - HRV on Prefrontal cortex
 	    - [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
        	   - [neurogynth.org](http://neurosynth.org/analyses/terms/heart/)
 	       - [NeuroVault.org](https://www.frontiersin.org/articles/10.3389/fninf.2015.00008/full)
