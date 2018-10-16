@@ -37,7 +37,8 @@
 		mhrv('db/mitdb/111', 'window_minutes', 15, 'plot', true);
 		```
         - key functions:
-		  **Processing data**
+		
+		  **Data Process**
 		  ```
 		  wfdb_header - Read record metadata from a WFDB header file (.hea).
 		  ecgrr - Construction of RR intervals from ECG data in PhysioNet format.
@@ -64,22 +65,22 @@
 			- LF_PEAK: Frequency of highest peak in the LF band.
 			- HF_PEAK: Frequency of highest peak in the HF band.
 			- BETA: Slope of log-log frequency plot in the VLF band.
-		 ```
+		  ```
 		  **HRV_non-linear**: based on PoincarÃ© plots, detrended fluctuation analysis (DFA) and Multiscale Entropy (MSE).
-		 ```
+		  ```
             - SD1: Poincare plot SD1 descriptor (std. dev. of intervals along the line perpendicular to the line of identity).
 			- SD2: Poincare plot SD2 descriptor (std. dev. of intervals along the line of identity).
 			- alpha1: Log-log slope of DFA in the low-scale region.
 			- alpha2: Log-log slope of DFA in the high-scale region.
 			- SampEn: The sample entropy.
-		 ```
+		  ```
 		  **HRV_fragmentation**:
-		 ```
+		  ```
             - PIP: Percentage of inflection points.
 			- IALS: Inverse average length of segments.
 			- PSS: Percentage of NN intervals that are in short segments.
 			- PAS: Percentage of NN intervals that are in alternation segments of at least 4 intervals. 			  
-		 ```	  
+		  ```	  
 		  
 	    - Notes: 
 		  - Missing padarray function (from Image Processing Toolbox); here using several [online functions](https://github.com/gpeyre/matlab-toolboxes/tree/master/toolbox_nlmeans/toolbox/ordfilt2) ([padarray.m](padarray.m) calls [checkstrs.m](checkstrs.m) and [mkconstarray.m](mkconstarray.m)) to substitute.
