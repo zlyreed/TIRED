@@ -113,8 +113,10 @@
 		    2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
 			3. rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
 		  - HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
-		  - Align RPE reading (plot all the HRV parameters from 4 trials in individual figures [plot_Force_ECG_RPE_4plots.m](plot_Force_ECG_RPE_4plots.m) "; calls [hrv_table_fcn.m](hrv_table_fcn.m), which generate HRV table) 10/11/2018
-		
+		  - Align RPE reading:
+		     - plot all the HRV parameters from 4 trials in individual figures [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) "; calls [hrv_table_fcn.m](hrv_table_fcn.m), which generates HRV table)
+			    - [hrv_table_fcn.m](hrv_table_fcn.m) has issues with selected small windows (e.g., 10 seconds) in hrv_frequency and hrv_nonlinear and hrv_fragmentation
+		     - 
 		
 		
 		

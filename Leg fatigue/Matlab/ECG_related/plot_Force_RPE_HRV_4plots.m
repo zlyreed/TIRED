@@ -1,6 +1,6 @@
 %% Align oximeter (semi-mannually), PRE, and Vicon force/event data (use Vicon time)
- %-- Plot for each fatiguing trial
- %-- save PRE, oximeter data into .mat files
+%-- Plot for each fatiguing trial
+%-- save PRE, oximeter data into .mat files
 
 clear all
 close all
@@ -18,24 +18,24 @@ load MVC100_cell.mat
 [~,~,RAW_info]=xlsread('LegFatigueTesting_RPE_recording.xlsx','Info');
 
 %%  ************Input the desired testing number (testingNo) to locate directory of the testing data ************
-testingNo=20; 
+testingNo=20;
 TestData_path=RAW_info{testingNo+2,4};  % testing data diretory
 SubjectNo=RAW_info{testingNo+2,3}; % subject No
-TestingOrder=cell2mat(RAW_info(testingNo+2,5:8));  % the order for four fatiguing trials:'MVC30_Fatigue1','MVC30_Fatigue2','MVC60_Fatigue1','MVC60_Fatigue2' 
+TestingOrder=cell2mat(RAW_info(testingNo+2,5:8));  % the order for four fatiguing trials:'MVC30_Fatigue1','MVC30_Fatigue2','MVC60_Fatigue1','MVC60_Fatigue2'
 
 
 %% ------Fatigue trials----------
 TrialList={'MVC30_Fatigue1','MVC30_Fatigue2','MVC60_Fatigue1','MVC60_Fatigue2'};
 % trial Name
 for tn=1:size(TrialList,2)
-%for tn=1:2
-
+    %for tn=1:2
+    
     TrialOrder=TestingOrder(1,tn);
     TrialName=TrialList{1,tn};  % trial Name
     
     % open the corresponding trials
-    [~,~,RAW_RPE]=xlsread('LegFatigueTesting_RPE_recording.xlsx',TrialName);  % open the corresponding trials in the excel file  
-       
+    [~,~,RAW_RPE]=xlsread('LegFatigueTesting_RPE_recording.xlsx',TrialName);  % open the corresponding trials in the excel file
+    
     %% -------------- Force and events ( Vicon ) -----------------------
     % get the number of the events and the correponding RPE or commands
     EventNo_a=eval(RAW_RPE{testingNo+2,6});
@@ -63,7 +63,7 @@ for tn=1:size(TrialList,2)
     RPE_selected=cell2mat(RPE(1,2:size(Time_events,1)-1));
     Time_events_selected=Time_events(2:end-1,1)';
     
-   
+    
     % figure (1)
     figure(tn)
     subplot(4,1,1)
@@ -89,12 +89,12 @@ for tn=1:size(TrialList,2)
             Time_RPE19=Time_events(nt,1);
             figure(tn)
             subplot(4,1,1)
-             hold on
+            hold on
             plot([Time_events(nt,1),Time_events(nt,1)],[0,50],'--m');
         else
             figure(tn)
             subplot(4,1,1)
-             hold on
+            hold on
             plot([Time_events(nt,1),Time_events(nt,1)],[0,8],'m');  %one-time stamp (lines) for each event
         end
         
@@ -168,7 +168,7 @@ for tn=1:size(TrialList,2)
         
         
         %get "pull" label in oximeter (double check the alignment)
-        ViconLabel_selectedP='pull'; 
+        ViconLabel_selectedP='pull';
         p_label0=strcmp(event_vicon,ViconLabel_selectedP);
         p_label=find(p_label0==1);
         OxiLabel_selectedP=event_Oxi{1,p_label};  % the selected letter/label index in oximeter ("start pulling")
@@ -208,33 +208,26 @@ for tn=1:size(TrialList,2)
         %                 text(OxiTime_aligned(lan,1),10,Label_oxi{lan,1},'Color','blue');
         %             end
         %         end
-          
+        
     end
     
     %% ---------------------- Biomonitor ----------------
-
+    
     load([TestData_path 'Noraxon_mat\' TrialName '.mat']);
     
     %test hrv function
     window_seconds=10; %windon in seconds
     Freq_resample=50; %resampling rate (Hz)
-    [HRV_total, tnn, nni]=hrv_table_fcn(Data,window_seconds,Freq_resample);
+    
+    [HRV_total,tnn, nni]=hrv_table_fcn(Data,window_seconds,Freq_resample);
     
     %obtain numeric array for hrv parameters (e.g., hrv_AVNN)
     for hn=1:size(HRV_total.Properties.VariableNames,2)
         variableN=HRV_total.Properties.VariableNames{1,hn};
         eval(['hrv_' variableN '=HRV_total.' variableN ';']);
-        
-%         %% create figures
-%         if hn>1  %no figure for Time
-%            plot_var=figure('NumberTitle','off','Name',variableN);
-%            eval(['plot_' num2str(hn-1) '=plot_var'])
-%         
-%         end
-        
     end
-   
-        
+    
+    
     time_Bio=Data{1,1};
     RR_interval=Data{1,14};
     HR=Data{1,13};
@@ -245,12 +238,12 @@ for tn=1:size(TrialList,2)
     Respiration=Data{1,9};  %'Noraxon Desk Receiver.BIO 1 Respiration, uV'
     maxResp=max(Respiration);
     skinTemp=Data{1,11};  %'Noraxon Desk Receiver.BIO 1 Temperature, °C'
-   
-     
+    
+    
     figure(tn)
     subplot(4,1,2)
-%     plot(time_Bio,RR_interval/1000,'b')
-    hold on 
+    %     plot(time_Bio,RR_interval/1000,'b')
+    hold on
     np(1,1)=plot(tnn,nni,'c');
     np(1,2)=plot( hrv_Time,hrv_AVNN/1000,'r');
     np(1,3)=plot(hrv_Time,hrv_SD1,'g--');
@@ -259,53 +252,41 @@ for tn=1:size(TrialList,2)
     
     plot([Time_RPE19,Time_RPE19],[0,max(nni)],'--m');
     legend(np,{'NNI_filtered and resampled','Aeraged NNI','SD1','LF_POWER_LOMB','HF_POWER_LOMB'},'interpreter','none')
-
+    
     xlabel ('Time (s)')
-    ylabel( 'R-R interval (s)')
+    ylabel( 'NNi and others')
     
-%     figure(tn)
-%     subplot(5,1,3)
-%     p(1)=plot(time_Bio,HR,'r');
-%     hold on 
-%     p(2)=plot(time_Bio,RespRate,'g');
-%     p(3)=plot(time_Bio,SkinTemp,'m');
-%         
-%     plot([Time_RPE19,Time_RPE19],[0,100],'--m');
-%     xlabel ('Time (s)')
-% %     ylabel( 'Hear Rate (bpm)')
-%     legend(p,{'Heart Rate (bpm)','Respiration Rate (bpm)','Skin Temperature (°C)'});
+    figure(tn)
+    subplot(4,1,3)
+    hold on
+    plot([Time_RPE19,Time_RPE19],[0,max(hrv_TOTAL_POWER_LOMB)],'--m');
     
-     figure(tn)
-     subplot(4,1,3)
-     hold on  
-     plot([Time_RPE19,Time_RPE19],[0,max(hrv_TOTAL_POWER_LOMB)],'--m'); 
-     
-
-     L1(1,1)=plot( hrv_Time,hrv_VLF_POWER_LOMB,'r');
-     L1(1,2)=plot( hrv_Time,hrv_TOTAL_POWER_LOMB,'c');
-     
-     
-     legend(L1,{'VLF_POWER_LOMB','TOTAL_POWER_LOMB'},'interpreter','none')
-     xlabel ('Time (s)')
-     ylabel( 'Frequency Domain')
     
-%     plot(time_Bio,ECG,'r');     
-%     hold on  
-%     plot([Time_RPE19,Time_RPE19],[0,maxECG],'--b');
-%     xlabel ('Time (s)')
-%     ylabel( 'ECG (uV) ')
+    L1(1,1)=plot( hrv_Time,hrv_VLF_POWER_LOMB,'r');
+    L1(1,2)=plot( hrv_Time,hrv_TOTAL_POWER_LOMB,'c');
+    
+    
+    legend(L1,{'VLF_POWER_LOMB','TOTAL_POWER_LOMB'},'interpreter','none')
+    xlabel ('Time (s)')
+    ylabel( 'Frequency Domain')
+    
+    %     plot(time_Bio,ECG,'r');
+    %     hold on
+    %     plot([Time_RPE19,Time_RPE19],[0,maxECG],'--b');
+    %     xlabel ('Time (s)')
+    %     ylabel( 'ECG (uV) ')
     
     figure(tn)
     subplot(4,1,4)
-%     plot(time_Bio,Respiration,'b'); 
+    %     plot(time_Bio,Respiration,'b');
     hold on
     p(1,1)=plot( hrv_Time,hrv_SDNN,'r');
-    p(1,2)=plot( hrv_Time,hrv_RMSSD,'k');     
+    p(1,2)=plot( hrv_Time,hrv_RMSSD,'k');
     p(1,3)=plot(hrv_Time,hrv_SD2,'--b');
     p(1,4)=plot(hrv_Time,hrv_SEM,'g');
     p(1,5)=plot(hrv_Time,hrv_LF_TO_HF_LOMB, 'm');
     p(1,6)=plot(hrv_Time,hrv_SampEn,'c');
-
+    
     
     plot([Time_RPE19,Time_RPE19],[0,max(hrv_SDNN)],'--m');
     
@@ -315,7 +296,7 @@ for tn=1:size(TrialList,2)
     
     
     %% -----------------style of picture--------------
-    timeLim=ceil(max(time_Bio))+0.2*ceil(max(time_Bio));
+    timeLim=1.2*ceil(max(time_Bio));
     
     figure(tn)
     subplot(4,1,1)
@@ -330,47 +311,47 @@ for tn=1:size(TrialList,2)
     
     figure(tn)
     subplot(4,1,2)
-    xlim([0,timeLim]);    
+    xlim([0,timeLim]);
     set(gcf,'Color',[1,1,1])
     
     
     figure(tn)
     subplot(4,1,3)
-    xlim([0,timeLim]);    
+    xlim([0,timeLim]);
     set(gcf,'Color',[1,1,1])
     
     figure(tn)
     subplot(4,1,4)
-    xlim([0,timeLim]);    
+    xlim([0,timeLim]);
     set(gcf,'Color',[1,1,1])
     
-
+    
     %% ------------------plot four trials in one figure-------------------------------
-   
-    for hp=1:size(HRV_total.Properties.VariableNames,2)-1 % not including Time 
+    
+    for hp=1:size(HRV_total.Properties.VariableNames,2)-1 % not including Time
         varName=HRV_total.Properties.VariableNames{1,hp+1};
         varValue=eval(['hrv_' varName]);
         MaxValue=max(varValue);
         
         figure(20+hp)
         hold on
-        subplot(2,2,tn) 
+        subplot(2,2,tn)
         hold on
         plot( hrv_Time,varValue,'k');
         
         % label time
-        plot([Time_RPE19,Time_RPE19],[0,1.1*MaxValue],'--m');   
-        text(Time_RPE19,MaxValue/2,'19','Color','magenta'); % label "RPE=19"    
-        text(Time_events(1,1),MaxValue/2,RPE{1,1},'Color','red'); % label "pull"  
-        plot([Time_events(1,1),Time_events(1,1)],[0,1.1*MaxValue],'--r');   
+        plot([Time_RPE19,Time_RPE19],[0,1.1*MaxValue],'--m');
+        text(Time_RPE19,MaxValue/2,'19','Color','magenta'); % label "RPE=19"
+        text(Time_events(1,1),MaxValue/2,RPE{1,1},'Color','red'); % label "pull"
+        plot([Time_events(1,1),Time_events(1,1)],[0,1.1*MaxValue],'--r');
         
         %format
-        xlim([0,timeLim]); 
+        xlim([0,timeLim]);
         if MaxValue>0
-        ylim([0,MaxValue]);
+            ylim([0,MaxValue]);
         else
             if MaxValue<0
-                 ylim([MaxValue,0]);
+                ylim([MaxValue,0]);
             end
         end
         
@@ -378,38 +359,12 @@ for tn=1:size(TrialList,2)
         xlabel(['S' num2str(SubjectNo) '_' TrialList{1,tn} '_Test' num2str(TrialOrder)],'Interpreter','none')
         set(gcf,'Color',[1,1,1])
         hold on
-        
-%         clear  plot_var varName varValue
-    end 
-        
-        
+    end
     
-% %     figure('NumberTitle','off','Name','LF')
-%     figure(22)
-%     hold on
-%     subplot(2,2,tn) 
-%     hold on
-%     plot( hrv_Time,hrv_LF_POWER_LOMB,'k');
-%     
-%     % label time
-%     plot([Time_RPE19,Time_RPE19],[0,max(hrv_LF_POWER_LOMB)],'--m');   
-%     text(Time_RPE19,max(hrv_LF_POWER_LOMB)/2,'19','Color','magenta'); % label "RPE=19"
-%     
-%     text(Time_events(1,1),max(hrv_LF_POWER_LOMB)/2,RPE{1,1},'Color','red'); % label "pull"  
-%     plot([Time_events(1,1),Time_events(1,1)],[0,max(hrv_LF_POWER_LOMB)],'--r');   
-%     
-%     
-%     xlim([0,timeLim]); 
-%     ylim([0,2]);
-%     ylabel('LF_POWER_LOMB','Interpreter','none');
-%     xlabel([TrialList{1,tn} '_TestingOrder=' num2str(TrialOrder)],'Interpreter','none')
-%     set(gcf,'Color',[1,1,1])
     
     
 end
 
-% figure(22)
-% title(picTitle);
 
 % saveas(gcf,picTitle,'jpg')
 
