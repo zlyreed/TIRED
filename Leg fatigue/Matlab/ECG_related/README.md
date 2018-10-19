@@ -156,8 +156,9 @@
 		  - [Stability over time of short-term heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/16362542)
 		  - [The use of heart rate variability measures to assess autonomic control during exercise](https://www.ncbi.nlm.nih.gov/pubmed/16774653)
 		  - [Heart rate variability and swimming](https://www.ncbi.nlm.nih.gov/pubmed/24958562)
-		  - [Non-linear dynamics of heart rate variability during incremental cycling exercise,2018](https://www.ncbi.nlm.nih.gov/pubmed/30040499)
-
+		  - [Non-linear dynamics of heart rate variability during incremental cycling exercise](https://www.ncbi.nlm.nih.gov/pubmed/30040499) (Gronwald, 2018)
+		    - Using detrended fluctuation analysis (DFA)to assess heart rate correlation properties, the present study examines the influence of exercise intensity on total variability and complexity in non-linear dynamics of HRV.
+            - DFA-alpha1 increased from rest to low exercise intensity and showed an almost linear decrease from higher intensities until exhaustion.
 	 
       - HRV on Prefrontal cortex
 	    - [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
