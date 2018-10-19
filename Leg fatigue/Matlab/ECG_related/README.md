@@ -183,7 +183,7 @@
 	  - [CNS 2018 Blog](https://www.cogneurosociety.org/cns-2018-blog/) 
 	     - [Girls v. Boys: No Gender Differences in Neural Processing of Math](https://www.cogneurosociety.org/girls-v-boys-no-gender-differences-neural-processing-math/)
 		 
-	  - [Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices](page 338-339 on [CNS 2018 abstract book](https://www.cogneurosociety.org/2019/wordpress/wp-content/uploads/2018/10/CNS2018_Abstract_Book.pdf))
+	  - Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices(page 338-339 on [CNS 2018 abstract book](https://www.cogneurosociety.org/2019/wordpress/wp-content/uploads/2018/10/CNS2018_Abstract_Book.pdf))
 	  ```
 	    Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices
 		Poster F102, Tuesday, March 27, 8:00-10:00 am, Exhibit Hall C
