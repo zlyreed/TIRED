@@ -176,7 +176,12 @@
 		- [Impacts of obesity and stress on neuromuscular fatigue development and associated heart rate variability, 2015](https://www.ncbi.nlm.nih.gov/pubmed/25042859)
 		- [Changes in physical activity and heart rate variability in chronic neck-shoulder pain: monitoring during work and leisure time, 2014](https://www.ncbi.nlm.nih.gov/pubmed/24162088)
 	    - [Shift Work and Heart Rate Variability Coherence: Pilot Study Among Nurses,2018](https://www.ncbi.nlm.nih.gov/pubmed/30232570)
-	    - [Heart rate variability analysis during muscle fatigue due to prolonged isometric contraction](https://www.ncbi.nlm.nih.gov/pubmed/29060120)
+	    - [Heart rate variability analysis during muscle fatigue due to prolonged isometric contraction](https://www.ncbi.nlm.nih.gov/pubmed/29060120)(Guidi, 2017)
+	      - Comparing the fatigue group with non-fatigue one
+		    - Time domain: significant reduced RMSSD and NN50 values;
+            - Frequency domain: increased LF and reduced HF;
+            - Non linear features: lower SD1.			
+	
 	
 	
     - from Cognitive Neuroscienty Society (CNS) Meeting ([previous meeting programs and abstracts](https://www.cogneurosociety.org/annual-meeting/general-information/previous-meetings/))
