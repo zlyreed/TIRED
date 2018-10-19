@@ -116,7 +116,7 @@
 		  - Align RPE reading:
 		     - plot all the HRV parameters from 4 trials in individual figures [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) "; calls [hrv_table_fcn.m](hrv_table_fcn.m), which generates HRV table)
 			    - [hrv_table_fcn.m](hrv_table_fcn.m) has issues with selected small windows (e.g., 10 seconds) in hrv_frequency and hrv_nonlinear and hrv_fragmentation
-		     - try to modify "plot_Force_RPE_HRV_4plots.m" using [hrv_table_fcn_noResampling.m](hrv_table_fcn_noResampling.m) and [hrv_table_fcn_Resampling.m](hrv_table_fcn_Resampling.m)
+		     - try to modify [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) using [hrv_table_fcn_noResampling.m](hrv_table_fcn_noResampling.m) and [hrv_table_fcn_Resampling.m](hrv_table_fcn_Resampling.m)  (**10/17/2018**)
 			 
 		
 		
