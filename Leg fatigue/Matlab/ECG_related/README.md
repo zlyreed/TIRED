@@ -183,24 +183,15 @@
 	  - [CNS 2018 Blog](https://www.cogneurosociety.org/cns-2018-blog/) 
 	     - [Girls v. Boys: No Gender Differences in Neural Processing of Math](https://www.cogneurosociety.org/girls-v-boys-no-gender-differences-neural-processing-math/)
 		 
-	  - Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices(page 338-339 on [CNS 2018 abstract book](https://www.cogneurosociety.org/2019/wordpress/wp-content/uploads/2018/10/CNS2018_Abstract_Book.pdf))
-	  ```
-	    Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices
-		Poster F102, Tuesday, March 27, 8:00-10:00 am, Exhibit Hall C
-		Dean Cisler1, Carryl Baldwin1, Pamela Greenwood1, Ryan McKendrick2; 1George Mason University, 2Northrop Grumman
-		The increasing availability of both autonomous systems and low cost wearable devices capable of collecting physiological metrics
-		from operators (e.g., EEG, heart rate [HR], eye movements) presents new opportunities of closing the loop between humans and
-		complex systems. In the current investigation we compared the predictive capability of spectral analyses obtained from a laboratory
+	  - Predicting Automation Aid Response Time from EEG versus Low Cost Wearable Devices (Poster F102; page 338-339 on [CNS 2018 abstract book](https://www.cogneurosociety.org/2019/wordpress/wp-content/uploads/2018/10/CNS2018_Abstract_Book.pdf))
+	    - In the current investigation we compared the predictive capability of spectral analyses obtained from a laboratory
 		grade EEG system (NuAmps) to the predictive capability of low cost wearable devices (heart rate variability obtained from the
-		ZepherTM Biomodule strap and gaze dispersion from eye tracking glasses developed by Pupil Labs). Participants performed five
+		ZepherTM Biomodule strap and gaze dispersion from eye tracking glasses developed by Pupil Labs)...Participants performed five
 		autonomous driving sessions (drives) (~11 min each) during which they monitored an autonomous vehicle lane change task and
 		made manual responses to indicate detection of infrequent (20%) automation aid failures signaled by a visual display. Separate
 		Linear Mixed-Effects (LMEs) analyses were used to predict response time (RT) to detection failures using spectral analysis of Pz
-		alpha-band in comparison to HR, vertical and horizontal gaze dispersion. Both LMEs indicated that the metrics were significant
-		predictors of RT across five consecutive drives. Bayesian information criterion (BIC) was calculated to compare the fit of both
-		models. Results indicated the model predicting RT with Pz alpha across drives (df(7), BIC = 1914.59) as the better fitting model.
-		However, the model using low cost wearable devices was less robust (df(19), BIC = 1970.66) indicating that at present, improved
+		alpha-band in comparison to HR, vertical and horizontal gaze dispersion... However, the model using low cost wearable devices was less robust (df(19), BIC = 1970.66) indicating that at present, improved
 		sensor technologies are required before wearable devices can achieve the same predictive capabilities of more traditional
 		laboratory physiological metrics.
-		Topic Area: PERCEPTION & ACTION: Vision
-	  ```
+	  
+	  
