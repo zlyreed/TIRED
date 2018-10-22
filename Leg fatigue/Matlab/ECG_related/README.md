@@ -150,7 +150,9 @@
 	  
 	    - HRV studies during exercise
 		  - [Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
-		    - [sensor](http://www.myithlete.com/products/)
+		    - Record the resting heart beat for one minute (resting HRV);
+			- Analogy: the sympathetic --- the accelerator in your car, making the vehicle go faster; parasympathetic conponent is likened to the brakes, slowing it down
+			- [sensor](http://www.myithlete.com/products/)
 		  - [Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/10393677)
 		  - [Heart rate variability and physical exercise. Current status](https://www.ncbi.nlm.nih.gov/pubmed/17036185)
 		  - [Stability over time of short-term heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/16362542)
