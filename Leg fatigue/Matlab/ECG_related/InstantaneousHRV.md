@@ -3,6 +3,8 @@
 	 - [Point Process Models of Human Heart Beat Interval Dynamics]
 	   - [Documentation about the state of the art of our point process algorithms for estimation of instantaneous indices of HRV](http://users.neurostat.mit.edu/barbieri/Home/heartrate)
 	   - [Tutorial and Downloads](http://users.neurostat.mit.edu/barbieri/pphrv_test)
+	     - Bring C code into Matlab [tutorial](https://www.youtube.com/watch?v=5o5R0VnptZw)
+	       - [MinGW-w64 Compiler](https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html?s_tid=srchtitle)
 	  
 	 - [other software](http://www.neurostat.mit.edu/software)  
 	 - References: 
