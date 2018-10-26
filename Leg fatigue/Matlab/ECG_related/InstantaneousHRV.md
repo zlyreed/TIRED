@@ -16,5 +16,5 @@
    - Other groups:
      - Yasuyuki Shiraishi, 2018; [Real‐Time Analysis of the Heart Rate Variability During Incremental Exercise for the Detection of the Ventilatory Threshold](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778955/)
      -  [SweetBeat HRV App for real time monitoring of heart rate variability using a smartphone app and a compatible heart rate chest strap](https://bengreenfieldfitness.com/podcast/self-quantification-podcasts/heart-rate-variability-testing/)
-     
+     - David Naranjo-Hernández,2017; [Smart Device for the Determination of Heart Rate Variability in Real Time](https://www.hindawi.com/journals/js/2017/8910470/)
 	
