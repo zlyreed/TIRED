@@ -1,5 +1,5 @@
 **Instantaneous indices of Heart Rate Variability (HRV)**
-   - [Riccardo Barbieri, Ph.D. (MIT)](http://users.neurostat.mit.edu/barbieri/Home)       
+   - [Riccardo Barbieri, Ph.D. (MIT)](http://users.neurostat.mit.edu/barbieri/Home): barbieri@neurostat.mit.edu     
 	 - [Point Process Models of Human Heart Beat Interval Dynamics]
 	   - [Documentation about the state of the art of our point process algorithms for estimation of instantaneous indices of HRV](http://users.neurostat.mit.edu/barbieri/Home/heartrate)
 	   - [Tutorial and Downloads](http://users.neurostat.mit.edu/barbieri/pphrv_test)
