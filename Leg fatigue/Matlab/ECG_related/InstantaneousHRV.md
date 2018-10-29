@@ -1,7 +1,7 @@
 **Instantaneous indices of Heart Rate Variability (HRV)**
    - [Riccardo Barbieri, Ph.D. (MIT)](http://users.neurostat.mit.edu/barbieri/Home): barbieri@neurostat.mit.edu     
 	 - [Point Process Models of Human Heart Beat Interval Dynamics]
-	   - [Documentation about the state of the art of our point process algorithms for estimation of instantaneous indices of HRV](http://users.neurostat.mit.edu/barbieri/Home/heartrate)
+	   - [Documentation about the state of the art of point process algorithms for estimation of instantaneous indices of HRV](http://users.neurostat.mit.edu/barbieri/Home/heartrate)
 	   - [Tutorial and Downloads](http://users.neurostat.mit.edu/barbieri/pphrv_test)
 	     - Bring C code into Matlab [YouTube Tutorial](https://www.youtube.com/watch?v=5o5R0VnptZw)
 	       - [MinGW-w64 Compiler](https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html?s_tid=srchtitle)
@@ -14,7 +14,10 @@
 	    
 	    
    - Other groups:
-     - Yasuyuki Shiraishi, 2018; [Real‐Time Analysis of the Heart Rate Variability During Incremental Exercise for the Detection of the Ventilatory Threshold](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778955/)
+     - Yasuyuki Shiraishi, 2018; [Real-Time Analysis of the Heart Rate Variability During Incremental Exercise for the Detection of the Ventilatory Threshold](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778955/)
      -  [SweetBeat HRV App for real time monitoring of heart rate variability using a smartphone app and a compatible heart rate chest strap](https://bengreenfieldfitness.com/podcast/self-quantification-podcasts/heart-rate-variability-testing/)
      - David Naranjo-Hernández,2017; [Smart Device for the Determination of Heart Rate Variability in Real Time](https://www.hindawi.com/journals/js/2017/8910470/)
-	
+	 - David Lowenfels, MIT: 
+       - [Pranawave](https://fullspectrumbodywork.com/pranawave)
+       - his profile at [research gate](https://www.researchgate.net/profile/David_Lowenfels)
+
