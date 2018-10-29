@@ -1,12 +1,13 @@
 **Instantaneous indices of Heart Rate Variability (HRV)**
-   - [Riccardo Barbieri, Ph.D. (MIT)](http://users.neurostat.mit.edu/barbieri/Home): barbieri@neurostat.mit.edu     
+   - [Riccardo Barbieri, Ph.D. (MIT)](http://users.neurostat.mit.edu/barbieri/Home) (old: barbieri@neurostat.mit.edu; new: riccardo.barbieri@polimi.it) 
 	 - [Point Process Models of Human Heart Beat Interval Dynamics]
 	   - [Documentation about the state of the art of point process algorithms for estimation of instantaneous indices of HRV](http://users.neurostat.mit.edu/barbieri/Home/heartrate)
 	   - [Tutorial and Downloads](http://users.neurostat.mit.edu/barbieri/pphrv_test)
 	     - Bring C code into Matlab [YouTube Tutorial](https://www.youtube.com/watch?v=5o5R0VnptZw)
 	       - [MinGW-w64 Compiler](https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html?s_tid=srchtitle)
-	  
-	 - [other software](http://www.neurostat.mit.edu/software)  
+	   - Project on ResearchGate (Zhe Chen): [Cardiovascular signal processing for assessing heart rate variability](https://www.researchgate.net/project/Cardiovascular-signal-processing-for-assessing-heart-rate-variability)
+	
+     - [other software](http://www.neurostat.mit.edu/software)  
 	 - References: 
 	    - Barbieri R, 2006, [Analysis of heartbeat dynamics by point process adaptive filtering](https://www.ncbi.nlm.nih.gov/pubmed/15374824).
 	    - Barbieri R, 2005, [A point-process model of human heartbeat intervals: new definitions of heart rate and heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/15374824)
