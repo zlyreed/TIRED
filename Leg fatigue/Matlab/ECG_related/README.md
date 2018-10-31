@@ -161,7 +161,8 @@
 		  - [Non-linear dynamics of heart rate variability during incremental cycling exercise](https://www.ncbi.nlm.nih.gov/pubmed/30040499) (Gronwald, 2018)
 		    - Using detrended fluctuation analysis (DFA)to assess heart rate correlation properties, the present study examines the influence of exercise intensity on total variability and complexity in non-linear dynamics of HRV.
             - DFA-alpha1 increased from rest to low exercise intensity and showed an almost linear decrease from higher intensities until exhaustion.
-	 
+	      - [Musculoskeletal overuse injuries and heart rate variability: Is there a link? Gisselman-2016](https://www.ncbi.nlm.nih.gov/pubmed/26826630)
+		  
       - HRV on Prefrontal cortex
 	    - [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
        	   - [neurogynth.org](http://neurosynth.org/analyses/terms/heart/)
