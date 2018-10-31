@@ -5,6 +5,7 @@
 	   - [Tutorial and Downloads](http://users.neurostat.mit.edu/barbieri/pphrv_test)
 	     - Bring C code into Matlab [YouTube Tutorial](https://www.youtube.com/watch?v=5o5R0VnptZw)
 	       - [MinGW-w64 Compiler](https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html?s_tid=srchtitle)
+	       - notes on [How to Run C-Program in Command Prompt](https://medium.com/@randerson112358/how-to-run-c-program-in-command-prompt-e435186cd162)
 	   - Project on ResearchGate (Zhe Chen): [Cardiovascular signal processing for assessing heart rate variability](https://www.researchgate.net/project/Cardiovascular-signal-processing-for-assessing-heart-rate-variability)
 	
      - [other software](http://www.neurostat.mit.edu/software)  
