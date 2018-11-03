@@ -1,17 +1,22 @@
 **Instantaneous indices of Heart Rate Variability (HRV)**
-   - [Riccardo Barbieri, Ph.D. (MIT)](http://users.neurostat.mit.edu/barbieri/Home): barbieri@neurostat.mit.edu     
+   - [Riccardo Barbieri, Ph.D. (MIT)](http://users.neurostat.mit.edu/barbieri/Home) (old: barbieri@neurostat.mit.edu; new: riccardo.barbieri@polimi.it) 
 	 - [Point Process Models of Human Heart Beat Interval Dynamics]
 	   - [Documentation about the state of the art of point process algorithms for estimation of instantaneous indices of HRV](http://users.neurostat.mit.edu/barbieri/Home/heartrate)
 	   - [Tutorial and Downloads](http://users.neurostat.mit.edu/barbieri/pphrv_test)
 	     - Bring C code into Matlab [YouTube Tutorial](https://www.youtube.com/watch?v=5o5R0VnptZw)
 	       - [MinGW-w64 Compiler](https://www.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html?s_tid=srchtitle)
-	  
-	 - [other software](http://www.neurostat.mit.edu/software)  
+	       - notes on [How to Run C-Program in Command Prompt](https://medium.com/@randerson112358/how-to-run-c-program-in-command-prompt-e435186cd162)
+	   - Project on ResearchGate (Zhe Chen): [Cardiovascular signal processing for assessing heart rate variability](https://www.researchgate.net/project/Cardiovascular-signal-processing-for-assessing-heart-rate-variability)
+	
+     - [other software](http://www.neurostat.mit.edu/software)  
 	 - References: 
-	    - Barbieri R, 2006, [Analysis of heartbeat dynamics by point process adaptive filtering](https://www.ncbi.nlm.nih.gov/pubmed/15374824).
-	    - Barbieri R, 2005, [A point-process model of human heartbeat intervals: new definitions of heart rate and heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/15374824)
-	    - Valenza G, Barbieri R, etc. 2016, [Inhomogeneous Point-Processes to Instantaneously Assess Affective Haptic Perception through Heartbeat Dynamics Information](https://www.ncbi.nlm.nih.gov/pubmed/?term=27357966)
-	    
+	    - Barbieri R, 2006: [Analysis of heartbeat dynamics by point process adaptive filtering](https://www.ncbi.nlm.nih.gov/pubmed/15374824).
+	    - Barbieri R, 2005: [A point-process model of human heartbeat intervals: new definitions of heart rate and heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/15374824)
+	    - Valenza G, Barbieri R, etc. 2016: [Inhomogeneous Point-Processes to Instantaneously Assess Affective Haptic Perception through Heartbeat Dynamics Information](https://www.ncbi.nlm.nih.gov/pubmed/?term=27357966)
+	    - Citi L, 2010: [Point Process Heart Rate Variability Assessment during Sleep Deprivation](https://www.ncbi.nlm.nih.gov/pubmed/22517071)
+		- Valenza G, 2016: [Disentanglement of sympathetic and parasympathetic activity by instantaneous analysis of human heartbeat dynamics](https://www.ncbi.nlm.nih.gov/pubmed/28268477)
+		- Valenza G, 2017: [Assessment of instantaneous cardiovascular dynamics from video plethysmography](https://www.ncbi.nlm.nih.gov/pubmed/29060232)
+		
 	    
    - Other groups:
      - Yasuyuki Shiraishi, 2018; [Real-Time Analysis of the Heart Rate Variability During Incremental Exercise for the Detection of the Ventilatory Threshold](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778955/)
