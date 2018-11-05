@@ -9,6 +9,7 @@ Explore how we respond to fatigue (mainly physical here).
   - [Linear relationship between the perception of effort and the duration of constant load exercise thatremains. Noakes, 2004](https://www.ncbi.nlm.nih.gov/pubmed/15016797?dopt=Abstract)
   - [How did A V Hill understand the VO2max and the "plateau phenomenon"? Still no clarity?, Noakes, 2008](https://www.ncbi.nlm.nih.gov/pubmed/18390918)
 	  - [Is it time to retire the 'central governor'? Shephard, 2010](https://www.ncbi.nlm.nih.gov/pubmed/19691362)
+	     - [Is it time to retire the A.V. Hill Model?: A rebuttal to the article by Professor Roy Shephard.Noakes, 2011](https://www.ncbi.nlm.nih.gov/pubmed/21425886)
 	  - [Is it time to retire the 'central Governor'? A philosophical and evolutionary perspective. Marino,2010](https://www.ncbi.nlm.nih.gov/pubmed/20229620)
 	  - [The central governor model cannot be adequately tested by observing its components in isolation. Micklewright, 2010](https://www.ncbi.nlm.nih.gov/pubmed/20020789)
 
