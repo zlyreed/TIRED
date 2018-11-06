@@ -21,7 +21,10 @@ Explore how we respond to fatigue (mainly physical here).
   - Lessons from Popper for science, paradigm shifts, scientific revolutions and exercise physiology. [(Robergs, 2017)](https://www.ncbi.nlm.nih.gov/pubmed/29021907)
       - Response to: Lessons from Popper for science, paradigm shifts, scientific revolutions and exercise physiology. [(Noakes, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/29388623)
 	  - Lessons from a broad view of science: a response to Dr Robergs' article. [(Pires, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/29629188)
-
+  - Perceived Fatigability: Utility of a Three-Dimensional Dynamical Systems Framework to Better Understand the Psychophysiological Regulation of Goal-Directed Exercise Behaviour. [(Venhorst and Noakes, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/30238409)
+  - Towards a three-dimensional framework of centrally regulated and goal-directed exercise behaviour: a narrative review.[(Venhorst and Noakes, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/28835409)
+  
+  
 - Others: 
   - Point: Afferent feedback from fatigued locomotor muscles is an important determinant of endurance exercise performance. [(Amann, 2010)](https://www.ncbi.nlm.nih.gov/pubmed/19729588)
   - Physical exercise-induced fatigue: the role of serotonergic and dopaminergic systems. [(Cordeiro LMS, 2017)](https://www.ncbi.nlm.nih.gov/pubmed/29069229)
