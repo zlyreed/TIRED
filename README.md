@@ -27,8 +27,9 @@ Explore how we respond to fatigue (mainly physical here).
   
 - Related to Ratings of Perceived Exertion (RPE)
   - Role of Ratings of Perceived Exertion during Self-Paced Exercise: What are We Actually Measuring? [(Abbiss, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/?term=role+of+ratings+of+perceived+exertion+during+self-paced+exercise)
+  - Perception of effort during exercise is independent of afferent feedback from skeletal muscles, heart, and lungs.[(Marcora, 2009)](https://www.ncbi.nlm.nih.gov/pubmed/18483166)
   - Counterpoint: Afferent feedback from fatigued locomotor muscles is not an important determinant of endurance exercise performance.[(Marcora, 2010)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+20118347)
-  
+
  
   
 - Others: 
