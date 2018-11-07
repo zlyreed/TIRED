@@ -25,8 +25,8 @@ Explore how we respond to fatigue (mainly physical here).
   - Towards a three-dimensional framework of centrally regulated and goal-directed exercise behaviour: a narrative review.[(Venhorst and Noakes, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/28835409)
 
 - Roger Enoka, et al.
-  -Fatigue and fatigability in neurologic illnesses. Proposal for a unified taxonomy [(Kluger and Enoka, 2013)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+23339207)
-  
+  - Fatigue and fatigability in neurologic illnesses. Proposal for a unified taxonomy [(Kluger and Enoka, 2013)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+23339207)
+  - Motor unit activity, force steadiness, and perceived fatigability are correlated with mobility in older adults.[(Mani and Enoka, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/30044670)
   
 - Related to Ratings of Perceived Exertion (RPE)
   - Role of Ratings of Perceived Exertion during Self-Paced Exercise: What are We Actually Measuring? [(Abbiss, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/?term=role+of+ratings+of+perceived+exertion+during+self-paced+exercise)
