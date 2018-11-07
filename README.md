@@ -25,6 +25,12 @@ Explore how we respond to fatigue (mainly physical here).
   - Towards a three-dimensional framework of centrally regulated and goal-directed exercise behaviour: a narrative review.[(Venhorst and Noakes, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/28835409)
   
   
+- Related to Ratings of Perceived Exertion (RPE)
+  - Role of Ratings of Perceived Exertion during Self-Paced Exercise: What are We Actually Measuring? [(Abbiss, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/?term=role+of+ratings+of+perceived+exertion+during+self-paced+exercise)
+  - Counterpoint: Afferent feedback from fatigued locomotor muscles is not an important determinant of endurance exercise performance.[(Marcora, 2010)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+20118347)
+  
+ 
+  
 - Others: 
   - Point: Afferent feedback from fatigued locomotor muscles is an important determinant of endurance exercise performance. [(Amann, 2010)](https://www.ncbi.nlm.nih.gov/pubmed/19729588)
   - Physical exercise-induced fatigue: the role of serotonergic and dopaminergic systems. [(Cordeiro LMS, 2017)](https://www.ncbi.nlm.nih.gov/pubmed/29069229)
