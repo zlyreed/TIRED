@@ -23,6 +23,9 @@ Explore how we respond to fatigue (mainly physical here).
 	  - Lessons from a broad view of science: a response to Dr Robergs' article. [(Pires, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/29629188)
   - Perceived Fatigability: Utility of a Three-Dimensional Dynamical Systems Framework to Better Understand the Psychophysiological Regulation of Goal-Directed Exercise Behaviour. [(Venhorst and Noakes, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/30238409)
   - Towards a three-dimensional framework of centrally regulated and goal-directed exercise behaviour: a narrative review.[(Venhorst and Noakes, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/28835409)
+
+- Roger Enoka, et al.
+  -Fatigue and fatigability in neurologic illnesses. Proposal for a unified taxonomy [(Kluger and Enoka, 2013)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+23339207)
   
   
 - Related to Ratings of Perceived Exertion (RPE)
