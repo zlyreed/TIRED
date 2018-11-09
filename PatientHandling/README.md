@@ -4,7 +4,7 @@
 	
   - [NIOSH, Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
      - [NIOSH science blog: Preventing Back Injuries in Health Care Settings](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
-
+	 - [WHEN IS ITSAFE TO MANUALLY LIFT APATIENT?](http://www.asphp.org/wp-content/uploads/2011/05/When_Is_It_Safe_To_Manually_Lift_A_Patient.pdf)
   - Burden
     - cost
 	- current solutoins
@@ -17,6 +17,8 @@
 	- common issues
 	
   - Need
+  
+  - Impact
   
   
 	
