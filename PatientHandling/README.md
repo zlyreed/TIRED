@@ -29,7 +29,9 @@
   - [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
 
 # Exoskeleton in Patient Handling
-  - Perspective of workers
-  
+  - Perspective of workers  
   - Perspective of patients
+  
+  - Possible products:
+     - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
 
