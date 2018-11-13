@@ -25,7 +25,17 @@
 	
 	
   - **Need**
-  
+    - General statement of need
+	
+	- Evidence of knowledge gap
+	
+	- Methodological Approach
+	
+	- Time fit
+	
+	- NIOSH Advantage
+	
+	- Stakeholder need
   
   
   - current solutoins
@@ -38,7 +48,13 @@
 
   
   - **Impact**
-  
+    - General statement of impact
+	
+	- Likelihood of reserach to reduce burden
+	
+	- Use or dissemination of research results by others
+	
+	- Follow-on research
   
 	
 
