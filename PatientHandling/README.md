@@ -16,6 +16,7 @@
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
 		- [Safe Patient Handling in Health Care on Youtube](https://www.youtube.com/watch?v=Vy8T8BUAbE4)
+		- [SUCCESSFUL APPROACHES TO REDUCING OCCUPATIONAL MUSCULOSKELETAL DISORDERS WITHIN THE HEALTHCARE INDUSTRY](https://www.osha.gov/dte/library/nursinghomes/successapproach_hc.html)
 	
 	  - NIOSH
 		- [Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
@@ -60,11 +61,20 @@
 
 
 # Exoskeleton in material handling
-  - Review of assistive strategies in powered lower-limb orthoses and exoskeletons (picture with patient handling) [(Yan, 2015)](https://www.sciencedirect.com/science/article/pii/S0921889014002176)
-  - Exoskeletons for industrial application and their potential effects on physical work load. [(Michiel P. de Looze, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+26444053)
-  - Assessment of an active industrial exoskeleton to aid dynamic lifting and lowering manual handling tasks. [(Huysamen, 2018)](https://www.sciencedirect.com/science/article/pii/S0003687017302533)
-  - [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
+  - [Robo-Mate: Supporting workers with manual handling tasks](https://www.robo-mate.eu/)
+  - EksoBionics (passive)
+    - [EksoZeroG makes heavy tools feel weightless](https://eksobionics.com/eksoworks/)
+	- [EKsoVest](https://eksobionics.com/eksoworks/eksovest/)
+  
+  - Media:
+    - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
+	- [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
 
+  - Literature: 
+	- Review of assistive strategies in powered lower-limb orthoses and exoskeletons (picture with patient handling) [(Yan, 2015)](https://www.sciencedirect.com/science/article/pii/S0921889014002176)
+	- Exoskeletons for industrial application and their potential effects on physical work load. [(Michiel P. de Looze, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+26444053)
+	- Assessment of an active industrial exoskeleton to aid dynamic lifting and lowering manual handling tasks. [(Huysamen, 2018)](https://www.sciencedirect.com/science/article/pii/S0003687017302533)
+ 
 # Exoskeleton in Patient Handling
   - Perspective of workers  
   - Perspective of patients
