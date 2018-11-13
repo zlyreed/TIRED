@@ -38,13 +38,13 @@
 	- Stakeholder need
   
   
-  - current solutoins
-	 - [Patient Lifting Techniques (YouTube)](https://www.youtube.com/watch?v=VaUTYwC5how)
-	    - [Safe Transfer Techniques (Youtube)](https://www.youtube.com/watch?v=H23EZlPIcZU)
-	 - [MedLine products](https://www.medline.com/pages/business-solutions/staff-management/safe-patient-handling/)
-	 - [Various Hoyer Lift procedures](https://www.youtube.com/watch?v=RRz80J3hqtI) and [other videos](https://www.youtube.com/watch?v=ehj4j3eNdN0&list=PLEB3Gq4Lk7_iie7ylsokYFsFtSIhmBAEB)
-	 - Patient handling with and without slings: an analysis of the risk of injury to the lumbar spine [(Elford, 2000)](https://www.sciencedirect.com/science/article/pii/S0003687099000265)
-	 - [Rehabmart | QuickRaiser 205 Patient Lift by R82](https://www.youtube.com/watch?v=Ssj_RbvTwss)
+	- Information collection (current solutoins)
+	  - [Patient Lifting Techniques (YouTube)](https://www.youtube.com/watch?v=VaUTYwC5how)
+	  - [Safe Transfer Techniques (Youtube)](https://www.youtube.com/watch?v=H23EZlPIcZU)
+	  - [MedLine products](https://www.medline.com/pages/business-solutions/staff-management/safe-patient-handling/)
+	  - [Various Hoyer Lift procedures](https://www.youtube.com/watch?v=RRz80J3hqtI) and [other videos](https://www.youtube.com/watch?v=ehj4j3eNdN0&list=PLEB3Gq4Lk7_iie7ylsokYFsFtSIhmBAEB)
+      - Patient handling with and without slings: an analysis of the risk of injury to the lumbar spine [(Elford, 2000)](https://www.sciencedirect.com/science/article/pii/S0003687099000265)
+	  - [Rehabmart | QuickRaiser 205 Patient Lift by R82](https://www.youtube.com/watch?v=Ssj_RbvTwss)
 
   
   - **Impact**
