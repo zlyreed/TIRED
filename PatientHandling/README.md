@@ -1,24 +1,43 @@
 # Patient Handling
-  - [OSHA](https://www.osha.gov/dsg/hospitals/patient_handling.html)
-     - [Safe Patient Handling in Health Care on Youtube](https://www.youtube.com/watch?v=Vy8T8BUAbE4)
+
+  - **Burden**
+    - General statement of burden
 	
-  - [NIOSH, Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
-     - [NIOSH science blog: Preventing Back Injuries in Health Care Settings](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
-	 - [WHEN IS ITSAFE TO MANUALLY LIFT APATIENT?](http://www.asphp.org/wp-content/uploads/2011/05/When_Is_It_Safe_To_Manually_Lift_A_Patient.pdf)
-  - Burden
-    - cost
-	- current solutoins
+	- Exposure/Hazard
+	
+	- Injury/Illness
+	
+	- Disability/Severity
+	
+	- cost
+
+	
+	- Literature:
+	  - OSHA
+		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
+		- [Safe Patient Handling in Health Care on Youtube](https://www.youtube.com/watch?v=Vy8T8BUAbE4)
+	
+	  - NIOSH
+		- [Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
+		- [NIOSH science blog: Preventing Back Injuries in Health Care Settings](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
+		- [WHEN IS ITSAFE TO MANUALLY LIFT APATIENT?](http://www.asphp.org/wp-content/uploads/2011/05/When_Is_It_Safe_To_Manually_Lift_A_Patient.pdf)
+  
+	
+	
+  - **Need**
+  
+  
+  
+  - current solutoins
 	 - [Patient Lifting Techniques (YouTube)](https://www.youtube.com/watch?v=VaUTYwC5how)
 	    - [Safe Transfer Techniques (Youtube)](https://www.youtube.com/watch?v=H23EZlPIcZU)
 	 - [MedLine products](https://www.medline.com/pages/business-solutions/staff-management/safe-patient-handling/)
 	 - [Various Hoyer Lift procedures](https://www.youtube.com/watch?v=RRz80J3hqtI) and [other videos](https://www.youtube.com/watch?v=ehj4j3eNdN0&list=PLEB3Gq4Lk7_iie7ylsokYFsFtSIhmBAEB)
 	 - Patient handling with and without slings: an analysis of the risk of injury to the lumbar spine [(Elford, 2000)](https://www.sciencedirect.com/science/article/pii/S0003687099000265)
 	 - [Rehabmart | QuickRaiser 205 Patient Lift by R82](https://www.youtube.com/watch?v=Ssj_RbvTwss)
-	- common issues
-	
-  - Need
+
   
-  - Impact
+  - **Impact**
   
   
 	
