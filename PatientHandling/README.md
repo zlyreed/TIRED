@@ -80,6 +80,8 @@
   - Perspective of patients
   
 # Possible Products:
-  - [Patient Handling exoskeleton: Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
+  - [Patient Handling exoskeleton: 
+     - [HAL wikipedia](https://en.wikipedia.org/wiki/HAL_(robot))
+     - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
   - [exoskeleton robotic suit (XOS 2) from Raytheon](http://multivu.prnewswire.com/mnr/raytheon/46273/)
 
