@@ -12,13 +12,13 @@
 	- cost
 
 	
-	- Literature:
+	- Literature and online information:
 	  - Bureau of labor statistics (BLS)
-	    - [What Nursing Assistants and Orderlies Do](https://www.bls.gov/ooh/healthcare/nursing-assistants.htm#tab-2)
+	    - [What Nursing Assistants and Orderlies Do](https://www.bls.gov/ooh/healthcare/nursing-assistants.htm#tab-2):Nursing assistants, sometimes called nursing aides, help provide basic care for patients in hospitals and residents of long-term care facilities, such as nursing homes. Orderlies transport patients and clean treatment areas.
 		- Occupational Employment and Wages, May 2017: 
 		  - [31-1014 Nursing Assistants](https://www.bls.gov/oes/current/oes311014.htm): Provide basic patient care under direction of nursing staff. Perform duties such as feed, bathe, dress, groom, or move patients, or change linens. May transfer or transport patients. Includes nursing care attendants, nursing aides, and nursing attendants. 
 		  - [31-1015 Orderlies](https://www.bls.gov/oes/current/oes311015.htm): Transport patients to areas such as operating rooms or x-ray rooms using wheelchairs, stretchers, or moveable beds. May maintain stocks of supplies or clean and transport equipment. 
-		  - [29-1141 Registered Nurses](https://www.bls.gov/oes/2017/may/oes291141.htm): Assess patient health problems and needs, develop and implement nursing care plans, and maintain medical records. Administer nursing care to ill, injured, convalescent, or disabled patients. May advise patients on health maintenance and disease prevention or provide case management. Licensing or registration required. Registered Nurses, with 2.9 million jobs, was the largest healthcare occupation
+		  - [29-1141 Registered Nurses](https://www.bls.gov/oes/2017/may/oes291141.htm): Assess patient health problems and needs, develop and implement nursing care plans, and maintain medical records. Administer nursing care to ill, injured, convalescent, or disabled patients. May advise patients on health maintenance and disease prevention or provide case management. Licensing or registration required. Registered Nurses, with 2.9 million jobs, was the **largest** healthcare occupation.
 		  - Other than registered nurses, the largest healthcare occupations were nursing assistants (1.5 million), home health aides (820,960), and licensed practical and licensed vocational nurses (702,700). (See [table 1](https://www.bls.gov/news.release/pdf/ocwage.pdf)) 
 	  
 	  - OSHA
