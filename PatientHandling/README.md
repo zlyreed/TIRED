@@ -28,7 +28,12 @@
 	
 	  - NIOSH
 		- [Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
-		   - The American Association for Safe Patient Handling and Movement (AASPHM): [Healthcare Recipient Sling and Lift Hanger Bar Compatibility Guidelines 2016](https://aasphm.org/wp-content/uploads/AASPHM-Poster-2018-final.pdf)
+		   - The American Association for Safe Patient Handling and Movement ([AASPHM](https://aasphm.org/)): 
+		      - [Healthcare Recipient Sling and Lift Hanger Bar Compatibility Guidelines 2016](https://aasphm.org/wp-content/uploads/Sling-Hanger-Bar-Guidance-meeting-SPHM-conf-April-2016.pdf)
+			  - [Healthcare Recipient Sling and Lift Hanger Bar Compatibility Guidelines Presentation made at the 2017 SPHM conference](https://aasphm.org/wp-content/uploads/sling-and-hangerbar-ppt-sphm-2017-Enos-Deter.pdf)
+			  - [Poster about the Guidelines and Sling and Hangerbar compatibility displayed at the 2018 SPHM conference in Orlando](https://aasphm.org/wp-content/uploads/AASPHM-Poster-2018-final.pdf)
+			  
+			  
 		- [NIOSH science blog: Preventing Back Injuries in Health Care Settings](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
 		- [WHEN IS ITSAFE TO MANUALLY LIFT APATIENT?](http://www.asphp.org/wp-content/uploads/2011/05/When_Is_It_Safe_To_Manually_Lift_A_Patient.pdf)
   
