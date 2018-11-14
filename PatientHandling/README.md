@@ -18,9 +18,14 @@
 		- Occupational Employment and Wages, May 2017: 
 		  - [31-1014 Nursing Assistants](https://www.bls.gov/oes/current/oes311014.htm): Provide basic patient care under direction of nursing staff. Perform duties such as feed, bathe, dress, groom, or move patients, or change linens. May transfer or transport patients. Includes nursing care attendants, nursing aides, and nursing attendants. 
 		  - [31-1015 Orderlies](https://www.bls.gov/oes/current/oes311015.htm): Transport patients to areas such as operating rooms or x-ray rooms using wheelchairs, stretchers, or moveable beds. May maintain stocks of supplies or clean and transport equipment. 
+		  - [29-1171 Nurse practitioners](https://www.bls.gov/oes/current/oes291171.htm): Diagnose and treat acute, episodic, or chronic illness, independently or as part of a healthcare team. May focus on health promotion and disease prevention. May order, perform, or interpret diagnostic tests such as lab work and x rays. May prescribe medication. Must be registered nurses who have specialized graduate education.
 		  - [29-1141 Registered Nurses](https://www.bls.gov/oes/2017/may/oes291141.htm): Assess patient health problems and needs, develop and implement nursing care plans, and maintain medical records. Administer nursing care to ill, injured, convalescent, or disabled patients. May advise patients on health maintenance and disease prevention or provide case management. Licensing or registration required. Registered nurses, with 2.9 million jobs, was the **largest** healthcare occupation.
 		  - Other than registered nurses, the largest healthcare occupations were nursing assistants (1.5 million), home health aides (820,960), and licensed practical and licensed vocational nurses (702,700). (See [table 1](https://www.bls.gov/news.release/pdf/ocwage.pdf)) 
-	  
+	    - [Employed persons by detailed occupation, sex, race, and Hispanic or Latino ethnicity (Numbers in thousands)](https://www.bls.gov/cps/cpsaat11.htm)
+		  - Nursing, psychiatric, and home health aides: 88.6% of total employed is women
+		  - Registered nurses: 89.9% of total employed is women
+		  - Nurse practitioners: 92.2% of total employed is women
+		
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
 		- [Safe Patient Handling in Health Care on Youtube](https://www.youtube.com/watch?v=Vy8T8BUAbE4)
