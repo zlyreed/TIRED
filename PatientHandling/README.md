@@ -79,7 +79,7 @@
   - Perspective of workers  
   - Perspective of patients
   
-# Possible products:
-     - [Patient Handling exoskeleton: Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
-	 - [exoskeleton robotic suit (XOS 2) from Raytheon](http://multivu.prnewswire.com/mnr/raytheon/46273/)
+# Possible Products:
+  - [Patient Handling exoskeleton: Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
+  - [exoskeleton robotic suit (XOS 2) from Raytheon](http://multivu.prnewswire.com/mnr/raytheon/46273/)
 
