@@ -22,9 +22,9 @@
 		  - [29-1141 Registered Nurses](https://www.bls.gov/oes/2017/may/oes291141.htm): Assess patient health problems and needs, develop and implement nursing care plans, and maintain medical records. Administer nursing care to ill, injured, convalescent, or disabled patients. May advise patients on health maintenance and disease prevention or provide case management. Licensing or registration required. Registered nurses, with 2.9 million jobs, was the **largest** healthcare occupation.
 		  - Other than registered nurses, the largest healthcare occupations were nursing assistants (1.5 million), home health aides (820,960), and licensed practical and licensed vocational nurses (702,700). (See [table 1](https://www.bls.gov/news.release/pdf/ocwage.pdf)) 
 	    - [Employed persons by detailed occupation, sex, race, and Hispanic or Latino ethnicity (Numbers in thousands)](https://www.bls.gov/cps/cpsaat11.htm)
-		  - Nursing, psychiatric, and home health aides: 88.6% of total employed is women
-		  - Registered nurses: 89.9% of total employed is women
-		  - Nurse practitioners: 92.2% of total employed is women
+		  - Nursing, psychiatric, and home health aides: 88.6% of total employees are women;
+		  - Registered nurses: 89.9% of total employees are women
+		  - Nurse practitioners: 92.2% of total employees are women
 		
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
