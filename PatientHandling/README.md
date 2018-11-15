@@ -26,14 +26,14 @@
 		  - Registered nurses: 89.9% of total employees are women
 		  - Nurse practitioners: 92.2% of total employees are women
 		  - Emergency medical technicians and paramedics: 30.6% of total employees are women
-		- TABLE R8. Incidence rates1 for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry
+		- Incidence rate for Overexertion injury(per 10,000 workers; Total/ Overexertion in lifting or lowering; from BLS website: R8. Incidence rates for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry
 		  
- 		   Years      |Across all industries | Hospital workers  | Nursing care facilities          | Community care facilities for the elderly| Ambulance services
+ 		   Years    |Across all industries | Hospital workers  | Nursing care facilities          | Community care facilities for the elderly| Ambulance services
 		   ------------- |-------------|-------------| -------------|-------------|-------------
-           [2014](https://www.bls.gov/iif/oshwc/osh/case/ostb4374.pdf)  |33.3  |68.4  | 107.4 |82.8 |174.5
-           [2015](https://www.bls.gov/iif/oshwc/osh/case/ostb4760.pdf)  |31.3  |62.9| 95.5      |   85.8 |148.7 
-           [2016](https://www.bls.gov/iif/oshcdnew2016.htm) | 30.9 | 62.1   | 93.7 | 79.8|   143.5
-		   [2017](https://www.bls.gov/iif/oshwc/osh/case/cd_r8_2017.htm) | 30.0 |   56.7   | 85.6 |   70.9 |134.5
+           [2014](https://www.bls.gov/iif/oshwc/osh/case/ostb4374.pdf)  |33.3 /10.7  |68.4 /15.7 | 107.4/25.7 |82.8/24.5 |174.5/93.1
+           [2015](https://www.bls.gov/iif/oshwc/osh/case/ostb4760.pdf)  |31.3 /9.8 |62.9/14.9| 95.5/24.4      |   85.8/26.6 |148.7 /80.4
+           [2016](https://www.bls.gov/iif/oshcdnew2016.htm) | 30.9/9.7 | 62.1/ 15.6  | 93.7/21.5| 79.8/20.9 |   143.5/63.6
+		   [2017](https://www.bls.gov/iif/oshwc/osh/case/cd_r8_2017.htm) | 30.0 / 9.9|   56.7 /15.4  | 85.6 / 22.9|   70.9 /21.8|134.5/72.1
 
 		  - 2014
 		  - [2015, overexertion and bodily reation (total)](https://www.bls.gov/iif/oshwc/osh/case/ostb4760.pdf): Nursing care facilities: 95.5; Living facilities for elderly: 85.8; 
