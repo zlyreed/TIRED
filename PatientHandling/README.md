@@ -35,11 +35,6 @@
            [2016](https://www.bls.gov/iif/oshcdnew2016.htm) | 30.9/9.7 | 62.1/ 15.6  | 93.7/21.5| 79.8/20.9 |   143.5/63.6
 		   [2017](https://www.bls.gov/iif/oshwc/osh/case/cd_r8_2017.htm) | 30.0 / 9.9|   56.7 /15.4  | 85.6 / 22.9|   70.9 /21.8|134.5/72.1
 
-		  - 2014
-		  - [2015, overexertion and bodily reation (total)](https://www.bls.gov/iif/oshwc/osh/case/ostb4760.pdf): Nursing care facilities: 95.5; Living facilities for elderly: 85.8; 
-		  - 2016
-		  - 2017
-		
 		
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
