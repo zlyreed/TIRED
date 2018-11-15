@@ -26,9 +26,9 @@
 		  - Registered nurses: 89.9% of total employees are women
 		  - Nurse practitioners: 92.2% of total employees are women
 		  - Emergency medical technicians and paramedics: 30.6% of total employees are women
-		- Incidence rate for Overexertion injury(per 10,000 workers; Total/ Overexertion in lifting or lowering; from BLS website: R8. Incidence rates for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry
+		- Incidence rate for Overexertion injury (from BLS website: R8. Incidence rates for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry
 		  
- 		   Years    |Across all industries | Hospital workers  | Nursing care facilities          | Community care facilities for the elderly| Ambulance services
+ 		   Years (per 10,000 workers; Total/ in lifting or lowering)    |Across all industries | Hospital workers  | Nursing care facilities          | Community care facilities for the elderly| Ambulance services
 		   ------------- |-------------|-------------| -------------|-------------|-------------
            [2014](https://www.bls.gov/iif/oshwc/osh/case/ostb4374.pdf)  |33.3 /10.7  |68.4 /15.7 | 107.4/25.7 |82.8/24.5 |174.5/93.1
            [2015](https://www.bls.gov/iif/oshwc/osh/case/ostb4760.pdf)  |31.3 /9.8 |62.9/14.9| 95.5/24.4      |   85.8/26.6 |148.7 /80.4
