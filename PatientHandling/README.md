@@ -1,4 +1,6 @@
 # Patient Handling
+How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
+  - [What do we mean by Burden, Need and Impact?](https://www.cdc.gov/niosh/programs/bni.html)
 
   - **Burden**
     - General statement of burden
@@ -42,7 +44,8 @@
 		- [SUCCESSFUL APPROACHES TO REDUCING OCCUPATIONAL MUSCULOSKELETAL DISORDERS WITHIN THE HEALTHCARE INDUSTRY](https://www.osha.gov/dte/library/nursinghomes/successapproach_hc.html)
 	
 	  - NIOSH
-		- [MSD Burden](https://www.cdc.gov/niosh/programs/hcsa/burden.html): [NIOSH Program Portfolio](https://www.cdc.gov/niosh/programs/default.html)--> Sector Programs: [Healthcare and Social Assistance](https://www.cdc.gov/niosh/programs/hcsa/)--> [Burden, Need and Impact](https://www.cdc.gov/niosh/programs/hcsa/burden.html):
+		- [Healthcare and Social Assistance (HCSA) program](https://www.cdc.gov/niosh/programs/hcsa/burden.html): [NIOSH Program Portfolio](https://www.cdc.gov/niosh/programs/default.html)--> Sector Programs: [Healthcare and Social Assistance](https://www.cdc.gov/niosh/programs/hcsa/)--> [MSDs: Burden, Need and Impact](https://www.cdc.gov/niosh/programs/hcsa/burden.html):
+		   - Nearly 21 million workers are employed in private and public sector industries covered by the Healthcare and Social Assistance (HCSA) program in 2016. 
 		   - **Burden**: According to the Bureau of Labor Statistics, in 2016 there were 154,680 total injury and illness cases with days away from work in the HCSA sector, accounting for 17.3% of all such cases in all private industry.1 The highest incidence rate (reported as cases per 10,000 FTEs) of injury and illness cases with days away from work was in other residential care facilities (241.5), psychiatric and substance abuse hospitals (228.5) and nursing care facilities (201.6).2  The following occupations had the highest incidence rates : psychiatric aides (671), psychiatric technicians (594), occupational therapy aides (304) and  nurse orderlies (302).3
            - **Need**: 
 		       - The incidence rate of MSDs in the HCSA sector (42.9) ranks second among all other industries and is 44% higher than the average for all private industry establishments.4 The incidence rate for MSDs are even higher in HCSA state and local government establishments, 210% and 37% respectively.4
