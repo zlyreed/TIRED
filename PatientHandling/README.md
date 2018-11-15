@@ -26,7 +26,7 @@
 		  - Registered nurses: 89.9% of total employees are women
 		  - Nurse practitioners: 92.2% of total employees are women
 		  - Emergency medical technicians and paramedics: 30.6% of total employees are women
-		- Incidence rate for Overexertion injury (from BLS website: R8. Incidence rates for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry
+		- Incidence rate for Overexertion injury (from BLS website: R8. Incidence rates for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry)
 		  
  		   Years (per 10,000 workers; Total/ in lifting or lowering)    |Across all industries | Hospital workers  | Nursing care facilities          | Community care facilities for the elderly| Ambulance services
 		   ------------- |-------------|-------------| -------------|-------------|-------------
@@ -42,7 +42,13 @@
 		- [SUCCESSFUL APPROACHES TO REDUCING OCCUPATIONAL MUSCULOSKELETAL DISORDERS WITHIN THE HEALTHCARE INDUSTRY](https://www.osha.gov/dte/library/nursinghomes/successapproach_hc.html)
 	
 	  - NIOSH
-		- [MSD Burden](https://www.cdc.gov/niosh/programs/hcsa/burden.html): [NIOSH Program Portfolio](https://www.cdc.gov/niosh/programs/default.html)--> Sector Programs: [Healthcare and Social Assistance](https://www.cdc.gov/niosh/programs/hcsa/)-->
+		- [MSD Burden](https://www.cdc.gov/niosh/programs/hcsa/burden.html): [NIOSH Program Portfolio](https://www.cdc.gov/niosh/programs/default.html)--> Sector Programs: [Healthcare and Social Assistance](https://www.cdc.gov/niosh/programs/hcsa/)--> [Burden, Need and Impact](https://www.cdc.gov/niosh/programs/hcsa/burden.html):
+		   - **Burden**: According to the Bureau of Labor Statistics, in 2016 there were 154,680 total injury and illness cases with days away from work in the HCSA sector, accounting for 17.3% of all such cases in all private industry.1 The highest incidence rate (reported as cases per 10,000 FTEs) of injury and illness cases with days away from work was in other residential care facilities (241.5), psychiatric and substance abuse hospitals (228.5) and nursing care facilities (201.6).2  The following occupations had the highest incidence rates : psychiatric aides (671), psychiatric technicians (594), occupational therapy aides (304) and  nurse orderlies (302).3
+           - **Need**: 
+		       - The incidence rate of MSDs in the HCSA sector (42.9) ranks second among all other industries and is 44% higher than the average for all private industry establishments.4 The incidence rate for MSDs are even higher in HCSA state and local government establishments, 210% and 37% respectively.4
+		       - Some jobs within HCSA have higher MSD rates than others, such as nurses, nursing assistants and home health aides. In 2015, nursing assistants had the second highest number of cases (19,360) and 3rd highest incidence rate (180.5) of MSDs among all occupations across all ownerships (i.e., total private, state and local government). 5
+           - **Impact**: Expanding the NIOSH effort on this goal will advance NIOSH impact on developing effective and practical strategies to prevent MSDs in HCSA, which will also impact other industrial sectors including construction, public safety, services, oil and gas, and manufacturing. NIOSH has a track record of implementing and evaluating interventions for reducing MSDs and is poised to continue such work in this sector.  The Revised NIOSH Lifting Equation helps healthcare workers determine how much weight can be safely lifted without using assistive equipment. Other resources such as the Safe Lifting and Movement of Nursing Home Residents continue to provide information to employers and workers in the HCSA sector.
+		
 		- [Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
 		   - The American Association for Safe Patient Handling and Movement ([AASPHM](https://aasphm.org/)): 
 		      - [Healthcare Recipient Sling and Lift Hanger Bar Compatibility Guidelines 2016](https://aasphm.org/wp-content/uploads/Sling-Hanger-Bar-Guidance-meeting-SPHM-conf-April-2016.pdf)
