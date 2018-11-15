@@ -42,6 +42,7 @@
 		- [SUCCESSFUL APPROACHES TO REDUCING OCCUPATIONAL MUSCULOSKELETAL DISORDERS WITHIN THE HEALTHCARE INDUSTRY](https://www.osha.gov/dte/library/nursinghomes/successapproach_hc.html)
 	
 	  - NIOSH
+		- [MSD Burden](https://www.cdc.gov/niosh/programs/hcsa/burden.html): [NIOSH Program Portfolio](https://www.cdc.gov/niosh/programs/default.html)--> Sector Programs: [Healthcare and Social Assistance](https://www.cdc.gov/niosh/programs/hcsa/)-->
 		- [Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
 		   - The American Association for Safe Patient Handling and Movement ([AASPHM](https://aasphm.org/)): 
 		      - [Healthcare Recipient Sling and Lift Hanger Bar Compatibility Guidelines 2016](https://aasphm.org/wp-content/uploads/Sling-Hanger-Bar-Guidance-meeting-SPHM-conf-April-2016.pdf)
@@ -58,12 +59,15 @@
     - General statement of need
 	
 	- Evidence of knowledge gap
+	  - The panel identified the following opportunities and perceived gaps (NIOSH_HCSA_Program_Review_Panel_Report_Oct_2017-508.pdf)
+	  - The single greatest risk factor for MSDs in healthcare workers was the manual lifting, moving, and repositioning of patients, residents, or clients (BLS, 2004).(NIOSH_HCSA_Evidence_Package_April_2017-508.pdf)
 	
 	- Methodological Approach
 	
 	- Time fit
 	
 	- NIOSH Advantage
+	  - [Center for Occupational Robotics Research (CORR)](https://www.cdc.gov/niosh/topics/robotics/default.html) Mission: Provide scientific leadership to guide the development and use of occupational robots that enhance worker safety, health, and wellbeing.
 	
 	- Stakeholder need
   
@@ -79,6 +83,8 @@
   
   - **Impact**
     - General statement of impact
+	   - Healthcare and Social Assistance Program [Impact](https://www.cdc.gov/niosh/programs/hcsa/impact.html)
+	   - [The NORA Healthcare and Social Assistance (HCSA) Council](https://www.cdc.gov/nora/councils/hcsa/default.html)
 	
 	- Likelihood of reserach to reduce burden
 	
