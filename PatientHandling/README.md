@@ -126,4 +126,12 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
      - [HAL wikipedia](https://en.wikipedia.org/wiki/HAL_(robot))
      - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
   - [Exoskeleton robotic suit (XOS 2) from Raytheon, US](http://multivu.prnewswire.com/mnr/raytheon/46273/)
-
+  - [Robotic suit gives shipyard workers super strength, by Daewoo Shipbuilding and Marine Engineering, South Korea](https://www.newscientist.com/article/mg22329803-900-robotic-suit-gives-shipyard-workers-super-strength/): Workers building the world’s biggest ships could soon don robotic exoskeletons to lug around 100-kilogram hunks of metal as if they’re nothing
+  - [Hercule, by French company RB3D](https://exoskeletonreport.com/product/hercule/)
+     -[Hercule exoskeleton can help a regular human carry up to 220 pounds](https://www.theverge.com/2012/2/22/2815704/hercule-exoskeleton-human-carry-220-pounds)
+  - [Berkeley Bionics Human Exoskeleton](https://www.theverge.com/2011/12/2/2606815/ekso-bionics-demos-exoskeleton-at-ted-med-conference)
+    - [ekso](https://eksobionics.com/): [EksoVest](https://eksobionics.com/eksoworks/eksovest/) available
+  - [Watch Panasonic's power-lifting exoskeletons in action, 2016](https://www.wired.co.uk/article/panasonic-robot-suit-exoskeleton)
+    - [40% Weight Reduction - ATOUN to Launch New Power Assist Suits for the Hip, Suitable for Caregiving, 2017](https://news.panasonic.com/global/topics/2017/53494.html)
+  
+  
