@@ -124,6 +124,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 # Possible Products:
   - Patient Handling exoskeleton (Japan): 
      - [HAL wikipedia](https://en.wikipedia.org/wiki/HAL_(robot))
+	    - [more pictures, in Japanese](http://minano-fukushikai.sblo.jp/article/178955592.html)
      - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
   - [Exoskeleton robotic suit (XOS 2) from Raytheon, US](http://multivu.prnewswire.com/mnr/raytheon/46273/)
   - [Robotic suit gives shipyard workers super strength, by Daewoo Shipbuilding and Marine Engineering, South Korea](https://www.newscientist.com/article/mg22329803-900-robotic-suit-gives-shipyard-workers-super-strength/): Workers building the world’s biggest ships could soon don robotic exoskeletons to lug around 100-kilogram hunks of metal as if they’re nothing
@@ -132,6 +133,20 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Berkeley Bionics Human Exoskeleton](https://www.theverge.com/2011/12/2/2606815/ekso-bionics-demos-exoskeleton-at-ted-med-conference)
     - [ekso](https://eksobionics.com/): [EksoVest](https://eksobionics.com/eksoworks/eksovest/) available
   - [Watch Panasonic's power-lifting exoskeletons in action, 2016](https://www.wired.co.uk/article/panasonic-robot-suit-exoskeleton)
-    - [40% Weight Reduction - ATOUN to Launch New Power Assist Suits for the Hip, Suitable for Caregiving, 2017](https://news.panasonic.com/global/topics/2017/53494.html)
+    - [Japan's older employees are now using robotic suits to help them lift heavy loads, 2017](https://www.businessinsider.com/japanese-japan-employee-robotic-suits-weight-power-assist-robot-boxes-2017-6)
+	- [40% Weight Reduction - ATOUN to Launch New Power Assist Suits for the Hip, Suitable for Caregiving, 2017](https://news.panasonic.com/global/topics/2017/53494.html)
   
+  - [Power Assist Suite （PAS）](https://www.ok-robotics.com/english/technology-of-ok-robotics/power-assist-suite/)
+  - [LG takes a load off with AI-controlled exoskeleton](https://newatlas.com/tag/exoskeleton/): [The SuitBot has sandal-style shoes designed to be easy to slide your own feet into, and will automatically adjust to individual users., 2018](https://newatlas.com/lg-cloi-suitbot/56043/)
+  - [NASA’s Newest Wearable Technology Takes on the Human Shoulder, 2018](NASA’s Newest Wearable Technology Takes on the Human Shoulder)
+    - [NASA's Ironman-Like Exoskeleton Could Give Astronauts, Paraplegics Improved Mobility and Strength, 2013](NASA's Ironman-Like Exoskeleton Could Give Astronauts, Paraplegics Improved Mobility and Strength)
+    - [ihmc robotics](http://robots.ihmc.us/mobility-exoskeletons/)
+  - [Navy's exoskeleton could make workers 20 times more productive, 2014](www.cnn.com/2014/10/14/tech/innovation/navy-exoskeleton-fortis/index.html)
+  - [Need to lift something? Try wearing a Kawasaki robotic exoskeleton, 2011](https://www.digitaltrends.com/cool-tech/need-to-lift-something-try-wearing-a-kawasaki-robotic-exoskeleton/)
+  
+  
+  Opinions on exoskeletons
+  - [The San Francisco Bay Area is Becoming a Hub for Exoskeleton and Exosuit Technology](https://exoskeletonreport.com/2018/08/the-san-francisco-bay-area-is-becoming-a-hub-for-exoskeleton-and-exosuit-technology/)
+  - [The Swiss Exoskeleton Landscape – A Human Augmentation Hub Hidden in the Mountains](https://exoskeletonreport.com/2018/10/the-swiss-exoskeleton-landscape-a-human-augmentation-hub-hidden-in-the-mountains/)
+  - [Reducing The Cost Of Exoskeleton Devices](https://exoskeletonreport.com/2015/09/reducing-the-cost-of-exoskeleton-devices/)
   
