@@ -143,10 +143,16 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
     - [ihmc robotics](http://robots.ihmc.us/mobility-exoskeletons/)
   - [Navy's exoskeleton could make workers 20 times more productive, 2014](www.cnn.com/2014/10/14/tech/innovation/navy-exoskeleton-fortis/index.html)
   - [Need to lift something? Try wearing a Kawasaki robotic exoskeleton, 2011](https://www.digitaltrends.com/cool-tech/need-to-lift-something-try-wearing-a-kawasaki-robotic-exoskeleton/)
+  - [1st Stand Alone Suit (2002)](http://www.rm.kanagawa-it.ac.jp/~yamamoto_lab/pas/)
+  - [Atoun, powered wear, Japan](http://atoun.co.jp/)
+     - [Atoun Model Y](http://atoun.co.jp/products/atoun-model-y)
+  - [Otherlab](https://otherlab.com/), CA
+     - [ROAM](https://www.roamrobotics.com/#usearea): Pneumatic exoskeletons
+	 - [Pneubotics](http://www.pneubotics.com/): The possibilities for robots are endless in a future when robotic manipulators are easy to install, transport, deploy, and are safe around people.
   
   
   Opinions on exoskeletons
   - [The San Francisco Bay Area is Becoming a Hub for Exoskeleton and Exosuit Technology](https://exoskeletonreport.com/2018/08/the-san-francisco-bay-area-is-becoming-a-hub-for-exoskeleton-and-exosuit-technology/)
   - [The Swiss Exoskeleton Landscape – A Human Augmentation Hub Hidden in the Mountains](https://exoskeletonreport.com/2018/10/the-swiss-exoskeleton-landscape-a-human-augmentation-hub-hidden-in-the-mountains/)
   - [Reducing The Cost Of Exoskeleton Devices](https://exoskeletonreport.com/2015/09/reducing-the-cost-of-exoskeleton-devices/)
-  
+  - [The Allure of Ski Exoskeletons](https://exoskeletonreport.com/2018/04/the-allure-of-ski-exoskeletons/): compare three types of skii exoskeletons
