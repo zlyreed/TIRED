@@ -28,7 +28,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 		  - Registered nurses: 89.9% of total employees are women
 		  - Nurse practitioners: 92.2% of total employees are women
 		  - Emergency medical technicians and paramedics: 30.6% of total employees are women
-		- Incidence rate for Overexertion injury (from BLS website: R8. Incidence rates for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry)
+		- [Incidence rate for Overexertion injury](https://www.bls.gov/iif/oshcdnew.htm) (from BLS website: R8. Incidence rates for nonfatal occupational injuries and illnesses involving days away from work per 10,000 full-time workers by industry and selected events or exposures leading to injury or illness, private industry)
 		  
  		   Years (per 10,000 workers; Total/ in lifting or lowering)    |Across all industries | Hospital workers  | Nursing care facilities          | Community care facilities for the elderly| Ambulance services
 		   ------------- |-------------|-------------| -------------|-------------|-------------
