@@ -149,10 +149,21 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Otherlab](https://otherlab.com/), CA
      - [ROAM](https://www.roamrobotics.com/#usearea): Pneumatic exoskeletons
 	 - [Pneubotics](http://www.pneubotics.com/): The possibilities for robots are endless in a future when robotic manipulators are easy to install, transport, deploy, and are safe around people.
+  - [SRI Super Flex exosuit](https://exoskeletonreport.com/2016/04/sri-robotics-super-flex-exosuit/)
+     - [SRI Robotics Exosuits And 4D Materials](https://exoskeletonreport.com/2015/12/sri-robotics-exosuits/): Current debate on powering exoskeletons and exosuits: hydraulic, pneumatic, motorized or passive. SRI think tank is looking into a fifth, brand new option such as 4D materials and artificial muscles.
+	 - [Soft Robots Are Reshaping the Future of Robotics](https://www.sri.com/blog/soft-robots-are-reshaping-future-robotics) 
+  
   
   
   Opinions on exoskeletons
   - [The San Francisco Bay Area is Becoming a Hub for Exoskeleton and Exosuit Technology](https://exoskeletonreport.com/2018/08/the-san-francisco-bay-area-is-becoming-a-hub-for-exoskeleton-and-exosuit-technology/)
   - [The Swiss Exoskeleton Landscape – A Human Augmentation Hub Hidden in the Mountains](https://exoskeletonreport.com/2018/10/the-swiss-exoskeleton-landscape-a-human-augmentation-hub-hidden-in-the-mountains/)
   - [Reducing The Cost Of Exoskeleton Devices](https://exoskeletonreport.com/2015/09/reducing-the-cost-of-exoskeleton-devices/)
-  - [The Allure of Ski Exoskeletons](https://exoskeletonreport.com/2018/04/the-allure-of-ski-exoskeletons/): compare three types of skii exoskeletons
+  - [The Allure of Ski Exoskeletons](https://exoskeletonreport.com/2018/04/the-allure-of-ski-exoskeletons/): compare three types of skii exoskeletons.
+  - [Soft Robotics Toolkit](https://softroboticstoolkit.com/): The Soft Robotics Toolkit is a collection of shared resources to support the design, fabrication, modeling, characterization, and control of soft robotic devices. 
+  - [HomeBrew Robotics Club](http://www.hbrobotics.org/): The HomeBrew Robotics Club was resurrected from the ashes of the original HomeBrew Computer Club by a group enthusiasts who were interested in the emerging field of robotics.
+     - [HBRC meeting youtube videos](https://www.youtube.com/user/hbrobotics/videos)
+  - [How soft robots will help sick kids walk and make the elderly stronger](https://splinternews.com/how-soft-robots-will-help-sick-kids-walk-and-make-the-e-1793852928)
+  
+  
+  
