@@ -102,8 +102,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 	- Follow-on research
   
 	
-# Exoskeleton in material handling
-  - [WR listing](http://www.wearablerobotics.com/wr-listing/): The Wearable Robotics Association (WearRA) seeks to identify all commercially available wearable robotic technologies from around the globe. 
+# Exoskeleton in material handling ([powered exoskeleton](https://en.wikipedia.org/wiki/Powered_exoskeleton))
   - [Robo-Mate: Supporting workers with manual handling tasks](https://www.robo-mate.eu/)
   - EksoBionics (passive)
     - [EksoZeroG makes heavy tools feel weightless](https://eksobionics.com/eksoworks/)
@@ -112,29 +111,6 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Panasonic - ActiveLink AWN-03 Exoskeleton, 2016](https://exoskeletonreport.com/2016/06/connecting-customers-to-product-lift-carry-exoskeletons/)
      - [No More Power Barriers with Panasonic Assist Robots](https://news.panasonic.com/global/stories/2016/44969.html)
   - [SuitX](https://www.suitx.com/backx) 
-  
-  
-  - Media:
-    - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
-	- [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
-
-  - Literature: 
-	- Review of assistive strategies in powered lower-limb orthoses and exoskeletons (picture with patient handling) [(Yan, 2015)](https://www.sciencedirect.com/science/article/pii/S0921889014002176)
-	- Exoskeletons for industrial application and their potential effects on physical work load. [(Michiel P. de Looze, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+26444053)
-	- Assessment of an active industrial exoskeleton to aid dynamic lifting and lowering manual handling tasks. [(Huysamen, 2018)](https://www.sciencedirect.com/science/article/pii/S0003687017302533)
- 
-# Exoskeleton in Patient Handling
-  - Perspective of workers  
-  - Perspective of patients
-  
-# Possible Products ([powered exoskeleton](https://en.wikipedia.org/wiki/Powered_exoskeleton):
-  - Patient Handling exoskeleton (Japan): 
-     - [HAL wikipedia](https://en.wikipedia.org/wiki/HAL_(robot))
-	    - [more pictures, in Japanese](http://minano-fukushikai.sblo.jp/article/178955592.html)
-     - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
-	 - [The hybrid assistive limb (HAL) for Care Support successfully reduced lumbar load in repetitive lifting movements. 2018](https://www.ncbi.nlm.nih.gov/pubmed/29731278)
-  - [Exoskeleton robotic suit (XOS 2) from Raytheon, US](http://multivu.prnewswire.com/mnr/raytheon/46273/)
-  - [Robotic suit gives shipyard workers super strength, by Daewoo Shipbuilding and Marine Engineering, South Korea](https://www.newscientist.com/article/mg22329803-900-robotic-suit-gives-shipyard-workers-super-strength/): Workers building the world’s biggest ships could soon don robotic exoskeletons to lug around 100-kilogram hunks of metal as if they’re nothing
   - [Hercule, by French company RB3D](https://exoskeletonreport.com/product/hercule/)
      -[Hercule exoskeleton can help a regular human carry up to 220 pounds](https://www.theverge.com/2012/2/22/2815704/hercule-exoskeleton-human-carry-220-pounds)
   - [Berkeley Bionics Human Exoskeleton](https://www.theverge.com/2011/12/2/2606815/ekso-bionics-demos-exoskeleton-at-ted-med-conference)
@@ -142,7 +118,10 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Watch Panasonic's power-lifting exoskeletons in action, 2016](https://www.wired.co.uk/article/panasonic-robot-suit-exoskeleton)
     - [Japan's older employees are now using robotic suits to help them lift heavy loads, 2017](https://www.businessinsider.com/japanese-japan-employee-robotic-suits-weight-power-assist-robot-boxes-2017-6)
 	- [40% Weight Reduction - ATOUN to Launch New Power Assist Suits for the Hip, Suitable for Caregiving, 2017](https://news.panasonic.com/global/topics/2017/53494.html)
-  
+  - [Atoun, powered wear, Japan](http://atoun.co.jp/)
+     - [Atoun Model Y](http://atoun.co.jp/products/atoun-model-y)
+  - [Exoskeleton robotic suit (XOS 2) from Raytheon, US](http://multivu.prnewswire.com/mnr/raytheon/46273/)
+  - [Robotic suit gives shipyard workers super strength, by Daewoo Shipbuilding and Marine Engineering, South Korea](https://www.newscientist.com/article/mg22329803-900-robotic-suit-gives-shipyard-workers-super-strength/): Workers building the world’s biggest ships could soon don robotic exoskeletons to lug around 100-kilogram hunks of metal as if they’re nothing
   - [Power Assist Suite (PAS)](https://www.ok-robotics.com/english/technology-of-ok-robotics/power-assist-suite/)
   - [LG takes a load off with AI-controlled exoskeleton](https://newatlas.com/tag/exoskeleton/): [The SuitBot has sandal-style shoes designed to be easy to slide your own feet into, and will automatically adjust to individual users., 2018](https://newatlas.com/lg-cloi-suitbot/56043/)
   - [NASA’s Newest Wearable Technology Takes on the Human Shoulder, 2018](NASA’s Newest Wearable Technology Takes on the Human Shoulder)
@@ -150,9 +129,26 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
     - [ihmc robotics](http://robots.ihmc.us/mobility-exoskeletons/)
   - [Navy's exoskeleton could make workers 20 times more productive, 2014](www.cnn.com/2014/10/14/tech/innovation/navy-exoskeleton-fortis/index.html)
   - [Need to lift something? Try wearing a Kawasaki robotic exoskeleton, 2011](https://www.digitaltrends.com/cool-tech/need-to-lift-something-try-wearing-a-kawasaki-robotic-exoskeleton/)
+
+
+  - Literature: 
+	- Review of assistive strategies in powered lower-limb orthoses and exoskeletons (picture with patient handling) [(Yan, 2015)](https://www.sciencedirect.com/science/article/pii/S0921889014002176)
+	- Exoskeletons for industrial application and their potential effects on physical work load. [(Michiel P. de Looze, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/?term=PMID%3A+26444053)
+	- Assessment of an active industrial exoskeleton to aid dynamic lifting and lowering manual handling tasks. [(Huysamen, 2018)](https://www.sciencedirect.com/science/article/pii/S0003687017302533)
+ 
+# Exoskeleton in Patient Handling
+  - Patient Handling exoskeleton (Japan): 
+     - [HAL wikipedia](https://en.wikipedia.org/wiki/HAL_(robot))
+	    - [more pictures, in Japanese](http://minano-fukushikai.sblo.jp/article/178955592.html)
+        - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
+	    - [The hybrid assistive limb (HAL) for Care Support successfully reduced lumbar load in repetitive lifting movements. 2018](https://www.ncbi.nlm.nih.gov/pubmed/29731278)
   - [1st Stand Alone Suit (2002)](http://www.rm.kanagawa-it.ac.jp/~yamamoto_lab/pas/)
-  - [Atoun, powered wear, Japan](http://atoun.co.jp/)
-     - [Atoun Model Y](http://atoun.co.jp/products/atoun-model-y)
+
+  - Perspective of workers  
+  - Perspective of patients
+  
+# Others	 
+ **Soft Robots and Exosuits:** 
   - [Otherlab](https://otherlab.com/), CA
      - [ROAM](https://www.roamrobotics.com/#usearea): Pneumatic exoskeletons
 	 - [Pneubotics](http://www.pneubotics.com/): The possibilities for robots are endless in a future when robotic manipulators are easy to install, transport, deploy, and are safe around people.
@@ -163,19 +159,13 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   
   
   Opinions on exoskeletons
-  - [The San Francisco Bay Area is Becoming a Hub for Exoskeleton and Exosuit Technology](https://exoskeletonreport.com/2018/08/the-san-francisco-bay-area-is-becoming-a-hub-for-exoskeleton-and-exosuit-technology/)
-  - [The Swiss Exoskeleton Landscape – A Human Augmentation Hub Hidden in the Mountains](https://exoskeletonreport.com/2018/10/the-swiss-exoskeleton-landscape-a-human-augmentation-hub-hidden-in-the-mountains/)
   - [Reducing The Cost Of Exoskeleton Devices](https://exoskeletonreport.com/2015/09/reducing-the-cost-of-exoskeleton-devices/)
   - [The Allure of Ski Exoskeletons](https://exoskeletonreport.com/2018/04/the-allure-of-ski-exoskeletons/): compare three types of skii exoskeletons.
   - [Soft Robotics Toolkit](https://softroboticstoolkit.com/): The Soft Robotics Toolkit is a collection of shared resources to support the design, fabrication, modeling, characterization, and control of soft robotic devices. 
-  - [HomeBrew Robotics Club](http://www.hbrobotics.org/): The HomeBrew Robotics Club was resurrected from the ashes of the original HomeBrew Computer Club by a group enthusiasts who were interested in the emerging field of robotics.
-     - [HBRC meeting youtube videos](https://www.youtube.com/user/hbrobotics/videos)
   - [How soft robots will help sick kids walk and make the elderly stronger](https://splinternews.com/how-soft-robots-will-help-sick-kids-walk-and-make-the-e-1793852928)
   - [Bio-Inspired Robotics](https://exoskeletonreport.com/2015/12/bio-inspired-robotics/)
-  - [World’s First Performance Standard for Hip Type Wearable Robots: JIS 8456-1](https://exoskeletonreport.com/2017/11/worlds-first-performance-standard-hip-type-wearable-robots-jis-8456-1/)
-    - [Standard Performance Test of Wearable Robots for Lumbar Support ](https://ieeexplore.ieee.org/document/8304776)
   - [Bionic legs and smart slacks: exoskeletons to enhance us all](https://www.braceworks.ca/2017/02/08/health-tech/bionic-legs-and-smart-slacks-exoskeletons-to-enhance-us-all/)
-  - [Exoskeleton - Innovation in Industry, Medicine and Leisure, 2018] (https://www.lead-innovation.com/english-blog/exoskeleton-innovation)
+  - [Exoskeleton-Innovation in Industry, Medicine and Leisure, 2018](https://www.lead-innovation.com/english-blog/exoskeleton-innovation)
   - [Exoskeleton Articles and Web Sites](https://www.futureforall.org/robotics/exoskeleton.html)
   - [New Lockheed Martin Exoskeleton Helps Soldiers Carry Heavy Gear](https://news.lockheedmartin.com/2017-05-16-New-Lockheed-Martin-Exoskeleton-Helps-Soldiers-Carry-Heavy-Gear#assets_117)
      - [Lockheed Exoskeleton Gives Troops A Leg Up, Literally](https://breakingdefense.com/2017/05/k-srd-exoskeleton-gives-overburdened-troops-a-leg-up-literally/)
@@ -183,10 +173,24 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [来自中国的外骨骼机器人Fourier X1正式发布](www.fftai.com/zixun/zixun_bk.php?id=173)
   - [WearRA Hip Exoskeleton Market – Review of Lift Assist Wearables, 2018](https://exoskeletonreport.com/2018/04/wearra-hip-exoskeleton-market-review-of-lift-assist-wearables/)
   - [Soft Exoskeletons and Exosuits](https://exoskeletonreport.com/2015/08/soft-exoskeletons-and-exosuits/)
-  - [Honda Walking Assist Certified with CE Mark Using Contents of ISO 13482](https://exoskeletonreport.com/2018/01/honda-walking-assist-certified-with-ce-mark-using-contents-of-iso-13482/)
   - [The Promise of Powered Industrial Exoskeletons: Reducing Occupational Injuries One “Lift” at a Time, 2018](https://exoskeletonreport.com/2018/04/the-promise-of-powered-industrial-exoskeletons-reducing-occupational-injuries-one-lift-at-a-time/)
   - [WinBag](winbagusa.com/media/video-gallery/)
+  - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
+  - [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
+ 
   
+ Organizations:
+  - [The San Francisco Bay Area is Becoming a Hub for Exoskeleton and Exosuit Technology](https://exoskeletonreport.com/2018/08/the-san-francisco-bay-area-is-becoming-a-hub-for-exoskeleton-and-exosuit-technology/)
+  - [The Swiss Exoskeleton Landscape – A Human Augmentation Hub Hidden in the Mountains](https://exoskeletonreport.com/2018/10/the-swiss-exoskeleton-landscape-a-human-augmentation-hub-hidden-in-the-mountains/)
+  - [HomeBrew Robotics Club](http://www.hbrobotics.org/): The HomeBrew Robotics Club was resurrected from the ashes of the original HomeBrew Computer Club by a group enthusiasts who were interested in the emerging field of robotics.
+     - [HBRC meeting youtube videos](https://www.youtube.com/user/hbrobotics/videos)
+  - [Exoskeleton Articles and Web Sites](https://www.futureforall.org/robotics/exoskeleton.html)
+  - [WR listing](http://www.wearablerobotics.com/wr-listing/): The Wearable Robotics Association (WearRA) seeks to identify all commercially available wearable robotic technologies from around the globe. 
+
   
-  
+ Standards:
+  - [World’s First Performance Standard for Hip Type Wearable Robots: JIS 8456-1](https://exoskeletonreport.com/2017/11/worlds-first-performance-standard-hip-type-wearable-robots-jis-8456-1/)
+    - [Standard Performance Test of Wearable Robots for Lumbar Support ](https://ieeexplore.ieee.org/document/8304776)
+  - [Honda Walking Assist Certified with CE Mark Using Contents of ISO 13482](https://exoskeletonreport.com/2018/01/honda-walking-assist-certified-with-ce-mark-using-contents-of-iso-13482/)
+   
   
