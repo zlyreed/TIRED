@@ -132,6 +132,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
      - [HAL wikipedia](https://en.wikipedia.org/wiki/HAL_(robot))
 	    - [more pictures, in Japanese](http://minano-fukushikai.sblo.jp/article/178955592.html)
      - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
+	 - [The hybrid assistive limb (HAL) for Care Support successfully reduced lumbar load in repetitive lifting movements. 2018](https://www.ncbi.nlm.nih.gov/pubmed/29731278)
   - [Exoskeleton robotic suit (XOS 2) from Raytheon, US](http://multivu.prnewswire.com/mnr/raytheon/46273/)
   - [Robotic suit gives shipyard workers super strength, by Daewoo Shipbuilding and Marine Engineering, South Korea](https://www.newscientist.com/article/mg22329803-900-robotic-suit-gives-shipyard-workers-super-strength/): Workers building the world’s biggest ships could soon don robotic exoskeletons to lug around 100-kilogram hunks of metal as if they’re nothing
   - [Hercule, by French company RB3D](https://exoskeletonreport.com/product/hercule/)
@@ -182,6 +183,9 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [来自中国的外骨骼机器人Fourier X1正式发布](www.fftai.com/zixun/zixun_bk.php?id=173)
   - [WearRA Hip Exoskeleton Market – Review of Lift Assist Wearables, 2018](https://exoskeletonreport.com/2018/04/wearra-hip-exoskeleton-market-review-of-lift-assist-wearables/)
   - [Soft Exoskeletons and Exosuits](https://exoskeletonreport.com/2015/08/soft-exoskeletons-and-exosuits/)
+  - [Honda Walking Assist Certified with CE Mark Using Contents of ISO 13482](https://exoskeletonreport.com/2018/01/honda-walking-assist-certified-with-ce-mark-using-contents-of-iso-13482/)
+  - [The Promise of Powered Industrial Exoskeletons: Reducing Occupational Injuries One “Lift” at a Time, 2018](https://exoskeletonreport.com/2018/04/the-promise-of-powered-industrial-exoskeletons-reducing-occupational-injuries-one-lift-at-a-time/)
+  
   
   
   
