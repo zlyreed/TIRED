@@ -181,6 +181,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Microsoft invests in robotics company Sarcos](https://mspoweruser.com/microsoft-invests-robotics-company-sarcos/)
   - [来自中国的外骨骼机器人Fourier X1正式发布](www.fftai.com/zixun/zixun_bk.php?id=173)
   - [WearRA Hip Exoskeleton Market – Review of Lift Assist Wearables, 2018](https://exoskeletonreport.com/2018/04/wearra-hip-exoskeleton-market-review-of-lift-assist-wearables/)
+  - [Soft Exoskeletons and Exosuits](https://exoskeletonreport.com/2015/08/soft-exoskeletons-and-exosuits/)
   
   
   
