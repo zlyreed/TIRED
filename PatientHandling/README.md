@@ -185,7 +185,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Soft Exoskeletons and Exosuits](https://exoskeletonreport.com/2015/08/soft-exoskeletons-and-exosuits/)
   - [Honda Walking Assist Certified with CE Mark Using Contents of ISO 13482](https://exoskeletonreport.com/2018/01/honda-walking-assist-certified-with-ce-mark-using-contents-of-iso-13482/)
   - [The Promise of Powered Industrial Exoskeletons: Reducing Occupational Injuries One “Lift” at a Time, 2018](https://exoskeletonreport.com/2018/04/the-promise-of-powered-industrial-exoskeletons-reducing-occupational-injuries-one-lift-at-a-time/)
-  
+  - [WinBag](winbagusa.com/media/video-gallery/)
   
   
   
