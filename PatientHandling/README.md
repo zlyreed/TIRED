@@ -103,10 +103,16 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   
 	
 # Exoskeleton in material handling
+  - [WR listing](http://www.wearablerobotics.com/wr-listing/): The Wearable Robotics Association (WearRA) seeks to identify all commercially available wearable robotic technologies from around the globe. 
   - [Robo-Mate: Supporting workers with manual handling tasks](https://www.robo-mate.eu/)
   - EksoBionics (passive)
     - [EksoZeroG makes heavy tools feel weightless](https://eksobionics.com/eksoworks/)
 	- [EKsoVest](https://eksobionics.com/eksoworks/eksovest/)
+  - [Germen Bionic, CrayX](https://www.germanbionic.com/crayx/)
+  - [Panasonic - ActiveLink AWN-03 Exoskeleton, 2016](https://exoskeletonreport.com/2016/06/connecting-customers-to-product-lift-carry-exoskeletons/)
+     - [No More Power Barriers with Panasonic Assist Robots](https://news.panasonic.com/global/stories/2016/44969.html)
+  - [SuitX](https://www.suitx.com/backx) 
+  
   
   - Media:
     - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
@@ -121,7 +127,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - Perspective of workers  
   - Perspective of patients
   
-# Possible Products:
+# Possible Products ([powered exoskeleton](https://en.wikipedia.org/wiki/Powered_exoskeleton):
   - Patient Handling exoskeleton (Japan): 
      - [HAL wikipedia](https://en.wikipedia.org/wiki/HAL_(robot))
 	    - [more pictures, in Japanese](http://minano-fukushikai.sblo.jp/article/178955592.html)
@@ -136,7 +142,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
     - [Japan's older employees are now using robotic suits to help them lift heavy loads, 2017](https://www.businessinsider.com/japanese-japan-employee-robotic-suits-weight-power-assist-robot-boxes-2017-6)
 	- [40% Weight Reduction - ATOUN to Launch New Power Assist Suits for the Hip, Suitable for Caregiving, 2017](https://news.panasonic.com/global/topics/2017/53494.html)
   
-  - [Power Assist Suite （PAS）](https://www.ok-robotics.com/english/technology-of-ok-robotics/power-assist-suite/)
+  - [Power Assist Suite (PAS)](https://www.ok-robotics.com/english/technology-of-ok-robotics/power-assist-suite/)
   - [LG takes a load off with AI-controlled exoskeleton](https://newatlas.com/tag/exoskeleton/): [The SuitBot has sandal-style shoes designed to be easy to slide your own feet into, and will automatically adjust to individual users., 2018](https://newatlas.com/lg-cloi-suitbot/56043/)
   - [NASA’s Newest Wearable Technology Takes on the Human Shoulder, 2018](NASA’s Newest Wearable Technology Takes on the Human Shoulder)
     - [NASA's Ironman-Like Exoskeleton Could Give Astronauts, Paraplegics Improved Mobility and Strength, 2013](NASA's Ironman-Like Exoskeleton Could Give Astronauts, Paraplegics Improved Mobility and Strength)
@@ -164,6 +170,18 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [HomeBrew Robotics Club](http://www.hbrobotics.org/): The HomeBrew Robotics Club was resurrected from the ashes of the original HomeBrew Computer Club by a group enthusiasts who were interested in the emerging field of robotics.
      - [HBRC meeting youtube videos](https://www.youtube.com/user/hbrobotics/videos)
   - [How soft robots will help sick kids walk and make the elderly stronger](https://splinternews.com/how-soft-robots-will-help-sick-kids-walk-and-make-the-e-1793852928)
+  - [Bio-Inspired Robotics](https://exoskeletonreport.com/2015/12/bio-inspired-robotics/)
+  - [World’s First Performance Standard for Hip Type Wearable Robots: JIS 8456-1](https://exoskeletonreport.com/2017/11/worlds-first-performance-standard-hip-type-wearable-robots-jis-8456-1/)
+    - [Standard Performance Test of Wearable Robots for Lumbar Support ](https://ieeexplore.ieee.org/document/8304776)
+  - [Bionic legs and smart slacks: exoskeletons to enhance us all](https://www.braceworks.ca/2017/02/08/health-tech/bionic-legs-and-smart-slacks-exoskeletons-to-enhance-us-all/)
+  - [Exoskeleton - Innovation in Industry, Medicine and Leisure, 2018] (https://www.lead-innovation.com/english-blog/exoskeleton-innovation)
+  - [Exoskeleton Articles and Web Sites](https://www.futureforall.org/robotics/exoskeleton.html)
+  - [New Lockheed Martin Exoskeleton Helps Soldiers Carry Heavy Gear](https://news.lockheedmartin.com/2017-05-16-New-Lockheed-Martin-Exoskeleton-Helps-Soldiers-Carry-Heavy-Gear#assets_117)
+     - [Lockheed Exoskeleton Gives Troops A Leg Up, Literally](https://breakingdefense.com/2017/05/k-srd-exoskeleton-gives-overburdened-troops-a-leg-up-literally/)
+  - [Microsoft invests in robotics company Sarcos](https://mspoweruser.com/microsoft-invests-robotics-company-sarcos/)
+  - [来自中国的外骨骼机器人Fourier X1正式发布](www.fftai.com/zixun/zixun_bk.php?id=173)
+  - [WearRA Hip Exoskeleton Market – Review of Lift Assist Wearables, 2018](https://exoskeletonreport.com/2018/04/wearra-hip-exoskeleton-market-review-of-lift-assist-wearables/)
+  
   
   
   
