@@ -37,7 +37,14 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
            [2016](https://www.bls.gov/iif/oshcdnew2016.htm) | 30.9/9.7 | 62.1/ 15.6  | 93.7/21.5| 79.8/20.9 |   143.5/63.6
 		   [2017](https://www.bls.gov/iif/oshwc/osh/case/cd_r8_2017.htm) | 30.0 / 9.9|   56.7 /15.4  | 85.6 / 22.9|   70.9 /21.8|134.5/72.1
 
-		
+		   - Notes:
+		     - How to use BLS to find the data that you are interested: [One-Screen Data Search ](https://data.bls.gov/PDQWeb/cs)
+		     - [More data in 2015](https://www.bls.gov/news.release/pdf/osh2.pdf)
+		     - [Back injuries prominent in work-related musculoskeletal disorder cases in 2016](https://www.bls.gov/opub/ted/2018/back-injuries-prominent-in-work-related-musculoskeletal-disorder-cases-in-2016.htm)
+		     - summary on MSD cost
+			   - [ErgoPlus](https://ergo-plus.com/cost-of-musculoskeletal-disorders-infographic/)
+			   - [Osha testimonies](https://www.osha.gov/news/testimonies/04272000)
+			   - [other company webpage](https://www.soundergonomics.com/cost-of-injury.html)
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
 		- [Safe Patient Handling in Health Care on Youtube](https://www.youtube.com/watch?v=Vy8T8BUAbE4)
