@@ -43,6 +43,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 		     - [Back injuries prominent in work-related musculoskeletal disorder cases in 2016](https://www.bls.gov/opub/ted/2018/back-injuries-prominent-in-work-related-musculoskeletal-disorder-cases-in-2016.htm)
 		     - summary on MSD cost
 			   - [ErgoPlus](https://ergo-plus.com/cost-of-musculoskeletal-disorders-infographic/)
+			   - [Osha safety pays estimator](https://www.osha.gov/dcsp/smallbusiness/safetypays/estimator.html)
 			   - [Osha testimonies](https://www.osha.gov/news/testimonies/04272000)
 			   - [other company webpage](https://www.soundergonomics.com/cost-of-injury.html)
 	  - OSHA
