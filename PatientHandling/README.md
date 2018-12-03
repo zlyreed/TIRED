@@ -46,6 +46,8 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 			   - [Osha safety pays estimator](https://www.osha.gov/dcsp/smallbusiness/safetypays/estimator.html)
 			   - [Osha testimonies](https://www.osha.gov/news/testimonies/04272000)
 			   - [other company webpage](https://www.soundergonomics.com/cost-of-injury.html)
+			 - [Thirty fastest growing occupations projected to account for 19 percent of new jobs from 2016 to 2026](https://www.bls.gov/opub/ted/2017/thirty-fastest-growing-occupations-projected-to-account-for-19-percent-of-new-jobs-from-2016-to-2026.htm)
+			 
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
 		- [Safe Patient Handling in Health Care on Youtube](https://www.youtube.com/watch?v=Vy8T8BUAbE4)
