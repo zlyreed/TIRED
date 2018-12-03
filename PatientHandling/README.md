@@ -40,8 +40,10 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 		   - Notes:
 		     - How to use BLS to find the data that you are interested: [One-Screen Data Search ](https://data.bls.gov/PDQWeb/cs) and [Multi-Screen Data Search](https://data.bls.gov/cgi-bin/dsrv?cs)
 		     - [More data in 2015](https://www.bls.gov/news.release/pdf/osh2.pdf)
-		     - [Back injuries prominent in work-related musculoskeletal disorder cases in 2016](https://www.bls.gov/opub/ted/2018/back-injuries-prominent-in-work-related-musculoskeletal-disorder-cases-in-2016.htm)
-		     - summary on MSD cost
+		     -  Numbers related to nurse assistants
+			    - [Back injuries prominent in work-related musculoskeletal disorder cases in 2016](https://www.bls.gov/opub/ted/2018/back-injuries-prominent-in-work-related-musculoskeletal-disorder-cases-in-2016.htm)
+		        - [Nurse assistant reported 18,090 cases of musculoskeletal disorders (MSDs) in 2017](https://www.bls.gov/iif/osch0062.pdf)
+			 - Summary on MSD cost
 			   - [ErgoPlus](https://ergo-plus.com/cost-of-musculoskeletal-disorders-infographic/)
 			   - [Osha safety pays estimator](https://www.osha.gov/dcsp/smallbusiness/safetypays/estimator.html)
 			   - [Osha testimonies](https://www.osha.gov/news/testimonies/04272000)
