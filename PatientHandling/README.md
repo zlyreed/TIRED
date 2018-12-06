@@ -196,6 +196,12 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
   - [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
  
+ Exoskeletons in house:
+  - EksoVest by [Ekso Bionics](http://2t2ine2n47g337am722tf6ek.wpengine.netdna-cdn.com/wp-content/uploads/2017/07/EksoVest-Sell-Sheet.pdf)
+  - SuitX modular system [(BackX, LegX and ShoulderX ) by U.S. Bionics](http://www.suitx.com/)
+  - Airframe by [Levitate](http://www.levitatetech.com/)
+
+ 
   
  Organizations:
   - [The San Francisco Bay Area is Becoming a Hub for Exoskeleton and Exosuit Technology](https://exoskeletonreport.com/2018/08/the-san-francisco-bay-area-is-becoming-a-hub-for-exoskeleton-and-exosuit-technology/)
