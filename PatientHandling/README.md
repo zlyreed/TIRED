@@ -160,7 +160,10 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 	    - [more pictures, in Japanese](http://minano-fukushikai.sblo.jp/article/178955592.html)
         - [Well-Being Lower Limb](https://www.cyberdyne.jp/english/products/fl05.html)
 	    - [The hybrid assistive limb (HAL) for Care Support successfully reduced lumbar load in repetitive lifting movements. 2018](https://www.ncbi.nlm.nih.gov/pubmed/29731278)
-  - [1st Stand Alone Suit (2002)](http://www.rm.kanagawa-it.ac.jp/~yamamoto_lab/pas/)
+     - [ATOUN (panasonic)](https://news.panasonic.com/global/topics/2017/53494.html): not sell in the US
+     - [Innophys](https://innophys.jp/case/)
+        - [Japanese company develops breath-powered muscle suit for heavy lifting](https://www.ibtimes.co.uk/japanese-company-develops-breath-powered-muscle-suit-heavy-lifting-1533775)
+ - [1st Stand Alone Suit (2002)](http://www.rm.kanagawa-it.ac.jp/~yamamoto_lab/pas/)
 
   - Perspective of workers  
   - Perspective of patients
