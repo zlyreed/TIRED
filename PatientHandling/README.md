@@ -36,7 +36,12 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
            [2015](https://www.bls.gov/iif/oshwc/osh/case/ostb4760.pdf)  |31.3 /9.8 |62.9/14.9| 95.5/24.4      |   85.8/26.6 |148.7 /80.4
            [2016](https://www.bls.gov/iif/oshcdnew2016.htm) | 30.9/9.7 | 62.1/ 15.6  | 93.7/21.5| 79.8/20.9 |   143.5/63.6
 		   [2017](https://www.bls.gov/iif/oshwc/osh/case/cd_r8_2017.htm) | 30.0 / 9.9|   56.7 /15.4  | 85.6 / 22.9|   70.9 /21.8|134.5/72.1
+		- [Home Health Aides and Personal Care Aides](https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm)
+		  - Injury Event - Overexertion in lifting or lowering: 880 cases in 2017;
+		  - MSD cases: 2750 cases in 2017 (6830 all injury and illness cases);
+		  - Home health care services: overexertion injury 52.4/13.1 per 10,000 workers (total/in lifting or lowering; cd_r8_2016.xlsx)		  
 
+		
 		   - Notes:
 		     - How to use BLS to find the data that you are interested: [One-Screen Data Search ](https://data.bls.gov/PDQWeb/cs) and [Multi-Screen Data Search](https://data.bls.gov/cgi-bin/dsrv?cs)
 		     - [More data in 2015](https://www.bls.gov/news.release/pdf/osh2.pdf)
