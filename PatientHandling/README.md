@@ -40,7 +40,8 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 		  - Injury Event - Overexertion in lifting or lowering: 880 cases in 2017;
 		  - MSD cases: 2750 cases in 2017 (6830 all injury and illness cases);
 		  - Home health care services: 124.7/52.4/13.1 per 10,000 workers (total injury case/overexertion injury/overexertion injury in lifting or lowering; cd_r8_2016.xlsx)		  
-
+		  - [Fastest growing occupations: 20 occupations with the highest percent change of employment between 2016-26: Home health aides-- No3.; 47% growth](https://www.bls.gov/ooh/fastest-growing.htm)
+		- [Nursing Assistants and Orderlies summary](https://www.bls.gov/ooh/healthcare/nursing-assistants.htm)
 		
 		- Notes:
 		  - How to use BLS to find the data that you are interested: [One-Screen Data Search ](https://data.bls.gov/PDQWeb/cs) and [Multi-Screen Data Search](https://data.bls.gov/cgi-bin/dsrv?cs)
@@ -48,21 +49,23 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 		  -  Numbers related to nurse assistants
 			 - [Back injuries prominent in work-related musculoskeletal disorder cases in 2016](https://www.bls.gov/opub/ted/2018/back-injuries-prominent-in-work-related-musculoskeletal-disorder-cases-in-2016.htm)
 		     - [Nurse assistant reported 18,090 cases of musculoskeletal disorders (MSDs) in 2017](https://www.bls.gov/iif/osch0062.pdf)
-		 - [Physical strength required for jobs in different occupations in 2016](https://www.bls.gov/opub/ted/2017/physical-strength-required-for-jobs-in-different-occupations-in-2016.htm)
-		 -[Overexertion Injuries Top Liberty Mutual's 2016 List](https://ohsonline.com/Articles/2016/01/15/Overexertion-Injuries-Top-Liberty-Mutuals-List.aspx?m=1)
-		 - Links from TC: 
-		   - [Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
-		   - [Preventing Back Injuries in Health Care Settings](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
-		   - [Strains, Sprains, and Pains in **Home Healthcare**: Working in an Uncontrolled Environment](https://blogs.cdc.gov/niosh-science-blog/2010/04/16/homehealthcare/)
-		   - [Expanding Employment, Training, and Apprenticeship Opportunities for 16- and 17-Year-Olds in Health Care Occupations under the Fair Labor Standards Act](https://www.regulations.gov/docket?D=WHD-2018-0002)			 
+		  - [Physical strength required for jobs in different occupations in 2016](https://www.bls.gov/opub/ted/2017/physical-strength-required-for-jobs-in-different-occupations-in-2016.htm)
+		  -[Overexertion Injuries Top Liberty Mutual's 2016 List](https://ohsonline.com/Articles/2016/01/15/Overexertion-Injuries-Top-Liberty-Mutuals-List.aspx?m=1)
+		  - Links from TC: 
+		    - [Safe Patient Handling and Mobility (SPHM)](https://www.cdc.gov/niosh/topics/safepatient/default.html)
+		    - [Preventing Back Injuries in Health Care Settings](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
+		    - [Strains, Sprains, and Pains in **Home Healthcare**: Working in an Uncontrolled Environment](https://blogs.cdc.gov/niosh-science-blog/2010/04/16/homehealthcare/)
+		    - [Expanding Employment, Training, and Apprenticeship Opportunities for 16- and 17-Year-Olds in Health Care Occupations under the Fair Labor Standards Act](https://www.regulations.gov/docket?D=WHD-2018-0002)			 
 		 
- 		 - Summary on MSD cost
-		   - [ErgoPlus](https://ergo-plus.com/cost-of-musculoskeletal-disorders-infographic/)
-		   - [Osha safety pays estimator](https://www.osha.gov/dcsp/smallbusiness/safetypays/estimator.html)
-		   - [Osha testimonies](https://www.osha.gov/news/testimonies/04272000)
-		   - [other company webpage](https://www.soundergonomics.com/cost-of-injury.html)   
-		 - Survey (Nonfatal Occupational Injuries and Illnesses: Cases with days of job transfer or restriction):[2016](https://www.bls.gov/iif/oshwc/osh/case/osch0061.pdf) and [2015](https://www.bls.gov/iif/oshwc/osh/case/osch0059.pdf)
-		 - [Thirty fastest growing occupations projected to account for 19 percent of new jobs from 2016 to 2026](https://www.bls.gov/opub/ted/2017/thirty-fastest-growing-occupations-projected-to-account-for-19-percent-of-new-jobs-from-2016-to-2026.htm)
+ 		  - Summary on MSD and overexertion **cost**
+		    - [ErgoPlus](https://ergo-plus.com/cost-of-musculoskeletal-disorders-infographic/)
+		    - [Osha safety pays estimator](https://www.osha.gov/dcsp/smallbusiness/safetypays/estimator.html)
+		    - [Osha testimonies](https://www.osha.gov/news/testimonies/04272000)
+		    - [other company webpage](https://www.soundergonomics.com/cost-of-injury.html)  
+			- [Costs associated with overexertion injuries in the healthcare industry were estimated to be $1.7 billion in 2015.](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
+			
+		  - Survey (Nonfatal Occupational Injuries and Illnesses: Cases with days of job transfer or restriction):[2016](https://www.bls.gov/iif/oshwc/osh/case/osch0061.pdf) and [2015](https://www.bls.gov/iif/oshwc/osh/case/osch0059.pdf)
+		  - [Thirty fastest growing occupations projected to account for 19 percent of new jobs from 2016 to 2026](https://www.bls.gov/opub/ted/2017/thirty-fastest-growing-occupations-projected-to-account-for-19-percent-of-new-jobs-from-2016-to-2026.htm)
 			 
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
