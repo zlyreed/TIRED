@@ -227,8 +227,9 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 
   
  Standards:
-  - [World’s First Performance Standard for Hip Type Wearable Robots: JIS 8456-1](https://exoskeletonreport.com/2017/11/worlds-first-performance-standard-hip-type-wearable-robots-jis-8456-1/)
+  - World’s First Performance Standard for Hip Type Wearable Robots: [the Japanese Industrial Standards(JIS) 8456-1](https://exoskeletonreport.com/2017/11/worlds-first-performance-standard-hip-type-wearable-robots-jis-8456-1/)
     - [Standard Performance Test of Wearable Robots for Lumbar Support ](https://ieeexplore.ieee.org/document/8304776)
+  - Italy: [Towards Standard Specifications for Back-Support Exoskeletons](https://www.researchgate.net/publication/327954839_Towards_Standard_Specifications_for_Back-Support_Exoskeletons)
   - [Honda Walking Assist Certified with CE Mark Using Contents of ISO 13482](https://exoskeletonreport.com/2018/01/honda-walking-assist-certified-with-ce-mark-using-contents-of-iso-13482/)
    
   
