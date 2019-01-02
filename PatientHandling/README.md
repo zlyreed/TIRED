@@ -12,7 +12,6 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 	- Disability/Severity
 	
 	- cost
-
 	
 	- Literature and online information:
 	  - Bureau of labor statistics (BLS)
@@ -158,7 +157,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
     - [ihmc robotics](http://robots.ihmc.us/mobility-exoskeletons/)
   - [Navy's exoskeleton could make workers 20 times more productive, 2014](www.cnn.com/2014/10/14/tech/innovation/navy-exoskeleton-fortis/index.html)
   - [Need to lift something? Try wearing a Kawasaki robotic exoskeleton, 2011](https://www.digitaltrends.com/cool-tech/need-to-lift-something-try-wearing-a-kawasaki-robotic-exoskeleton/)
-
+  - [Do You Even Lift, Bro? Hardiman Was GE’s Muscular Take On The Human-Machine Interface](https://www.ge.com/reports/do-you-even-lift-bro-hardiman-and-the-human-machine-interface/)
 
   - Literature: 
 	- Review of assistive strategies in powered lower-limb orthoses and exoskeletons (picture with patient handling) [(Yan, 2015)](https://www.sciencedirect.com/science/article/pii/S0921889014002176)
@@ -187,8 +186,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [SRI Super Flex exosuit](https://exoskeletonreport.com/2016/04/sri-robotics-super-flex-exosuit/)
      - [SRI Robotics Exosuits And 4D Materials](https://exoskeletonreport.com/2015/12/sri-robotics-exosuits/): Current debate on powering exoskeletons and exosuits: hydraulic, pneumatic, motorized or passive. SRI think tank is looking into a fifth, brand new option such as 4D materials and artificial muscles.
 	 - [Soft Robots Are Reshaping the Future of Robotics](https://www.sri.com/blog/soft-robots-are-reshaping-future-robotics) 
-  
-  
+  - [Forget Iron Man: Skintight Suits Are The Future Of Robotic Exoskeletons](https://www.ge.com/reports/forget-iron-man-skintight-suits-future-robotic-exoskeletons/)
   
   Opinions on exoskeletons
   - [Reducing The Cost Of Exoskeleton Devices](https://exoskeletonreport.com/2015/09/reducing-the-cost-of-exoskeleton-devices/)
@@ -209,7 +207,20 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [WinBag](winbagusa.com/media/video-gallery/)
   - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
   - [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
- 
+  - [**Industrial Exoskeletons: What You're Not Hearing**](https://ohsonline.com/Articles/2018/10/01/Industrial-Exoskeletons-What-Youre-Not-Hearing.aspx?Page=2)
+     - References
+		1. Bosch T, van Eck J, Knitel K, de Looze M. (2016). The effects of a passive exoskeleton on muscle activity, discomfort and endurance time in forward bending work. Appl Ergon. 2016 May; 54:212-7.
+		2. de Looze MP, Bosch T, Krause F, Stadler KS, O’Sullivan LW. (2016). Exoskeletons for industrial application and their potential effects on physical work load. Ergonomics. 2016 May;59(5):671-81.
+		3. Kim S, Nussbaum MA, Mokhlespour Esfahani MI, Alemi MM, Alabdulkarim S, Rashedi E. (2018). Assessing the influence of a passive, upper extremity exoskeletal vest for tasks requiring arm elevation: Part I – "Expected" effects on discomfort, shoulder muscle activity, and work task performance. Appl Ergon. 2018 Mar 7. pii: S0003-6870(18)30059-0. doi: 10.1016/j.apergo.2018.02.025. [Epub ahead of print].
+		4. Kim S, Nussbaum MA, Mokhlespour Esfahani MI, Alemi MM, Jia B, Rashedi E. (2018). Assessing the influence of a passive, upper extremity exoskeletal vest for tasks requiring arm elevation: Part II – "Unexpected" effects on shoulder motion, balance, and spine loading. Appl Ergon. 2018 Mar 7. pii: S0003-6870(18)30058-9. doi: 10.1016/j.apergo.2018.02.024. [Epub ahead of print]
+		5. Marras WS. (2012). The complex spine: the multidimensional system of causal pathways for low-back disorders. Hum Factors. 2012 Dec;54(6):881-9.
+		6. National Research Council & Institute for Medicine. (2001). Musculoskeletal disorders and the workplace: Low back and upper extremity. Washington, DC: National Academy of Sciences, National Research Council, National Academy Press.
+		7. Rashedi E, Kim S, Nussbaum MA, Agnew MJ. (2014) Ergonomic evaluation of a wearable assistive device for overhead work. Ergonomics. 2014;57(12):1864-74.
+		8. Theural J, Desbrosses K, Roux T, Savescu A. (2018). Physiological consequences of using an upper limb exoskeleton during manual handling tasks. Appl Ergon. 2018 Feb;67:211-217.
+		9. Weston EB, Alizadeh M, Knapik GG, Wang X, Marras WS. (2018). Biomechanical evaluation of exoskeleton use on loading of the lumbar spine. Appl Ergon. 2018 Apr;68:101-108.
+		10. Young AJ, Ferris DP. (2017). State of the Art and Future Directions for Lower Limb Robotic Exoskeletons. IEEE Trans Neural Syst Rehabil Eng. 2017 Feb;25(2):171-182.
+  -[Experts say the emerging technology could benefit people in physically demanding jobs (2018)](https://www.safetyandhealthmagazine.com/articles/17370-exoskeletons-in-the-workplace)
+  
  Exoskeletons in house:
   - EksoVest by [Ekso Bionics](http://2t2ine2n47g337am722tf6ek.wpengine.netdna-cdn.com/wp-content/uploads/2017/07/EksoVest-Sell-Sheet.pdf)
   - SuitX modular system [(BackX, LegX and ShoulderX ) by U.S. Bionics](http://www.suitx.com/)
@@ -233,6 +244,7 @@ Local Exoskeleton: [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/en
  Standards:
   - World’s First Performance Standard for Hip Type Wearable Robots: [the Japanese Industrial Standards(JIS) 8456-1](https://exoskeletonreport.com/2017/11/worlds-first-performance-standard-hip-type-wearable-robots-jis-8456-1/)
     - [Standard Performance Test of Wearable Robots for Lumbar Support ](https://ieeexplore.ieee.org/document/8304776)
+    - [Japan's Robot Suit Gets Global Safety Certificate](https://www.industryweek.com/robotics/japans-robot-suit-gets-global-safety-certificate)
   - Italy: [Towards Standard Specifications for Back-Support Exoskeletons](https://www.researchgate.net/publication/327954839_Towards_Standard_Specifications_for_Back-Support_Exoskeletons)
   - [Honda Walking Assist Certified with CE Mark Using Contents of ISO 13482](https://exoskeletonreport.com/2018/01/honda-walking-assist-certified-with-ce-mark-using-contents-of-iso-13482/)
    
