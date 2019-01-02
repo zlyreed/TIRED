@@ -3,7 +3,7 @@
   - Public online information about [NORA](https://www.cdc.gov/nora/default.html)
     - [NORA Healthcare and Social Assistance Sector](https://www.cdc.gov/nora/councils/hcsa/default.html)
       - [Healthcare and Social Assistance Program](https://www.cdc.gov/niosh/programs/hcsa/)’s mission is to eliminate occupational diseases, injuries, and fatalities and improve health and well-being among those who work in industries providing human and veterinary healthcare and that provide social assistance services across a broad range of settings such as hospitals, clinics, nursing and private homes, and child day care.
-    - [NORA Musculoskeletal Health Cross-Sector](https://www.cdc.gov/nora/councils/mus/default.html): ocuses on preventing musculoskeletal disorders, which are soft-tissue injuries caused by sudden or sustained exposure to repetitive motion, force, vibration, or awkward positions. 
+    - [NORA Musculoskeletal Health Cross-Sector](https://www.cdc.gov/nora/councils/mus/default.html): focuses on preventing musculoskeletal disorders, which are soft-tissue injuries caused by sudden or sustained exposure to repetitive motion, force, vibration, or awkward positions. 
       - [Musculoskeletal Health Program](https://www.cdc.gov/niosh/programs/msd/default.html)
 
   - Intranet information about [NORA](http://inside.niosh.cdc.gov/nora/default.htm)
