@@ -152,8 +152,8 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [Robotic suit gives shipyard workers super strength, by Daewoo Shipbuilding and Marine Engineering, South Korea](https://www.newscientist.com/article/mg22329803-900-robotic-suit-gives-shipyard-workers-super-strength/): Workers building the world’s biggest ships could soon don robotic exoskeletons to lug around 100-kilogram hunks of metal as if they’re nothing
   - [Power Assist Suite (PAS)](https://www.ok-robotics.com/english/technology-of-ok-robotics/power-assist-suite/)
   - [LG takes a load off with AI-controlled exoskeleton](https://newatlas.com/tag/exoskeleton/): [The SuitBot has sandal-style shoes designed to be easy to slide your own feet into, and will automatically adjust to individual users., 2018](https://newatlas.com/lg-cloi-suitbot/56043/)
-  - [NASA’s Newest Wearable Technology Takes on the Human Shoulder, 2018](NASA’s Newest Wearable Technology Takes on the Human Shoulder)
-    - [NASA's Ironman-Like Exoskeleton Could Give Astronauts, Paraplegics Improved Mobility and Strength, 2013](NASA's Ironman-Like Exoskeleton Could Give Astronauts, Paraplegics Improved Mobility and Strength)
+  - [NASA’s Newest Wearable Technology Takes on the Human Shoulder, 2018](https://www.nasa.gov/feature/nasa-s-newest-wearable-technology-takes-on-the-human-shoulder)
+    - [NASA's Ironman-Like Exoskeleton Could Give Astronauts, Paraplegics Improved Mobility and Strength, 2013](https://www.nasa.gov/content/nasas-ironman-like-exoskeleton-could-give-astronauts-paraplegics-improved-mobility-and-0#.XC0fOExFyrQ)
     - [ihmc robotics](http://robots.ihmc.us/mobility-exoskeletons/)
   - [Navy's exoskeleton could make workers 20 times more productive, 2014](www.cnn.com/2014/10/14/tech/innovation/navy-exoskeleton-fortis/index.html)
   - [Need to lift something? Try wearing a Kawasaki robotic exoskeleton, 2011](https://www.digitaltrends.com/cool-tech/need-to-lift-something-try-wearing-a-kawasaki-robotic-exoskeleton/)
@@ -204,9 +204,10 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - [WearRA Hip Exoskeleton Market – Review of Lift Assist Wearables, 2018](https://exoskeletonreport.com/2018/04/wearra-hip-exoskeleton-market-review-of-lift-assist-wearables/)
   - [Soft Exoskeletons and Exosuits](https://exoskeletonreport.com/2015/08/soft-exoskeletons-and-exosuits/)
   - [The Promise of Powered Industrial Exoskeletons: Reducing Occupational Injuries One “Lift” at a Time, 2018](https://exoskeletonreport.com/2018/04/the-promise-of-powered-industrial-exoskeletons-reducing-occupational-injuries-one-lift-at-a-time/)
+  - [Uncanny Exosuit: The Industrial Exoskeleton Made for Real Work, Not Movies](https://www.newequipment.com/research-and-development/uncanny-exosuit-industrial-exoskeleton-made-real-work-not-movies) 
   - [WinBag](winbagusa.com/media/video-gallery/)
-  - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
-  - [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
+     - [Turning workers into 'super workers' with robotic suits](https://www.bbc.com/news/business-42136519)
+     - [Next-Generation Exoskeletons Help Patients Move](https://www.the-scientist.com/features/next-generation-exoskeletons-help-patients-move-30126)
   - [**Industrial Exoskeletons: What You're Not Hearing**](https://ohsonline.com/Articles/2018/10/01/Industrial-Exoskeletons-What-Youre-Not-Hearing.aspx?Page=2)
      - References
 		1. Bosch T, van Eck J, Knitel K, de Looze M. (2016). The effects of a passive exoskeleton on muscle activity, discomfort and endurance time in forward bending work. Appl Ergon. 2016 May; 54:212-7.
