@@ -226,6 +226,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
   - EksoVest by [Ekso Bionics](http://2t2ine2n47g337am722tf6ek.wpengine.netdna-cdn.com/wp-content/uploads/2017/07/EksoVest-Sell-Sheet.pdf)
   - SuitX modular system [(BackX, LegX and ShoulderX ) by U.S. Bionics](http://www.suitx.com/)
   - Airframe by [Levitate](http://www.levitatetech.com/)
+  - working prototype (Harvard biodesign lab): [back-assist exosuit](https://wyss.harvard.edu/technology/soft-exosuits-for-back-support-during-strenuous-tasks/)
   
   
 Local Exoskeleton: [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/engineering-topics/articles/robotics/reducing-exoskeleton-muscle-fatigue) 
