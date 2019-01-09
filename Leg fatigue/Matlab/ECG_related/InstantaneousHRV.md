@@ -10,13 +10,14 @@
 	
      - [other software](http://www.neurostat.mit.edu/software)  
 	 - References: 
-	    - Barbieri R, 2006: [Analysis of heartbeat dynamics by point process adaptive filtering](https://www.ncbi.nlm.nih.gov/pubmed/15374824).
 	    - Barbieri R, 2005: [A point-process model of human heartbeat intervals: new definitions of heart rate and heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/15374824)
-	    - Valenza G, Barbieri R, etc. 2016: [Inhomogeneous Point-Processes to Instantaneously Assess Affective Haptic Perception through Heartbeat Dynamics Information](https://www.ncbi.nlm.nih.gov/pubmed/?term=27357966)
+	    - Barbieri R, 2006: [Analysis of heartbeat dynamics by point process adaptive filtering](https://www.ncbi.nlm.nih.gov/pubmed/15374824).
 	    - Citi L, 2010: [Point Process Heart Rate Variability Assessment during Sleep Deprivation](https://www.ncbi.nlm.nih.gov/pubmed/22517071)
+	    - Valenza G, Barbieri R, etc. 2016: [Inhomogeneous Point-Processes to Instantaneously Assess Affective Haptic Perception through Heartbeat Dynamics Information](https://www.ncbi.nlm.nih.gov/pubmed/?term=27357966)
 		- Valenza G, 2016: [Disentanglement of sympathetic and parasympathetic activity by instantaneous analysis of human heartbeat dynamics](https://www.ncbi.nlm.nih.gov/pubmed/28268477)
 		- Valenza G, 2017: [Assessment of instantaneous cardiovascular dynamics from video plethysmography](https://www.ncbi.nlm.nih.gov/pubmed/29060232)
-		- Valenza G, 2017:[Complexity Variability Assessment of Nonlinear Time-Varying Cardiovascular Control](https://www.ncbi.nlm.nih.gov/pubmed/28218249)
+		- Valenza G, 2017: [Complexity Variability Assessment of Nonlinear Time-Varying Cardiovascular Control](https://www.ncbi.nlm.nih.gov/pubmed/28218249)
+		- Valenza G, 2018: [Measures of sympathetic and parasympathetic autonomic outflow from heartbeat dynamics.](https://www.ncbi.nlm.nih.gov/pubmed/29446712)
 		
 		
 	    
