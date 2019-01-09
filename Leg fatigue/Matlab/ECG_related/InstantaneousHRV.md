@@ -16,6 +16,8 @@
 	    - Citi L, 2010: [Point Process Heart Rate Variability Assessment during Sleep Deprivation](https://www.ncbi.nlm.nih.gov/pubmed/22517071)
 		- Valenza G, 2016: [Disentanglement of sympathetic and parasympathetic activity by instantaneous analysis of human heartbeat dynamics](https://www.ncbi.nlm.nih.gov/pubmed/28268477)
 		- Valenza G, 2017: [Assessment of instantaneous cardiovascular dynamics from video plethysmography](https://www.ncbi.nlm.nih.gov/pubmed/29060232)
+		- Valenza G, 2017:[Complexity Variability Assessment of Nonlinear Time-Varying Cardiovascular Control](https://www.ncbi.nlm.nih.gov/pubmed/28218249)
+		
 		
 	    
    - Other groups:
