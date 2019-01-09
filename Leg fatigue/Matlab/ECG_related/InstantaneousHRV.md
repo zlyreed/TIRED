@@ -17,9 +17,12 @@
 		- Valenza G, 2016: [Disentanglement of sympathetic and parasympathetic activity by instantaneous analysis of human heartbeat dynamics](https://www.ncbi.nlm.nih.gov/pubmed/28268477)
 		- Valenza G, 2017: [Assessment of instantaneous cardiovascular dynamics from video plethysmography](https://www.ncbi.nlm.nih.gov/pubmed/29060232)
 		- Valenza G, 2017: [Complexity Variability Assessment of Nonlinear Time-Varying Cardiovascular Control](https://www.ncbi.nlm.nih.gov/pubmed/28218249)
+		- Nagaraj SB, 2017: [Patient-Specific Classification of ICU Sedation Levels From Heart Rate Variability.](https://www.ncbi.nlm.nih.gov/pubmed/28441231)
 		- Valenza G, 2018: [Measures of sympathetic and parasympathetic autonomic outflow from heartbeat dynamics.](https://www.ncbi.nlm.nih.gov/pubmed/29446712)
+		- Valenza G, 2018: [Analysis of Instantaneous Linear, Nonlinear and Complex Cardiovascular Dynamics from Videophotoplethysmography.](https://www.ncbi.nlm.nih.gov/pubmed/29719921)
+		- Valenza G, 2018: [Mortality Prediction in Severe Congestive Heart Failure Patients with Multifractal Point-Process Modeling of Heartbeat Dynamics.](https://www.ncbi.nlm.nih.gov/pubmed/29993522)
 		
-		
+				
 	    
    - Other groups:
      - Yasuyuki Shiraishi, 2018; [Real-Time Analysis of the Heart Rate Variability During Incremental Exercise for the Detection of the Ventilatory Threshold](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5778955/)
