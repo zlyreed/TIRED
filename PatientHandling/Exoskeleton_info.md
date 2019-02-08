@@ -119,11 +119,12 @@ Local Exoskeleton: [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/en
   - [WR listing](http://www.wearablerobotics.com/wr-listing/): The Wearable Robotics Association (WearRA) seeks to identify all commercially available wearable robotic technologies from around the globe. 
 
   
- Standards:
+ Standards and Evaluation:
   - World’s First Performance Standard for Hip Type Wearable Robots: [the Japanese Industrial Standards(JIS) 8456-1](https://exoskeletonreport.com/2017/11/worlds-first-performance-standard-hip-type-wearable-robots-jis-8456-1/)
     - [Standard Performance Test of Wearable Robots for Lumbar Support ](https://ieeexplore.ieee.org/document/8304776)
     - [Japan's Robot Suit Gets Global Safety Certificate](https://www.industryweek.com/robotics/japans-robot-suit-gets-global-safety-certificate)
   - Italy: [Towards Standard Specifications for Back-Support Exoskeletons](https://www.researchgate.net/publication/327954839_Towards_Standard_Specifications_for_Back-Support_Exoskeletons)
   - [Honda Walking Assist Certified with CE Mark Using Contents of ISO 13482](https://exoskeletonreport.com/2018/01/honda-walking-assist-certified-with-ce-mark-using-contents-of-iso-13482/)
-   
+  - [Testing Wearable Robots](https://exoskeletonreport.com/2016/10/testing-wearable-robots/)
+  
   
