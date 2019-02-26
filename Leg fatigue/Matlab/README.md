@@ -46,7 +46,7 @@
 	  - notes: in case there are missing events in Vicon, predicted event label (add '5*ones(62,1)'/0.062-second-long to 'ForceEvent_data') can be added based on the time in "RPE_recording" file.
 	  
 	  
-**5. Extract features from experimental data (matlab files are under ".../LegFatigue_matlab/functions")**
+**5. Extract features from experimental data (matlab function files are under ".../LegFatigue_matlab/functions")**
   - **extractRPEclass**: Identify the fatigue level from RPE values and select windows (run first)
     - "light" = 6 to 12; "tired" = 16 to 20 (check the number! RPE ranged from 6 to 20)
 	- "pull"= 6; "stop"=20;
@@ -77,6 +77,9 @@
   - extractAccelerationFeatures:
     
 	- Notes: Check 'Acceleration_medFrq.m' function (FFT and median frequency on Acceleration data)
+
+  - Organize features for all the subjects
+    - use "FatigueFeatures_allSubjects.m"  
 
 **6. Use "Classification Learner" app in Matlab.2017b**	
 
