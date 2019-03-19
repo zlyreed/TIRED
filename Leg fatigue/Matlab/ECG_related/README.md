@@ -107,7 +107,7 @@
 			```
 		    - use [ECG2RRi_test.m](ECG2RRi_test.m) to compare the RRi calucated from ECG (mhrv, rqrs: R-peak detection) and Biomonitor-output RRi, which were comparable after changing [cfd/gqrs.conf](gqrs.default.conf) as above.
 						
-		- check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m))
+		- check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and run it on the local drive using "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
 		  - need to decide on what to use for nni:
 			1. rri output from Biomonitor --> remove flat "step" data in rri (using [rmvStep.m](rmvStep.m))--> filtered (use "filtrr") --> maybe resample the nni??
 		    2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
