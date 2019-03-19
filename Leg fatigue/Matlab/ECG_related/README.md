@@ -22,7 +22,7 @@
   - [An introduction to heart rate variability: methodological considerations and clinical applications, 2015](https://www.frontiersin.org/articles/10.3389/fphys.2015.00055/full#B1)
   
  - PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
-     -  Test "Usage" **example**: refer to Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox): 
+     -  ** Test "Usage" example: refer to Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox with an example and results pictures ): **
 	   
 	    1. Initialize MATLAB environment of the mhrv tools: 
 		```
@@ -90,7 +90,7 @@
 			 - MIT Annotation files are binary files containing annotations (labels that generally refer to specific samples in associated signal files). Annotation files should be read with their associated header files. If you see files in a directory called RECORDNAME.dat, or RECORDNAME.hea, any other file with the same name but different extension, for example RECORDNAME.atr, is an annotation file for that record.
 	      - Modify default parameter values of the mhrv toolbox: you can edit [cfg/defaults.yml](defaults.yml), and [cfd/gqrs.conf](gqrs.default.conf)
      
-	 - Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):
+	 - **Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):**
 	    - confirm the RR-interval output:
 		  - normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds; 
 		  - more information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
