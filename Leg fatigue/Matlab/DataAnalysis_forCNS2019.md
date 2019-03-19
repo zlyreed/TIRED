@@ -2,7 +2,7 @@
 **1. Based on the pre-processed testing data**
 - Processed testing data ([see the processing steps](README.md)) were under the folder ".../MuscleFatigue_Testing" ( S17 to S22 (Test No.: 16 to 21) MVC 30 and MCV60 data; not including trials that are shorter than 3 mins)
 - Subject info was recorded in "LegFatigueTesting_RPE_recording.xlsx"
-- Matlab code: ".../LegFatigue_matlab/measures_BeforeVsAfter.m"
+- Matlab code: ".../LegFatigue_matlab/CNSposter_measures_BeforeVsAfter.m and CNSposter_plot_Force_ECG_RPE_4plots_S21.m"
 
 
 **2. Measures between the begining (light) and end (tired, RPE>=18)**
