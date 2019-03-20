@@ -24,15 +24,15 @@
 #### PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
 ##### **Test "Usage" example: refer to Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox with an example and results pictures ):**
 	   
-	    1. Initialize MATLAB environment of the mhrv tools: 
+	1. Initialize MATLAB environment of the mhrv tools: 
 		```
 		mhrv_init [-f/--force];
 		```
-		2. If there is no example dataset,download the mitdb/111 record from PhysioNet to local folder named 'db': 
+	2. If there is no example dataset,download the mitdb/111 record from PhysioNet to local folder named 'db': 
 		```
 		download_wfdb_records('mitdb', '111', 'db')';
 		```  	
-		3. Run HRV analysis: 
+	3. Run HRV analysis: 
 		```
 		mhrv('db/mitdb/111', 'window_minutes', 15, 'plot', true);
 		```
@@ -91,11 +91,11 @@
 	      - Modify default parameter values of the mhrv toolbox: you can edit [cfg/defaults.yml](defaults.yml), and [cfd/gqrs.conf](gqrs.default.conf)
      
 ##### **Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):**
-	    - confirm the RR-interval output:
-		  - normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds; 
-		  - more information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
-		  - modify the [cfd/gqrs.conf](gqrs.default.conf):
-		    - current default: 
+	- confirm the RR-interval output:
+		- normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds; 
+		- more information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
+		- modify the [cfd/gqrs.conf](gqrs.default.conf):
+		- current default: 
 			```
 			RRdelta	0.2	# Typical difference between successive RR intervals in seconds
             RRmin	0.28	# Minimum RR interval ("refractory period"), in seconds
@@ -107,19 +107,18 @@
 			```
 		    - use [ECG2RRi_test.m](ECG2RRi_test.m) to compare the RRi calucated from ECG (mhrv, rqrs: R-peak detection) and Biomonitor-output RRi, which were comparable after changing [cfd/gqrs.conf](gqrs.default.conf) as above.
 						
-		- check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and run it on the local drive using "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
-		  - need to decide on what to use for nni:
+    - check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and run it on the local drive using "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
+		- need to decide on what to use for nni:
 			1. rri output from Biomonitor --> remove flat "step" data in rri (using [rmvStep.m](rmvStep.m))--> filtered (use "filtrr") --> maybe resample the nni??
 		    2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
 			3. rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
-		  - HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
-		  - Align RPE reading:
-		     - plot all the HRV parameters from 4 trials in individual figures [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) "; calls [hrv_table_fcn.m](hrv_table_fcn.m), which generates HRV table)
-			    - [hrv_table_fcn.m](hrv_table_fcn.m) has issues with selected small windows (e.g., 10 seconds) in hrv_frequency and hrv_nonlinear and hrv_fragmentation
-		     - try to modify [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) using [hrv_table_fcn_noResampling.m](hrv_table_fcn_noResampling.m) and [hrv_table_fcn_Resampling.m](hrv_table_fcn_Resampling.m)  (**10/17/2018**)
- 				
-		
-     ##### Maybe test the online dataset in the future: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
+		- HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
+		- Align RPE reading:
+		   - plot all the HRV parameters from 4 trials in individual figures [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) "; calls [hrv_table_fcn.m](hrv_table_fcn.m), which generates HRV table)
+			  - [hrv_table_fcn.m](hrv_table_fcn.m) has issues with selected small windows (e.g., 10 seconds) in hrv_frequency and hrv_nonlinear and hrv_fragmentation
+		   - try to modify [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) using [hrv_table_fcn_noResampling.m](hrv_table_fcn_noResampling.m) and [hrv_table_fcn_Resampling.m](hrv_table_fcn_Resampling.m)  (**10/17/2018**)
+ 						
+##### Maybe test the online dataset in the future: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
  
   
 #### Other realted tools: 
