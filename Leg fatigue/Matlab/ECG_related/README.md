@@ -127,63 +127,60 @@
 	- [Kubios: from XS](https://www.kubios.com/gallery/)
 	- Vollmer, 2017 (HRVTool v0.99 from Github): [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
 	- [PhysioZoo](https://physiozoo.com/)
-        - Github [webpage](https://github.com/physiozoo)
-	  - Github [physiozoo](https://github.com/physiozoo/physiozoo)
-	- iMotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
+	   - Github [webpage](https://github.com/physiozoo)
+       - Github [physiozoo](https://github.com/physiozoo/physiozoo)
+    - iMotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
 
 ### Readings on heart dynamics	
-#### **HRV and Cognitive Neuroscience**
-  - HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
-	- HF (0.15–0.40 Hz): associated with respiratory sinus arrhythmia, and has been attributed to parasympathetic (vagal) activity.
-	- LF (0.04–0.15 Hz): assumed to be under the influence of both parasympathetic and sympathetic activity, but predominately by sympathetic activity.
-	- LF/HF ratio: a putative measure of sympathovagal balance where higher numbers indicate greater relative sympathetic dominance. 
-	- Root Mean Square Successive Differences (RMSSD) and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 	
+#### HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
+  - HF (0.15–0.40 Hz): associated with respiratory sinus arrhythmia, and has been attributed to parasympathetic (vagal) activity.
+  - LF (0.04–0.15 Hz): assumed to be under the influence of both parasympathetic and sympathetic activity, but predominately by sympathetic activity.
+  - LF/HF ratio: a putative measure of sympathovagal balance where higher numbers indicate greater relative sympathetic dominance. 
+  - Root Mean Square Successive Differences (RMSSD) and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 	
 
-	- Notes: Difference between [parasympathetic nervous system(**PNS**) and sympathetic nervous system (**SNS**)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
- 
-	- HRV studies during resting
-	  - [Fatigue shifts and scatters heart rate variability in elite endurance athletes,2013](https://www.ncbi.nlm.nih.gov/pubmed/23951198)
-  
-	- HRV studies for exercise
-	  - [Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
-		- Record the resting heart beat for one minute (resting HRV);
-		- Analogy: the sympathetic --- the accelerator in your car, making the vehicle go faster; parasympathetic conponent is likened to the brakes, slowing it down
-		- [sensor](http://www.myithlete.com/products/)
-	  - [Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/10393677)
-	  - [Heart rate variability and physical exercise. Current status](https://www.ncbi.nlm.nih.gov/pubmed/17036185)
-	  - [Stability over time of short-term heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/16362542)
-	  - [The use of heart rate variability measures to assess autonomic control during exercise](https://www.ncbi.nlm.nih.gov/pubmed/16774653)
-	  - [Heart rate variability and swimming](https://www.ncbi.nlm.nih.gov/pubmed/24958562)
-	  - [Non-linear dynamics of heart rate variability during incremental cycling exercise](https://www.ncbi.nlm.nih.gov/pubmed/30040499) (Gronwald, 2018)
-		- Using detrended fluctuation analysis (DFA)to assess heart rate correlation properties, the present study examines the influence of exercise intensity on total variability and complexity in non-linear dynamics of HRV.
-		- DFA-alpha1 increased from rest to low exercise intensity and showed an almost linear decrease from higher intensities until exhaustion.
-	  - [Musculoskeletal overuse injuries and heart rate variability: Is there a link? Gisselman-2016](https://www.ncbi.nlm.nih.gov/pubmed/26826630)
+  - Notes: Difference between [parasympathetic nervous system(**PNS**) and sympathetic nervous system (**SNS**)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
+
+#### HRV studies during resting and exercise
+  - [Fatigue shifts and scatters heart rate variability in elite endurance athletes,2013](https://www.ncbi.nlm.nih.gov/pubmed/23951198)
+  - [Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
+	- Record the resting heart beat for one minute (resting HRV);
+	- Analogy: the sympathetic --- the accelerator in your car, making the vehicle go faster; parasympathetic conponent is likened to the brakes, slowing it down
+	- [sensor](http://www.myithlete.com/products/)
+  - [Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/10393677)
+  - [Heart rate variability and physical exercise. Current status](https://www.ncbi.nlm.nih.gov/pubmed/17036185)
+  - [Stability over time of short-term heart rate variability](https://www.ncbi.nlm.nih.gov/pubmed/16362542)
+  - [The use of heart rate variability measures to assess autonomic control during exercise](https://www.ncbi.nlm.nih.gov/pubmed/16774653)
+  - [Heart rate variability and swimming](https://www.ncbi.nlm.nih.gov/pubmed/24958562)
+  - [Non-linear dynamics of heart rate variability during incremental cycling exercise](https://www.ncbi.nlm.nih.gov/pubmed/30040499) (Gronwald, 2018)
+	- Using detrended fluctuation analysis (DFA)to assess heart rate correlation properties, the present study examines the influence of exercise intensity on total variability and complexity in non-linear dynamics of HRV.
+	- DFA-alpha1 increased from rest to low exercise intensity and showed an almost linear decrease from higher intensities until exhaustion.
+  - [Musculoskeletal overuse injuries and heart rate variability: Is there a link? Gisselman-2016](https://www.ncbi.nlm.nih.gov/pubmed/26826630)
 	  
-  - HRV on Prefrontal cortex
-	- [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
-	   - [neurogynth.org](http://neurosynth.org/analyses/terms/heart/)
-	   - [NeuroVault.org](https://www.frontiersin.org/articles/10.3389/fninf.2015.00008/full)
-   
-	- [Heart rate variability is associated with amygdala functional connectivity with MPFC across younger and older adults](https://www.ncbi.nlm.nih.gov/pubmed/27261160)
+#### HRV on Prefrontal cortex
+  - [Higher Heart-Rate Variability Is Associated with Ventromedial Prefrontal Cortex Activity and Increased Resistance to Temptation in Dietary Self-Control Challenges](https://www.neurovault.org/collections/DNXFVQPJ/)
+    - [neurogynth.org](http://neurosynth.org/analyses/terms/heart/)
+    - [NeuroVault.org](https://www.frontiersin.org/articles/10.3389/fninf.2015.00008/full)
 
-  - HRV on fatigue
-    - Mental Fatigue  
-	  - [Mental Fatigability and Heart Rate Variability in Mild Cognitive Impairment](https://www.ncbi.nlm.nih.gov/pubmed/26905050);
-	  - [Dissociation between mental fatigue and motivational state during prolonged mental activity, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26217203);
-  
-  - Physical Fatigue	  
-	- [Can cognitive activities during breaks in repetitive manual work accelerate recovery from fatigue? A controlled experiment, 2014](https://www.ncbi.nlm.nih.gov/pubmed/25375644)
-	- [Impacts of obesity and stress on neuromuscular fatigue development and associated heart rate variability, 2015](https://www.ncbi.nlm.nih.gov/pubmed/25042859)
-	- [Changes in physical activity and heart rate variability in chronic neck-shoulder pain: monitoring during work and leisure time, 2014](https://www.ncbi.nlm.nih.gov/pubmed/24162088)
-	- [Shift Work and Heart Rate Variability Coherence: Pilot Study Among Nurses,2018](https://www.ncbi.nlm.nih.gov/pubmed/30232570)
-	- [Heart rate variability analysis during muscle fatigue due to prolonged isometric contraction](https://www.ncbi.nlm.nih.gov/pubmed/29060120)(Guidi, 2017)
-	  - Comparing the fatigue group with non-fatigue one
-		- Time domain: significant reduced RMSSD and NN50 values;
-		- Frequency domain: increased LF and reduced HF;
-		- Non linear features: lower SD1.			
+  - [Heart rate variability is associated with amygdala functional connectivity with MPFC across younger and older adults](https://www.ncbi.nlm.nih.gov/pubmed/27261160)
+
+#### **HRV on fatigue**
+- Mental Fatigue  
+  - [Mental Fatigability and Heart Rate Variability in Mild Cognitive Impairment](https://www.ncbi.nlm.nih.gov/pubmed/26905050);
+  - [Dissociation between mental fatigue and motivational state during prolonged mental activity, 2015](https://www.ncbi.nlm.nih.gov/pubmed/26217203);
+
+- Physical Fatigue	  
+  - [Can cognitive activities during breaks in repetitive manual work accelerate recovery from fatigue? A controlled experiment, 2014](https://www.ncbi.nlm.nih.gov/pubmed/25375644)
+  - [Impacts of obesity and stress on neuromuscular fatigue development and associated heart rate variability, 2015](https://www.ncbi.nlm.nih.gov/pubmed/25042859)
+  - [Changes in physical activity and heart rate variability in chronic neck-shoulder pain: monitoring during work and leisure time, 2014](https://www.ncbi.nlm.nih.gov/pubmed/24162088)
+  - [Shift Work and Heart Rate Variability Coherence: Pilot Study Among Nurses,2018](https://www.ncbi.nlm.nih.gov/pubmed/30232570)
+  - [Heart rate variability analysis during muscle fatigue due to prolonged isometric contraction](https://www.ncbi.nlm.nih.gov/pubmed/29060120)(Guidi, 2017)
+	 - Comparing the fatigue group with non-fatigue one
+	  - Time domain: significant reduced RMSSD and NN50 values;
+	  - Frequency domain: increased LF and reduced HF;
+	  - Non linear features: lower SD1.			
 
 
-
+## Others
   - from Cognitive Neuroscienty Society (CNS) Meeting ([previous meeting programs and abstracts](https://www.cogneurosociety.org/annual-meeting/general-information/previous-meetings/))
     - [CNS 2018 Blog](https://www.cogneurosociety.org/cns-2018-blog/) 
 	  - [Girls v. Boys: No Gender Differences in Neural Processing of Math](https://www.cogneurosociety.org/girls-v-boys-no-gender-differences-neural-processing-math/)
