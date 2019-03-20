@@ -1,6 +1,4 @@
-**ECG**
-
-- Some basic [terms](https://www.physionet.org/tutorials/hrv/#hr-extraction)
+## Basic terminology
   - [QRS](https://en.wikipedia.org/wiki/QRS_complex): The QRS complex is a name for the combination of three of the graphical deflections seen on a typical electrocardiogram (EKG or ECG). In other words, it's the main spike seen on an ECG line.
     
 	<img src="pics/QRS.png" alt="drawing" width="400"/>
@@ -10,7 +8,9 @@
      - The difference between RR interval and NN interval: NN intervals refer to the intervals between **normal** R-peaks. During a measurement, artifacts may arise due to arrhythmic events or faulty sensors, for example (Citi, Brown & Barbieri, 2012). This may lead to abnormal R-peaks, which may in turn distort the statistical measures. To ensure reliable and valid data, only normal R-peaks are selected. Alternatively, the abnormal R-peaks can be corrected. 
 	 In practice, however, RR-intervals and NN-intervals are synonymous (Tarvainen, 2014; Wiki). The use of "NN-intervals" is merely used to emphasize that normal R-peaks were used. 
   - [Heart Rate](https://en.wikipedia.org/wiki/Heart_rate): [The instantaneous heart rate](https://courses.kcumb.edu/physio/ecg%20primer/normecgcalcs.htm) can be calculated from the time between any two QRS complexes. 
-- Heart rate variability:
+  - RR Intervals, Heart Rate, and HRV Howto (by [George B. Moody, Harvard-MIT Division of Health Sciences and Technology](https://www.physionet.org/tutorials/hrv/#hr-extraction))
+
+### Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
      
 	 <img src="pics/HRV_time-domain.png" alt="drawing" width="800"/>
@@ -21,8 +21,8 @@
   - [Heart rate variability – a historical perspective, 2011](https://www.frontiersin.org/articles/10.3389/fphys.2011.00086/full)
   - [An introduction to heart rate variability: methodological considerations and clinical applications, 2015](https://www.frontiersin.org/articles/10.3389/fphys.2015.00055/full#B1)
   
- - PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
-     -  **Test "Usage" example: refer to Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox with an example and results pictures ):**
+ #### PhysioNet, 2016: [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
+     #####  **Test "Usage" example: refer to Github [mhrv](https://github.com/physiozoo/mhrv) (main function toolbox with an example and results pictures ):**
 	   
 	    1. Initialize MATLAB environment of the mhrv tools: 
 		```
@@ -90,7 +90,7 @@
 			 - MIT Annotation files are binary files containing annotations (labels that generally refer to specific samples in associated signal files). Annotation files should be read with their associated header files. If you see files in a directory called RECORDNAME.dat, or RECORDNAME.hea, any other file with the same name but different extension, for example RECORDNAME.atr, is an annotation file for that record.
 	      - Modify default parameter values of the mhrv toolbox: you can edit [cfg/defaults.yml](defaults.yml), and [cfd/gqrs.conf](gqrs.default.conf)
      
-	 - **Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):**
+	 ##### **Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):**
 	    - confirm the RR-interval output:
 		  - normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds; 
 		  - more information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
@@ -117,15 +117,12 @@
 		     - plot all the HRV parameters from 4 trials in individual figures [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) "; calls [hrv_table_fcn.m](hrv_table_fcn.m), which generates HRV table)
 			    - [hrv_table_fcn.m](hrv_table_fcn.m) has issues with selected small windows (e.g., 10 seconds) in hrv_frequency and hrv_nonlinear and hrv_fragmentation
 		     - try to modify [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) using [hrv_table_fcn_noResampling.m](hrv_table_fcn_noResampling.m) and [hrv_table_fcn_Resampling.m](hrv_table_fcn_Resampling.m)  (**10/17/2018**)
-			 
+ 				
 		
-		
-		
- - Maybe test the online dataset in the future: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
+     ##### Maybe test the online dataset in the future: [Stress Recognition in Automobile Drivers](https://physionet.org/physiobank/database/drivedb/)
  
   
- - Other realted tools and reading:
- 
+  #### Other realted tools: 
 
 	- Kaufmann, 2011: [ARTiiFACT](http://www.artiifact.de/) 
 	- [Kubios: from XS](https://www.kubios.com/gallery/)
@@ -134,8 +131,9 @@
         - Github [webpage](https://github.com/physiozoo)
 	  - Github [physiozoo](https://github.com/physiozoo/physiozoo)
 	- iMotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
-	
-	- **HRV and Cognitive Neuroscience**
+
+ ### Readings on heart dynamics	
+	#### **HRV and Cognitive Neuroscience**
 	  - HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
 	    - HF (0.15–0.40 Hz): associated with respiratory sinus arrhythmia, and has been attributed to parasympathetic (vagal) activity.
 		- LF (0.04–0.15 Hz): assumed to be under the influence of both parasympathetic and sympathetic activity, but predominately by sympathetic activity.
@@ -148,7 +146,7 @@
 	    - HRV studies during resting
 		  - [Fatigue shifts and scatters heart rate variability in elite endurance athletes,2013](https://www.ncbi.nlm.nih.gov/pubmed/23951198)
 	  
-	    - HRV studies during exercise
+	    - HRV studies for exercise
 		  - [Heart Rate Variability: what it is and how It helps with training and racing](https://philmaffetone.com/hrv/)
 		    - Record the resting heart beat for one minute (resting HRV);
 			- Analogy: the sympathetic --- the accelerator in your car, making the vehicle go faster; parasympathetic conponent is likened to the brakes, slowing it down
