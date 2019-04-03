@@ -105,9 +105,9 @@
   - working prototype (Harvard biodesign lab): [back-assist exosuit](https://wyss.harvard.edu/technology/soft-exosuits-for-back-support-during-strenuous-tasks/)
   
   
-Local Exoskeleton at pitt ([Dr. Nitin Sharma Lab](http://www.pittsharmalab.org/)) : [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/engineering-topics/articles/robotics/reducing-exoskeleton-muscle-fatigue) 
-    - The hope is that using ultrasound, which supplies image-based, real-time image sensing, the exoskeleton will better sense fatigue and will know when to switch from joint actuators to electrical stimulation of the muscles themselves, something that has been difficult to determine to this point.
-
+ Exoskeleton research at pitt ([Dr. Nitin Sharma Lab](http://www.pittsharmalab.org/)) : 
+   - [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/engineering-topics/articles/robotics/reducing-exoskeleton-muscle-fatigue): The hope is that using ultrasound, which supplies image-based, real-time image sensing, the exoskeleton will better sense fatigue and will know when to switch from joint actuators to electrical stimulation of the muscles themselves, something that has been difficult to determine to this point.
+   - Ultrasound-based Intent Modeling and Control Framework for Neurorehabilitation and Educating Children with Disabilities and High School Students; [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1750748&HistoricalAwards=false)
  
   
  Organizations:
