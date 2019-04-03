@@ -96,7 +96,7 @@
 		8. Theural J, Desbrosses K, Roux T, Savescu A. (2018). Physiological consequences of using an upper limb exoskeleton during manual handling tasks. Appl Ergon. 2018 Feb;67:211-217.
 		9. Weston EB, Alizadeh M, Knapik GG, Wang X, Marras WS. (2018). Biomechanical evaluation of exoskeleton use on loading of the lumbar spine. Appl Ergon. 2018 Apr;68:101-108.
 		10. Young AJ, Ferris DP. (2017). State of the Art and Future Directions for Lower Limb Robotic Exoskeletons. IEEE Trans Neural Syst Rehabil Eng. 2017 Feb;25(2):171-182.
-  -[Experts say the emerging technology could benefit people in physically demanding jobs (2018)](https://www.safetyandhealthmagazine.com/articles/17370-exoskeletons-in-the-workplace)
+  - [Experts say the emerging technology could benefit people in physically demanding jobs (2018)](https://www.safetyandhealthmagazine.com/articles/17370-exoskeletons-in-the-workplace)
   
  Exoskeletons in house:
   - EksoVest by [Ekso Bionics](http://2t2ine2n47g337am722tf6ek.wpengine.netdna-cdn.com/wp-content/uploads/2017/07/EksoVest-Sell-Sheet.pdf)
@@ -105,7 +105,7 @@
   - working prototype (Harvard biodesign lab): [back-assist exosuit](https://wyss.harvard.edu/technology/soft-exosuits-for-back-support-during-strenuous-tasks/)
   
   
-Local Exoskeleton: [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/engineering-topics/articles/robotics/reducing-exoskeleton-muscle-fatigue) 
+Local Exoskeleton at pitt ([Dr. Nitin Sharma Lab](http://www.pittsharmalab.org/)) : [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/engineering-topics/articles/robotics/reducing-exoskeleton-muscle-fatigue) 
     - The hope is that using ultrasound, which supplies image-based, real-time image sensing, the exoskeleton will better sense fatigue and will know when to switch from joint actuators to electrical stimulation of the muscles themselves, something that has been difficult to determine to this point.
 
  
