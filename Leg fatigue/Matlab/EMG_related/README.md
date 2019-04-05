@@ -13,6 +13,8 @@
     - Test No 5 (S8): Channel 1 was not good after MVC30_fatigue 1 and MVC100_1; for the rest trials, use Channel 6 recording for Rectus Femoris. 
       - fixed Test No. 5 (updated at '...\LegFatigueTesting05_2017-09-15_S08\Vicon_Matlab' on 04-05-2019): move the recording from Channel 6 to Channel 2, replace Channel 6 with zeros (use [Fix_EMG_Channels.m](Fix_EMG_Channels.m), which calls [fixArrayColumn.m](fixArrayColumn.m) and [fixCellColumn.m](fixCellColumn.m)). 
     - Test No.9 (S11): missing recording of Channel 6 and 7 for MVC60_Fatigue1 trial (the first trial)
+  - Need to fix the unit (4/5/2019)	
+	
 Notes: 
 - Difference between in voltage between two electrodes (surface or needle)
 - "ABC of EMG" (Peter Konrad, 2005): This would result in a sampling frequency of at least 1000 Hz (double band of EMG) or even 1500 Hz to avoid signal loss. 
