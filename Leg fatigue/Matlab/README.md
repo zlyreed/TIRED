@@ -67,7 +67,7 @@
     
   
   - extractEMGFeatures: 
-    - [EMG analysis](/EMG_related/README.md) about filtering, rectifying and spectral analysis  
+    - [EMG analysis](EMG_related/README.md) about filtering, rectifying and spectral analysis  
     - **Input**: EMGData,RPE_ClassTable,Fs_EMG (EMG frequency),T_average (averaging time),fftlength (# seconds of data to perform FFT)
 	- **Output**: 
 	- Notes: 
