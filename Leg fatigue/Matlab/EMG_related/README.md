@@ -1,4 +1,5 @@
 # EMG analysis
+- [Normalization on EMG](https://www.intechopen.com/books/computational-intelligence-in-electromyography-analysis-a-perspective-on-current-applications-and-future-challenges/normalization-of-emg-signals-to-normalize-or-not-to-normalize-and-what-to-normalize-to-)
 
 - check out the example singal analysis from [delsys](https://www.delsys.com/use-emgscripts-fatigue-analysis/)
 
