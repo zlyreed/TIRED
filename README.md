@@ -42,4 +42,11 @@ Explore how we respond to fatigue (mainly physical here).
   - Psychological components of effort sense. [(Morgan, 1994)](https://www.ncbi.nlm.nih.gov/pubmed/7808238)
   - Is the relationship of RPE to psychological factors intensity-dependent? [(Hall, 2005)](https://www.ncbi.nlm.nih.gov/pubmed/16118584)
   - Peripheral fatigue limits endurance exercise via a sensory feedback-mediated reduction in spinal motoneuronal output. [(Amann, 2013)](https://www.ncbi.nlm.nih.gov/pubmed/23722705)
+  - Gender differences:
+    - Mechanisms of fatigue differ after low- and high-force fatiguing contractions in men and women. [Yoon, et al., 2007](https://www.ncbi.nlm.nih.gov/pubmed/17626289)
   
+ Measure Fatigue:
+ - Measurement of human muscle fatigue [Vøllestad, 1997](https://www.ncbi.nlm.nih.gov/pubmed/9219890)
+   - "Indirect methods as endurance times and electromyography show variable responses during exercise and no close relationship to fatigue. Hence these methods are of limited value in measurement of human muscle fatigue."
+ 
+ 
