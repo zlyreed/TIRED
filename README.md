@@ -45,8 +45,9 @@ Explore how we respond to fatigue (mainly physical here).
   - Gender differences:
     - Mechanisms of fatigue differ after low- and high-force fatiguing contractions in men and women. [Yoon, et al., 2007](https://www.ncbi.nlm.nih.gov/pubmed/17626289)
     - Sex differences in fatigability of dynamic contractions. [Hunter, 2016](https://www.ncbi.nlm.nih.gov/pubmed/26440505)
- Measure Fatigue:
- - Measurement of human muscle fatigue [Vøllestad, 1997](https://www.ncbi.nlm.nih.gov/pubmed/9219890)
-   - "Indirect methods as endurance times and electromyography show variable responses during exercise and no close relationship to fatigue. Hence these methods are of limited value in measurement of human muscle fatigue."
+
+- Measure Fatigue:
+  - Measurement of human muscle fatigue [Vøllestad, 1997](https://www.ncbi.nlm.nih.gov/pubmed/9219890)
+    - "Indirect methods as endurance times and electromyography show variable responses during exercise and no close relationship to fatigue. Hence these methods are of limited value in measurement of human muscle fatigue."
  
  
