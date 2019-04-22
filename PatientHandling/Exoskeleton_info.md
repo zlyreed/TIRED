@@ -19,6 +19,7 @@
 	- [Germen Bionic, CrayX](https://www.germanbionic.com/crayx/)
     - [Hercule, by French company RB3D](https://exoskeletonreport.com/product/hercule/)
        - [Hercule exoskeleton can help a regular human carry up to 220 pounds](https://www.theverge.com/2012/2/22/2815704/hercule-exoskeleton-human-carry-220-pounds)
+	- [Ottobock, by Germany](https://www.ottobock.com/en/company/ottobock-industrials/paexo/): Paexo is a passive exoskeleton from Ottobock that supports people who carry out physically demanding tasks with their arms raised on a daily basis. It relieves strain on the shoulder joints and upper arms, for example when performing overhead work in assembly or trades.
 	
   - Japan:
     - [Watch Panasonic's power-lifting exoskeletons in action, 2016](https://www.wired.co.uk/article/panasonic-robot-suit-exoskeleton)
