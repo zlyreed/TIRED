@@ -49,5 +49,12 @@ Explore how we respond to fatigue (mainly physical here).
 - Measure Fatigue:
   - Measurement of human muscle fatigue [(Vøllestad, 1997)](https://www.ncbi.nlm.nih.gov/pubmed/9219890)
     - "Indirect methods as endurance times and electromyography show variable responses during exercise and no close relationship to fatigue. Hence these methods are of limited value in measurement of human muscle fatigue."
- 
+  - Sports related measurements:
+    - [lactate threshold](https://en.wikipedia.org/wiki/Lactate_threshold):
+	  - Lactate inflection point (LIP), is the exercise intensity at which the blood concentration of lactate and/or lactic acid begins to exponentially increase.[1] It is often expressed as 85% of maximum heart rate or 75% of maximum oxygen intake.[2] When exercising at or below the LT, any lactate produced by the muscles is removed by the body without it building up.[3] 
+	  - The onset of blood lactate accumulation (OBLA) is often confused with the lactate threshold. With a higher exercise intensity the lactate production exceeds at a rate which it cannot be broken down, the blood lactate concentration will show an increase equal to 4.0mM; it then accumulates at the muscle and then moves to the bloodstream.[2] 
+	  - The lactate threshold is a useful measure for deciding exercise intensity for training and racing in endurance sports (e.g., long distance running, cycling, rowing, long distance swimming and cross country skiing), but varies between individuals and can be increased with training.[2] 
+	  - [VO2 max related](http://www.exercise-science-guide.com/articles/lactate-threshold/): Knowing heart rate at lactate threshold is very useful to an athlete because he or she can easily measure heart rate during a workout or race to know whether they are above or below LT. Typically, the best endurance athletes hit LT above 80% VO2max (some as high as 90%). For comparison, untrained individuals fall within 50 – 60% VO2 max and non-elite athletes fall somewhere between untrained and elite. Lance Armstrong’s LT has been measured at between 90 – 95% of VO2 max on the bike!
+	  - with [other measures](http://www.lactate.com/lactate_threshold.html)
+	- [Fatigue index](https://www.livestrong.com/article/397737-define-fatigue-index/): The fatigue index is a measure of anaerobic capacity, or endurance. It is the rate at which power declines in each individual athlete; in other words, it signifies the rate at which you tire when sprinting. 
  
