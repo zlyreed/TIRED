@@ -25,3 +25,6 @@ References using HD EMG:
      - interspike interval (ISI; unit:ms): mean,coefficient of variation (%); [ ISI distribution skewness (degree of symmetry)](https://en.wikipedia.org/wiki/Skewness) and [ISI distribution kurtosis (breadth)](https://en.wikipedia.org/wiki/Kurtosis) 
  - Higher Neuromuscular Manifestations of Fatigue in Dynamic than Isometric Pull-Up Tasks in Rock Climbers.[(Boccia, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/26557188)
    - HD EMG: OT, Bioeletronica, Torino, Italy; 8 electrods (5mm of interelctrode distance) and dry linear array of 16 electrodes (silver bar electrodes); placed on brachioradialis and teres major muscles
+   - Muscle fiber conduction velocity (CV): The three single differential signals with higher similarity and propagation were used t oestimate muscle fiber CV [(Rainoldi, 1999)](https://www.ncbi.nlm.nih.gov/pubmed/?term=repeatability+of+surface+EMG+variables+during+voluntary+isometric+contractions+of+the+biceps+brachii+muscle). CVs were estiamted using two adjacent double differential signals (based on one triplet of single differential signals).
+   - The rate of decrease of muscle fiber CV was found steeper in the dynamic than isometric task in both muscles. A sequence of dynamic pull-ups lead to higher fatigue than sustaining the body weight in an isometric condition at half-way of pull-up.
+   
