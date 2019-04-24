@@ -12,14 +12,14 @@ Prodcut:
  
 	
 References using HD EMG:
- - Central and peripheral **fatigue** in knee and elbow extensor muscles after a long-distance cross-country ski race.[Boccia, 2017](https://www.ncbi.nlm.nih.gov/pubmed/?term=Central+and+peripheral+fatigue+in+knee+and+elbow+extensor+muscles+after+a+long-distance+cross-country+ski+race)
+ - Central and peripheral **fatigue** in knee and elbow extensor muscles after a long-distance cross-country ski race.[(Boccia, 2017)](https://www.ncbi.nlm.nih.gov/pubmed/?term=Central+and+peripheral+fatigue+in+knee+and+elbow+extensor+muscles+after+a+long-distance+cross-country+ski+race)
  - Severe COPD Alters Muscle Fiber Conduction Velocity During Knee Extensors Fatiguing Contraction (Boccia, 2016)
  - Muscle Activity Adaptations to Spinal Tissue Creep in the Presence of Muscle Fatigue [(Abboud, 2016)](https://www.ncbi.nlm.nih.gov/pubmed/26866911)
  - Mechanisms of Fatigue and Recovery in Upper versus Lower Limbs in Men. [(Vernillo, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/28991037)
  - Electromechanical delay components during relaxation after voluntary contraction: Reliability and effects of fatigue. [(Ce, 2014)](https://www.ncbi.nlm.nih.gov/pubmed/?term=Electromechanical+delay+components+during+relaxation+after+voluntary+contraction%3A+Reliability+and+effects+of+fatigue)
- - Motor unit activity, force steadiness, and perceived fatigability are correlated with mobility in older adults.[(Mani and Enoka, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/?term=motor+unit+activity%2C+force+steadiness%2C+and+perceived+fatigability)
+ - Motor unit activity, force steadiness, and perceived fatigability are correlated with mobility in older adults. [(Mani and Enoka, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/?term=motor+unit+activity%2C+force+steadiness%2C+and+perceived+fatigability)
    - HD EMG: W-EMG; Bitro, Turin, Italy; 32 electrons (8 rows X 4 columns); placed on medial gastrocnemius,soleus and tibialis anterior
-   - a custom decomposition algorithm (Holobar et al., 2010; Holobar and Zazula, 2007)
+   - a custom decomposition algorithm ([Holobar et al., 2010](https://www.ncbi.nlm.nih.gov/pubmed/20144921); [Holobar and Zazula, 2007](https://www.researchgate.net/profile/Damjan_Zazula/publication/3320449_Multichannel_Blind_Source_Separation_Using_Convolution_Kernel_Compensation/links/5654474908ae1ef929768492.pdf))
    - analysis: 
      - motor unit number
      - interspike interval (ISI; unit:ms): mean,coefficient of variation (%); [ ISI distribution skewness (degree of symmetry)](https://en.wikipedia.org/wiki/Skewness) and [ISI distribution kurtosis (breadth)](https://en.wikipedia.org/wiki/Kurtosis) 
