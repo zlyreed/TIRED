@@ -5,7 +5,7 @@ Prodcut:
     - [Publications](https://www.otbioelettronica.it/index.php?option=com_content&view=article&id=54&Itemid=259&lang=en)
  - Delsys
    1. The [Neuromap](https://www.delsys.com/neuromap/) system – which uses our Galileo sensor to extract Neural Firings from Individual Motor Units during functional movements. This is a mini-grid system that has its own software (API also available/included) and the primary use is for motor unit data. It is available now.
-      - [MU-based simulation of muscle fatigue](https://www.delsys.com/neuromap/simulation/)
+      - [MU-based simulation of muscle fatigue](https://www.delsys.com/neuromap/simulation/):The model replicated the increase in motor unit firing rates and the recruitment of additional higher amplitude motor units that is known to occur in order to sustain a given task as fatigue develops, and shed light of the neural mechanisms of force control.
    2. The maize system is a 16ch grid sensor that like all other avanti sensors (including galileo/Neuromap), will be compatible with the Trigno wireless receiver. Est release is closer to fall 2019. Estimated cost $6K
    3. The Tiber system is a 64ch grid system that will also be wireless, but will have its own dedicated receiver. Est release end of 2019, early 2020. I don’t have any pricing on this as yet.
 
