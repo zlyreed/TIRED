@@ -16,4 +16,12 @@ References using HD EMG:
  - Severe COPD Alters Muscle Fiber Conduction Velocity During Knee Extensors Fatiguing Contraction (Boccia, 2016)
  - Muscle Activity Adaptations to Spinal Tissue Creep in the Presence of Muscle Fatigue [(Abboud, 2016)](https://www.ncbi.nlm.nih.gov/pubmed/26866911)
  - Mechanisms of Fatigue and Recovery in Upper versus Lower Limbs in Men. [(Vernillo, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/28991037)
- - Electromechanical delay components during relaxation after voluntary contraction: Reliability and effects of fatigue. [(Ce, 2014)](
+ - Electromechanical delay components during relaxation after voluntary contraction: Reliability and effects of fatigue. [(Ce, 2014)](https://www.ncbi.nlm.nih.gov/pubmed/?term=Electromechanical+delay+components+during+relaxation+after+voluntary+contraction%3A+Reliability+and+effects+of+fatigue)
+ - Motor unit activity, force steadiness, and perceived fatigability are correlated with mobility in older adults.[(Mani and Enoka, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/?term=motor+unit+activity%2C+force+steadiness%2C+and+perceived+fatigability)
+   - HD EMG: W-EMG; Bitro, Turin, Italy; 32 electrons (8 rows X 4 columns); placed on medial gastrocnemius,soleus and tibialis anterior
+   - a custom decomposition algorithm (Holobar et al., 2010; Holobar and Zazula, 2007)
+   - analysis: 
+     - motor unit number
+     - interspike interval (ISI; unit:ms): mean,coefficient of variation (%); [ ISI distribution skewness (degree of symmetry)](https://en.wikipedia.org/wiki/Skewness) and [ISI distribution kurtosis (breadth)](https://en.wikipedia.org/wiki/Kurtosis) 
+ - Higher Neuromuscular Manifestations of Fatigue in Dynamic than Isometric Pull-Up Tasks in Rock Climbers.[(Boccia, 2015)](https://www.ncbi.nlm.nih.gov/pubmed/26557188)
+   - HD EMG: OT, Bioeletronica, Torino, Italy; 8 electrods (5mm of interelctrode distance) and dry linear array of 16 electrodes (silver bar electrodes); placed on brachioradialis and teres major muscles
