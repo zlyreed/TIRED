@@ -14,7 +14,7 @@
     - Test No 5 (S8): Channel 1 was not good after MVC30_fatigue 1 and MVC100_1; for the rest trials, use Channel 6 recording for Rectus Femoris. 
       - fixed Test No. 5 (updated at '...\LegFatigueTesting05_2017-09-15_S08\Vicon_Matlab' on 04-05-2019): move the recording from Channel 6 to Channel 2, replace Channel 6 with zeros (use [Fix_EMG_Channels.m](Fix_EMG_Channels.m), which calls [fixArrayColumn.m](fixArrayColumn.m) and [fixCellColumn.m](fixCellColumn.m)). 
     - Test No.9 (S11): missing recording of Channel 6 and 7 for MVC60_Fatigue1 trial (the first trial)
-  - Need to fix the unit (5/1/2019)	: run [modifyUnitOfEMG.m](modifyUnitOfEMG.m) in the Vicon_Matlab folder as needed.
+  - fixed the EMG unit from V to uV (5/1/2019)	: run [modifyUnitOfEMG.m](modifyUnitOfEMG.m) in the Vicon_Matlab folder as needed.
 	
 Notes: 
 - Difference between in voltage between two electrodes (surface or needle)
