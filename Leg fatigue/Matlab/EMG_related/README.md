@@ -18,7 +18,7 @@
 	
 Notes: 
 - Difference between in voltage between two electrodes (surface or needle)
-- "ABC of EMG" (Peter Konrad, 2005): This would result in a sampling frequency of at least 1000 Hz (double band of EMG) or even 1500 Hz to avoid signal loss. 
+- "ABC of EMG" [(Peter Konrad, 2006)](https://www.noraxon.com/wp-content/uploads/2014/12/ABC-EMG-ISBN.pdf): This would result in a sampling frequency of at least 1000 Hz (double band of EMG) or even 1500 Hz to avoid signal loss. 
 
 	  
 2. **Filter**
