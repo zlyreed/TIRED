@@ -54,8 +54,8 @@
 	- changed to curved fitting (use "pchip"; 2019/5/6) the RPE values and resample the data;
 	- **Input**: RPEcell (2 columns: time and RPE; time aligned with Vicon recording), window_length (in seconds), window_overlap (in percentage),Fs(resampling frequency; Hz);
 	- **Output**: 
-	  - 'RPE_ClassTable'=[startingTime_second,endingTime_second,FatigueLevel]; % starting and ending time and RPE label for specified windows (only for selected labels, e.g., light and tired)
-      - 'RPE_SectionedTable'=[TimePointsInSeconds_within_a_window,Corresponding Interpolated_RPE]. % for each window (roughly from pull to stop), time points and corresponding RPE values  
+	  - 'RPE_ClassTable'=[startingTime_second,endingTime_second,FatigueLevel]; % starting and ending time and RPE label for specified windows (only including data for the selected labels, e.g., light and tired)
+      - 'RPE_SectionedTable'=[TimePointsInSeconds_within_a_window,Corresponding Interpolated_RPE]. % for each column, time points within a window and corresponding RPE values (including the resampled data for the entire trial, roughly from pull to stop),
 	
   
   - extractForceFeatures: 
