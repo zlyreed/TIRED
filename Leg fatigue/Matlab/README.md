@@ -59,13 +59,15 @@
 	
   
   - extractForceFeatures: 
-    - **Input**: ForceEvent_data, MVC100_force, RPE_ClassTable
-	- **Output**: force.forceMean, force.forceSTD, force.forceCV (coefficient of variation, in percentage), force.timeOffset (the time difference in windows)
-	
+    - **Input**: ForceEvent_data, MVC100_force (average among 5 MVC trials), RPE_ClassTable
+	- **Output**: 
+	  - 'forceFeatureTable'=[force.forceMean (percentage of MVC), force.forceSTD (standard deviation of forceMean), force.forceCV (coefficient of variation, in percentage), force.timeOffset (the time difference in windows)]
+	  - PS: timeOffset=the difference between the selected RPE window and the selected Force window (due to sampling frequency didference)
 	
   - extractOxiFeatures:
     - **Input**: OxiCell,RPE_ClassTable,fs(resampling frequency);
-	- **Output**: Oxi.OxiCerebral_abs, Oxi.OxiCerebral_wrtRef_Pct, Oxi.OxiMuscle_abs, Oxi.OxiMuscle_wrtRef_Pct, Oxi.timeOffset
+	- **Output**: 
+	  - 'oxiFeatureTable'=[Oxi.OxiCerebral_abs, Oxi.OxiCerebral_wrtRef_Pct, Oxi.OxiMuscle_abs, Oxi.OxiMuscle_wrtRef_Pct, Oxi.timeOffset]
     
   
   - extractEMGFeatures: 
