@@ -108,7 +108,8 @@
 		RRdelta	0.6	# Typical difference between successive RR intervals in seconds
 		RRmin	0.6	# Minimum RR interval ("refractory period"), in seconds
 		```
-	- use [ECG2RRi_test.m](ECG2RRi_test.m) to compare the RRi calucated from ECG (mhrv, rqrs: R-peak detection) and Biomonitor-output RRi, which were comparable after changing [cfd/gqrs.conf](gqrs.default.conf) as above.
+	- use [ECG2RRi_test.m](ECG2RRi_test.m) to compare the RRi calucated from ECG (mhrv, rqrs: R-peak detection) and Biomonitor-output RRi, which were comparable after changing [cfd/gqrs.conf](gqrs.default.conf) as above. 
+	  - Note: The parameter changes do not working with all the trials (the results seem pretty sensitive with the parameters). Maybe need to flip the ECG data (not working all the time either).
 					
     - check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and run it on the local drive using "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
 	  - need to decide on what to use for nni:
