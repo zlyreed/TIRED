@@ -94,8 +94,9 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 	      - Body segmented weights:
 		    - [Hybrid III 50th Percentile Male; 172.3 lbs, 69 inches](http://www.nhtsa.gov.edgesuite-staging.net/Research/Hybrid+III+50th+Percentile+Male/):
 			  - Segment and Assembly Weight of the HYBRID III 50th Percentile Male 
+			  
 				Part | Weight (lb) 
-				----- |---------
+				----- | ---------
 				Head | 10.0 
 				Neck | 3.4 
 				Upper Torso | 37.9 
