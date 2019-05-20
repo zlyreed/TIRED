@@ -88,9 +88,25 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 			  
 			  
 		- [NIOSH science blog: Preventing Back Injuries in Health Care Settings](https://blogs.cdc.gov/niosh-science-blog/2008/09/22/lifting/)
-		- [WHEN IS ITSAFE TO MANUALLY LIFT APATIENT?](http://www.asphp.org/wp-content/uploads/2011/05/When_Is_It_Safe_To_Manually_Lift_A_Patient.pdf)
-  
-	
+		- [WHEN IS ITSAFE TO MANUALLY LIFT APATIENT? by Thomas Waters, 2007](http://www.asphp.org/wp-content/uploads/2011/05/When_Is_It_Safe_To_Manually_Lift_A_Patient.pdf)
+		  - In general, the revised equation yields a recommended **35-lb.** maximum weight limit for use in patient-handling tasks. When weight to be lifted exceeds this limit, assistive devices should be used.
+          - Check out Galinsky et al., 2019 paper for "including patient weights with other facotrs to evaluate patient handling hazards and interventions"
+	      - Body segmented weights:
+		    - [Hybrid III 50th Percentile Male; 172.3 lbs, 69 inches](http://www.nhtsa.gov.edgesuite-staging.net/Research/Hybrid+III+50th+Percentile+Male/):
+			  - Segment and Assembly Weight of the HYBRID III 50th Percentile Male 
+					Part| Weight (lb) 
+					----|---------
+					Head|10.0 
+					Neck| 3.4 
+					Upper Torso| 37.9 
+					Lower Torso| 50.8 
+					Upper Arms| 8.8 
+					Lower Arms and Hands| 10.0 
+					Upper Legs|26.4 
+					Lower Legs and Feet| 25.0 
+					Total Weight|172.3 
+		   - [Hybrid III 95th Large Male (223.3+/-3.6 lb)](https://www.humaneticsatd.com/crash-test-dummies/frontal-impact/hiii-95m)
+
 	
   - **Need**
     - General statement of need
@@ -116,7 +132,9 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 	  - [Various Hoyer Lift procedures](https://www.youtube.com/watch?v=RRz80J3hqtI) and [other videos](https://www.youtube.com/watch?v=ehj4j3eNdN0&list=PLEB3Gq4Lk7_iie7ylsokYFsFtSIhmBAEB)
       - Patient handling with and without slings: an analysis of the risk of injury to the lumbar spine [(Elford, 2000)](https://www.sciencedirect.com/science/article/pii/S0003687099000265)
 	  - [Rehabmart | QuickRaiser 205 Patient Lift by R82](https://www.youtube.com/watch?v=Ssj_RbvTwss)
-
+      - Information from Hyundai Robotics team (experience with UCSF medical center): they've tried appying H-WEX for patient turing on the bed, but the participants did not use their waist much due to electric lift bed and ceiling lift.
+	    - products from [Arjo](https://www.arjo.com/int/products/safe-patient-handling/) and [Hill-Rom](https://www.hill-rom.com/usa/Products/Category/Patient-Handling/Mobile-patient-lifts/Golvo-8000--8008-Patient-Lift/)
+		- [HoverJack](https://activehealthcare.co.nz/shop/patient-transfer/hovertech/hoverjack-air-patient-lift/) to lift the patient from the ground to the bed when the patient falls
   
   - **Impact**
     - General statement of impact
