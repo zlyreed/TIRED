@@ -92,8 +92,8 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 		  - In general, the revised equation yields a recommended **35-lb.** maximum weight limit for use in patient-handling tasks. When weight to be lifted exceeds this limit, assistive devices should be used.
           - Check out Galinsky et al., 2019 paper for "including patient weights with other facotrs to evaluate patient handling hazards and interventions"
 	      - Body segmented weights:
-		    - [Hybrid III 50th Percentile Male; 172.3 lbs, 69 inches](http://www.nhtsa.gov.edgesuite-staging.net/Research/Hybrid+III+50th+Percentile+Male/):
-			  - Segment and Assembly Weight of the HYBRID III 50th Percentile Male 
+		    - [Hybrid III 50th Percentile Male (172.3 lbs, 69 inches)](http://www.nhtsa.gov.edgesuite-staging.net/Research/Hybrid+III+50th+Percentile+Male/):
+			 - Segment and Assembly Weight of the HYBRID III 50th Percentile Male 
 			  
 				Part | Weight (lb) 
 				----- | ---------
@@ -106,7 +106,7 @@ How NIOSH Identifies research priorities: Burden, Need, and Impact(BNI):
 				Upper Legs | 26.4 
 				Lower Legs and Feet | 25.0 
 				Total Weight | 172.3 
-		   - [Hybrid III 95th Large Male (223.3+/-3.6 lb)](https://www.humaneticsatd.com/crash-test-dummies/frontal-impact/hiii-95m)
+		    - [Hybrid III 95th Large Male (223.3 +/- 3.6 lb)](https://www.humaneticsatd.com/crash-test-dummies/frontal-impact/hiii-95m)
 
 	
   - **Need**
