@@ -116,16 +116,16 @@
 	  - filtered: [\mhrv\rri\filtrr.m](filtrr.m)
 	  - Note: still look bad on some subjects and some trials (e.g., large noises)
 	
-    - **Method 3**: use "\mhrv\ecg\jqrs.m" fucntion to calculate RR intervals (Recommended! 2019/6/3) 
+    - **Method 3 (Recommended!)**: use "\mhrv\ecg\jqrs.m" fucntion to calculate RR intervals (2019/6/3) 
       - Use "PhysioZoo" software to find out the better peak detection algorithm. More information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
 	    - Preprocess the data for "PhysioZoo": use [Mat2WFDB_ecg_mV.m](Mat2WFDB_ecg_mV.m) to preprocessing the data, which calls [mat2wfdb.m](mat2wfdb.m). Note: The input ECG data imported in PhysioZoo MUST be in mV (i.e. physiological units). The R-peak detector might not run appropriately if the data are not correctly scaled.
 		- Play with "Peak detector", try different algorithms, and check the "Configuration" to see the desired parameters;
-	  - Found a desired algorithm and use [ECG2RRi_forGV.m](ECG2RRi_forGV.m) to process the ECG data and obtain the RRi/NNi data for GV
+	  - Find a desired algorithm and use [ECG2RRi_forGV.m](ECG2RRi_forGV.m) to process the ECG data and obtain the RRi/NNi data for GV
 	    - Use Biomonitor output ECG data directly;
-		- calls [\mhrv\ecg\jqrs.m](jqrs.m) to detect the indices of the R peaks in ECG data;
-		- calls [\mhrv\rri\filtrr.m](filtrr.m): Performs outlier detection and removal on RR interval data;
-		- time of rri starts from the second R peak location: the Biomonitor output RRi seems to process it the same way (but with more noises)
-		- Note: the RRi/NNi in S18_MVC60 still dont look good
+		- calls [\mhrv\ecg\jqrs.m](jqrs.m): detect the indices of the R peaks in ECG data;
+		- calls [\mhrv\rri\filtrr.m](filtrr.m): perform outlier detection and removal on RR interval data;
+		- time of rri starts from the second R peak location: the Biomonitor output RRi seems to be the same way (but with more noises)
+		- Note: The RRi/NNi in S18_MVC60 still don't look good
 		
     - check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and it has to run on a local drive, e.g., "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
 	  - need to update on what to use for nni (Notes of 2019/6/4: found a better algorithm (Method 3), but hasnt changed in "mhrv_fatigue_test.m")
