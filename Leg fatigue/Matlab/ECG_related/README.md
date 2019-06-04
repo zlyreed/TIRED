@@ -94,28 +94,43 @@
 	 - Modify default parameter values of the mhrv toolbox: you can edit [cfg/defaults.yml](defaults.yml), and [cfd/gqrs.conf](gqrs.default.conf)
  
 ##### **Work on our ECG and RR-interval data output from [Biomonitor](https://www.noraxon.com/noraxon-download/dts-biomonitor-user-manual/):**
-  - confirm the RR-interval output:
-	- normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds; 
-	- more information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
-	- modify the [cfd/gqrs.conf](gqrs.default.conf):
-	- current default: 
-		```
-		RRdelta	0.2	# Typical difference between successive RR intervals in seconds
-		RRmin	0.28	# Minimum RR interval ("refractory period"), in seconds
-		```
-	- Change to 
-		```
-		RRdelta	0.6	# Typical difference between successive RR intervals in seconds
-		RRmin	0.6	# Minimum RR interval ("refractory period"), in seconds
-		```
-	- use [ECG2RRi_test.m](ECG2RRi_test.m) to compare the RRi calucated from ECG (mhrv, rqrs: R-peak detection) and Biomonitor-output RRi, which were comparable after changing [cfd/gqrs.conf](gqrs.default.conf) as above. 
+  - **confirm the RR-interval output**:
+	- normal RR interval [range](https://emedicine.medscape.com/article/2172196-overview): 0.6-1.2 seconds?; 
+
+	- **Method 1**: use [ECG2RRi_test.m](ECG2RRi_test.m) to compare the RRi calucated from ECG (mhrv, rqrs: R-peak detection) and Biomonitor-output RRi, which were comparable after changing [cfd/gqrs.conf](gqrs.default.conf) as below. 
+	  - modify the [cfd/gqrs.conf](gqrs.default.conf):
+		  - Default human parameters: 
+			```
+			RRdelta	0.2	# Typical difference between successive RR intervals in seconds
+			RRmin	0.28	# Minimum RR interval ("refractory period"), in seconds
+			```
+		 - Change to 
+			```
+			RRdelta	0.6	# Typical difference between successive RR intervals in seconds
+			RRmin	0.6	# Minimum RR interval ("refractory period"), in seconds
+		    ```
 	  - Note: The parameter changes do not working with all the trials (the results seem pretty sensitive with the parameters). Maybe need to flip the ECG data (not working all the time either).
-					
-    - check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and run it on the local drive using "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
-	  - need to decide on what to use for nni (Notes of 2019/5/17: check with GV see if there is better algorithm to detect R-peaks; the rrioutput from bioMonitor doesn't seem right even after removing the interpolated steps) :
-		1. rri output from Biomonitor --> remove flat "step" data in rri (using [rmvStep.m](rmvStep.m))--> filtered (use "filtrr") --> maybe resample the nni??
-		2. rri from ECG ("ecgrr") --> resample (interparc) --> filter (filtrr)
-		3. rri from ECG ("ecgrr") --> filter (filtrr) --> resample (interparc) 
+	
+    - **Method 2**: use rri output from Biomonitor
+	  - remove flat "step" data in rri (calls [rmvStep.m](rmvStep.m): use the indices of the beginning of the steps;
+	  - filtered: [\mhrv\rri\filtrr.m](filtrr.m)
+	  - Note: still look bad on some subjects and some trials (e.g., large noises)
+	
+    - **Method 3**: use "\mhrv\ecg\jqrs.m" fucntion to calculate RR intervals (Recommended! 2019/6/3) 
+      - Use "PhysioZoo" software to find out the better peak detection algorithm. More information on [peak detection](https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html) 
+	    - Preprocess the data for "PhysioZoo": use [Mat2WFDB_ecg_mV.m](Mat2WFDB_ecg_mV.m) to preprocessing the data, which calls [mat2wfdb.m](mat2wfdb.m). Note: The input ECG data imported in PhysioZoo MUST be in mV (i.e. physiological units). The R-peak detector might not run appropriately if the data are not correctly scaled.
+		- Play with "Peak detector", try different algorithms, and check the "Configuration" to see the desired parameters;
+	  - Found a desired algorithm and use [ECG2RRi_forGV.m](ECG2RRi_forGV.m) to process the ECG data and obtain the RRi/NNi data for GV
+	    - Use Biomonitor output ECG data directly;
+		- calls [\mhrv\ecg\jqrs.m](jqrs.m) to detect the indices of the R peaks in ECG data;
+		- calls [\mhrv\rri\filtrr.m](filtrr.m): Performs outlier detection and removal on RR interval data;
+		- time of rri starts from the second R peak location: the Biomonitor output RRi seems to process it the same way (but with more noises)
+		- Note: the RRi/NNi in S18_MVC60 still dont look good
+		
+    - check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and it has to run on a local drive, e.g., "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
+	  - need to update on what to use for nni (Notes of 2019/6/4: found a better algorithm (Method 3), but hasnt changed in "mhrv_fatigue_test.m")
+				
+		
 	- HRV analysis: using hrv_time, hrv_freq, hrv_nonlinear and hrv_fragmentation.
 		- Align RPE reading:
 		  - plot all the HRV parameters from 4 trials in individual figures [plot_Force_RPE_HRV_4plots.m](plot_Force_RPE_HRV_4plots.m) "; calls [hrv_table_fcn.m](hrv_table_fcn.m), which generates HRV table)

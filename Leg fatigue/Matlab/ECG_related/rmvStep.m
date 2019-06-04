@@ -1,4 +1,7 @@
-function [time_sel_mid,points_mid]=rmvStep(time, stepData)
+
+function [time_sel,points]=rmvStep(time, stepData) % pick the indice of the beginning of the step
+%function [time_sel_mid,points_mid]=rmvStep(time, stepData)
+
 
 %% #### Remove step value
 % for "step" data (data with same-value points), remove the points with same
