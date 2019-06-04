@@ -144,7 +144,7 @@
  
   
 #### Other realted tools: 
-
+  - Software
 	- Kaufmann, 2011: [ARTiiFACT](http://www.artiifact.de/) 
 	- [Kubios: from XS](https://www.kubios.com/gallery/)
 	- Vollmer, 2017 (HRVTool v0.99 from Github): [MarcusVollmer/HRV](https://github.com/MarcusVollmer/HRV)
@@ -152,6 +152,10 @@
 	   - Github [webpage](https://github.com/physiozoo)
        - Github [physiozoo](https://github.com/physiozoo/physiozoo)
     - iMotions: [HRV and brain](https://imotions.com/blog/heart-rate-variability/)
+ - ECG devices:
+   - Biomonitor
+   - Holter Monitor
+   - Biopac MP35 or 36
 
 ### Readings on heart dynamics	
 #### HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
