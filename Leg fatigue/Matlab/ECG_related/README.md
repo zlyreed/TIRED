@@ -125,7 +125,10 @@
 		- calls [\mhrv\ecg\jqrs.m](jqrs.m): detect the indices of the R peaks in ECG data;
 		- calls [\mhrv\rri\filtrr.m](filtrr.m): perform outlier detection and removal on RR interval data;
 		- time of rri starts from the second R peak location: the Biomonitor output RRi seems to be the same way (but with more noises)
-		- Note: The RRi/NNi in S18_MVC60 still don't look good
+		- Note: 
+		  - ECG data are very noise in S18_MVC60 and S14 data; 
+		  - The lower peaks (close to R peaks, but in the opposite direction) were detected in S17, S18, S19, S21 and S22.
+		  - Good R peaks were selected in S16 and S20; the R peaks were selected correctly but Rs are not the highest peaks in the ECG of S13 and S15.
 		
     - check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and it has to run on a local drive, e.g., "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
 	  - need to update on what to use for nni (Notes of 2019/6/4: found a better algorithm (Method 3), but hasnt changed in "mhrv_fatigue_test.m")
