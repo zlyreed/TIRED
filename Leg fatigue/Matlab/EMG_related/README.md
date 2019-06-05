@@ -53,8 +53,8 @@ Notes:
 - Useful funtions will be used in feature extraction later:
   - filter EMG: [EMG_filter.m](EMG_filter.m) or [EMG_filter_bandonly.m](EMG_filter_bandonly.m) 
   - rectify EMG using moving window: [EMG_RecRms.m](EMG_RecRms.m)
-  - calculate late median or mean frequency: [MedianFMeanF.m](MedianFMeanF.m)
-  - calculate high to low power ratio: [HLpowerRatio.m](HLpowerRatio.m) and [areaCal.m](areaCal.m)
+  - calculate the median or mean frequency: [MedianFMeanF.m](MedianFMeanF.m)
+  - calculate high to low power ratio: [HLpowerRatio.m](HLpowerRatio.m)
 
 
 **Notes:**

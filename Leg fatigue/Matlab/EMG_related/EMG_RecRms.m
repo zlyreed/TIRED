@@ -1,4 +1,4 @@
-function y=EMG_RecRms(signal, windowlength, overlap, zeropad)
+function [time, y]=EMG_RecRms(signal,fs, windowlength, overlap, zeropad)
 
 % Calculates windowed (over- and non-overlapping) RMS of a signal using the specified windowlength
 
@@ -16,16 +16,19 @@ function y=EMG_RecRms(signal, windowlength, overlap, zeropad)
 
 % ex. y=rms(mysignal, 30, 0, 0).  Calculate RMS with window of length 30 samples, no overlapping samples, and do not zeropad the last window
 
-
 % Author: A. Bolu Ajiboye
 
-%% Notes (by LZ): use filtered EMG signal
+%% Notes (by LZ): use the filtered EMG signal! Added corresponding "time" (pick the middle time point of each window)
+% windowlength= fs*windowTime 
 
 
+
+%%
 signal=abs(signal); % rectify the EMG signal 
 
 
-delta = windowlength - overlap;
+delta = windowlength - overlap; % delta_time=delta/fs (in second)
+
 
 
 
@@ -52,7 +55,7 @@ if length(signal) - indices(end) + 1 < windowlength
 end
 
 
-
+time=zeros(1, length(indices));
 y = zeros(1, length(indices));
 
 % Square the samples
@@ -66,6 +69,8 @@ index = 0;
 for i = indices
 
 	index = index+1;
+    
+    time(index)=(index-1)*delta/fs+0.5*windowlength/fs; % the corresponding time in second (pick the middle of the window)
 
 	% Average and take the square root of each window
 
