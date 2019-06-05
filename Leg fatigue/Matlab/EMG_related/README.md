@@ -47,9 +47,9 @@ Notes:
 - High-low frequency amplitude ratio: low=15-45 Hz and High > 95Hz (Allison, et al., 2002); Hight-to-Low power ratio seems have the similar trend as the median frequency wrt time. Look at the function [HLpowerRatio.m](HLpowerRatio.m).
   - Another option: based on the previous study on power ratio of low-to-high frequency bands (Allison and Fujiwara 2002; Cardozo, Gonçalves, and Dolan 2011; Chowdhury et al. 2013), here you can also look at the power frequency ratio (P-R) between low frequency band (15.625—62.5Hz) and high frequency band (62.5—250Hz) 
 
-**Summary:**
+**Summary (Recommended): **
 - Check the spectrum of the signal in the beginning and then choose approperiate filters:  [test_emgSpectra.m](test_emgSpectra.m)
-- Use moving windows to obtain time-median/mean frequency plot: [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m)
+- Use moving windows to obtain time-median/mean frequency plot: [EMG_TimeMedianFrequencyPlot.m](EMG_TimeMedianFrequencyPlot.m) (2019/6/5: need to update the functions called in this file, e.g., EMG_RecRms.m; no need "areaCal.m")
 - Useful funtions will be used in feature extraction later:
   - filter EMG: [EMG_filter.m](EMG_filter.m) or [EMG_filter_bandonly.m](EMG_filter_bandonly.m) 
   - rectify EMG using moving window: [EMG_RecRms.m](EMG_RecRms.m)
