@@ -1,12 +1,16 @@
 ## VMG analysis
+### Measurement: using tri-axial accelerometers (Endevco, M35B, mass = 0.55g).The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape
+- Accelerometer basic concept at [wikipedia](https://en.wikipedia.org/wiki/Accelerometer): An accelerometer is a device that measures proper acceleration.[1] Proper acceleration, being the acceleration (or rate of change of velocity) of a body in its own instantaneous rest frame,[2] is not the same as coordinate acceleration, being the acceleration in a fixed coordinate system. For example, an accelerometer at rest on the surface of the Earth will measure an acceleration due to Earth's gravity, straight upwards (by definition) of g ≈ 9.81 m/s2. By contrast, accelerometers in free fall (falling toward the center of the Earth at a rate of about 9.81 m/s2) will measure zero. 
 
-### filtering:
+
+### Filtering:
 - In general:
   - [The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/pdfbook.htm)
   - Cognitive and Neural Dynamics Lab Tutorials: 
     - [Power Spectral Density (PSD)](https://nbviewer.jupyter.org/github/voytekresearch/tutorials/blob/master/Power%20Spectral%20Density%20and%20Sampling%20Tutorial.ipynb)
     - [Neuro Digital Signal Processing Toolbox](https://neurodsp-tools.github.io/neurodsp/)
 	- [Filtering examples with pictures and python code](https://neurodsp-tools.github.io/neurodsp/auto_tutorials/plot_1-Filtering.html#sphx-glr-download-auto-tutorials-plot-1-filtering-py)
+- Some of previous studies used: band-pass filtered at 2–100 Hz (Madeleine, 2002; Woodward, 2019) or at 3-100Hz (Zhang, 1992)
 
 ### Literature
 - [Zhang and Herzog, 1992](https://www.ncbi.nlm.nih.gov/pubmed/1452170): 
@@ -21,7 +25,7 @@
   - The root mean square amplitude value (RMS) of the EMG signal was significantly increased at the initial phase of contraction and then fell significantly, while mean power frequency (MPF) of the EMG signal decreased significantly and progressively as a function of time. There were also significant initial increases in RMS-MMG that were followed by progressive decreases at the end of fatiguing contractions. MPF-MMG remained unchanged. 
 - [Madeleine, et al., 2002](https://www.ncbi.nlm.nih.gov/pubmed/12172870)	
   -  Prior to data analysis, the MMG and EMG signals were off-line digitally band-pass filtered at 2–100 Hz and 10– 400 Hz, respectively.
-  -  For fatiguing contractions, differences in magnitude of the increase in the RMS or ARV and decrease in the MNF or MDF were observed for EMG and MMG. The MMG amplitude and spectral changes followed the subjective sensation of fatigue and were not correlated to their EMG counterparts, suggesting that they may reflect different phenomena.
+  -  For fatiguing contractions, differences in magnitude of the increase in the RMS or average rectified value (ARV) and decrease in the MNF or MDF were observed for EMG and MMG. **The MMG amplitude and spectral changes followed the subjective sensation of fatigue and were not correlated to their EMG counterparts**, suggesting that they may reflect different phenomena.
 - [Okkesim, 2016](https://www.ncbi.nlm.nih.gov/pubmed/27821615)
   - The mean power frequency and median frequency, which are used in the literature, were compared to the frequency ratio change, the new measure; correlations between the frequency ratio change and the mean power frequency and median frequency were analysed. There was a high correlation between the features, and frequency ratio change can be used to quantitatively evaluate muscle fatigue.
 - A systematic review of muscle activity assessment of the biceps brachii muscle using mechanomyography. [Talib, 2018](https://www.ncbi.nlm.nih.gov/pubmed/30511949)
