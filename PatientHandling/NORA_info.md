@@ -1,12 +1,12 @@
-## Information about [National Occupational Research Agenda (NORA) 
+## Information about the National Occupational Research Agenda (NORA) 
   
-  - Public online information about [NORA](https://www.cdc.gov/nora/default.html)
+  - Public internet information about [NORA](https://www.cdc.gov/nora/default.html)
     - [NORA Healthcare and Social Assistance Sector](https://www.cdc.gov/nora/councils/hcsa/default.html)
       - [Healthcare and Social Assistance Program](https://www.cdc.gov/niosh/programs/hcsa/)’s mission is to eliminate occupational diseases, injuries, and fatalities and improve health and well-being among those who work in industries providing human and veterinary healthcare and that provide social assistance services across a broad range of settings such as hospitals, clinics, nursing and private homes, and child day care.
     - [NORA Musculoskeletal Health Cross-Sector](https://www.cdc.gov/nora/councils/mus/default.html): focuses on preventing musculoskeletal disorders, which are soft-tissue injuries caused by sudden or sustained exposure to repetitive motion, force, vibration, or awkward positions. 
       - [Musculoskeletal Health Program](https://www.cdc.gov/niosh/programs/msd/default.html)
 
-  - Intranet information about [NORA](http://inside.niosh.cdc.gov/nora/default.htm)
+  - **Intranet** information about [NORA](http://inside.niosh.cdc.gov/nora/default.htm)
     - [Funding Opportunity Announcement (FOA)](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI/NORA_FY20S_FY21L_FOA_9-28-2018.pdf)
 	- Goal Matrix can be found at [this link](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI.html);
 	  - Priority Goal Matrix (New for FY20 Small and FY21 Large Projects): ["GoalMatrixforNORACompetition10.31.2018.docx"](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/GoalMatrixforNORACompetition10.31.2018.docx);
