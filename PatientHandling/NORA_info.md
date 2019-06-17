@@ -8,6 +8,9 @@
 
   - Intranet information about [NORA](http://inside.niosh.cdc.gov/nora/default.htm)
     - [Funding Opportunity Announcement (FOA)](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI/NORA_FY20S_FY21L_FOA_9-28-2018.pdf)
+	- Goal Matrix can be found at [this link](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI.html);
+	  - Priority Goal Matrix (New for FY20 Small and FY21 Large Projects): ["GoalMatrixforNORACompetition10.31.2018.docx"](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/GoalMatrixforNORACompetition10.31.2018.docx);
+	  - NIOSH Strategic Plan FYs 2019-2023 (Updated November 2018): ["NIOSHStrategicPlan_updatedNov2018.docx" with more details](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/NIOSHStrategicPlan_updatedNov2018.docx)
 	- [Burden Data](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI.html)
 	
   - [National Occupational Research Agenda for Musculoskeletal Health](https://www.cdc.gov/nora/councils/mus/researchagenda.html):
