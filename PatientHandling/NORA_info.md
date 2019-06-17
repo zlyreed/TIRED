@@ -11,6 +11,10 @@
 	- Goal Matrix can be found at [this link](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI.html);
 	  - Priority Goal Matrix (New for FY20 Small and FY21 Large Projects): ["GoalMatrixforNORACompetition10.31.2018.docx"](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/GoalMatrixforNORACompetition10.31.2018.docx);
 	  - NIOSH Strategic Plan FYs 2019-2023 (Updated November 2018)with more details: ["NIOSHStrategicPlan_updatedNov2018.docx"](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/NIOSHStrategicPlan_updatedNov2018.docx)
+	    - Healthcare and Social Assistance/Musculoskeletal Health (HSAxMUS):
+		  - Intermediate goal 4.8: Employers, workers, professional organizations, researchers, and policy-makers use NIOSH information to reduce musculoskeletal disorders among healthcare and social assistance workers. 
+	      - Intermediate goal 4.8E: Evaluation of exoskeletons or other innovative approaches to reduce risk of MSDs during patient handling or performing healthcare procedures.
+		  - Activity Goal 4.8.1 (Intervention research): Conduct studies to evaluate the effectiveness (usefulness and unexpected results) of innovative approaches to reduce risk for MSDs and to reduce the return-to-work time among healthcare and social assistance workers with MSDs.
 	- [Burden Data](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI.html)
 	
   - [National Occupational Research Agenda for Musculoskeletal Health](https://www.cdc.gov/nora/councils/mus/researchagenda.html):
