@@ -149,3 +149,9 @@
 	- Follow-on research
   
 ## FDA: [Patient Lifts](https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/patient-lifts)
+ - Electronic Code of Federal Regulations: 
+   - [21 CFR 890.3480   Powered lower extremity exoskeleton](https://www.ecfr.gov/cgi-bin/text-idx?SID=1bdd3e56c8a7b0b874a3d6d5d53f59c2&mc=true&node=se21.8.890_13480&rgn=div8)
+   - [21 CFR 890.5150   Powered patient transport](https://www.ecfr.gov/cgi-bin/text-idx?SID=1bdd3e56c8a7b0b874a3d6d5d53f59c2&mc=true&node=se21.8.890_15150&rgn=div8)
+ - Device Classification under Section 513(f)(2)(de novo)
+   - Device Classification Name-Powered Exoskeleton: [REWALK](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN130034)
+   
