@@ -98,7 +98,10 @@
 		9. Weston EB, Alizadeh M, Knapik GG, Wang X, Marras WS. (2018). Biomechanical evaluation of exoskeleton use on loading of the lumbar spine. Appl Ergon. 2018 Apr;68:101-108.
 		10. Young AJ, Ferris DP. (2017). State of the Art and Future Directions for Lower Limb Robotic Exoskeletons. IEEE Trans Neural Syst Rehabil Eng. 2017 Feb;25(2):171-182.
   - [Experts say the emerging technology could benefit people in physically demanding jobs (2018)](https://www.safetyandhealthmagazine.com/articles/17370-exoskeletons-in-the-workplace)
-  
+  - [**Robotic Exoskeletons Are a 3,000%-Growth Industry**](https://banyanhill.com/robotic-exoskeletons-industry-potential/)
+    - Wintergreen Research estimates that the global value of the exoskeleton market in 2018 was just $130 million. But by 2025, that number is expected to grow all the way to $5.2 billion.
+	- [Wearable Robots, Exoskeletons: Market Shares, Strategies, and Forecasts, Worldwide, 2019-2025; by Wintergreen Research, Inc](https://www.researchandmarkets.com/research/72xpv2/global_5_2_bn?w=12)
+	
  Exoskeletons in house:
   - EksoVest by [Ekso Bionics](http://2t2ine2n47g337am722tf6ek.wpengine.netdna-cdn.com/wp-content/uploads/2017/07/EksoVest-Sell-Sheet.pdf)
   - SuitX modular system [(BackX, LegX and ShoulderX ) by U.S. Bionics](http://www.suitx.com/)
