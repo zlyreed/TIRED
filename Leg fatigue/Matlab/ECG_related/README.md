@@ -128,8 +128,12 @@
 		- Note: 
 		  - ECG data are very noise in S18_MVC60 and S14 data; 
 		  - The lower peaks (close to R peaks, but in the opposite direction) were detected in S17, S18, S19, S21 and S22.
-		  - Good R peaks were selected in S16 and S20; the R peaks were selected correctly but Rs are not the highest peaks in the ECG of S13 and S15.
-		
+		  - Good R peaks were selected in S16 and S20; the R peaks were selected correctly but Rs are not the highest peaks in the ECG of S13 and S15
+		    - fixed the negative-peak issues in S17, S18, S19, S21 and S22
+			
+	  - Improvement ( 2019/7/10)
+        - Looked at a sample ECG data using "Peak detector" in PhysioZoo, and found the options for choosing "max" or "min" and the corresponding matlab function ["qrs_adjust.m"](qrs_adjust.m);
+		- Modified the code[ECG2RRi_forGV_PositivePeaks.m](ECG2RRi_forGV_PositivePeaks.m) to process the ECG data and obtain the RRi/NNi data for GV
     - check data from a sample trial: use [mhrv_fatigue_test.m](mhrv_fatigue_test.m) (which calls [interparc.m](interparc.m) and it has to run on a local drive, e.g., "E:\ECG\mhrv-master\mhrv_fatigue_test.m")
 	  - need to update on what to use for nni (Notes of 2019/6/4: found a better algorithm (Method 3), but hasnt changed in "mhrv_fatigue_test.m")
 				
