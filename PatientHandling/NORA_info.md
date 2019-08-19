@@ -27,7 +27,7 @@ Agenda development began in early 2017, when the Musculoskeletal Health Council 
 	 - Objective 5: Disseminate and implement interventions to prevent MSDs and limit disability
 	 
 	 
-  - [National Occupational Research Agenda for Healthcare and Social Assistance](https://www.cdc.gov/nora/councils/hcsa/agenda.html)
+  - [National Occupational Research Agenda for Healthcare and Social Assistance:](https://www.cdc.gov/nora/councils/hcsa/agenda.html)
     The National Occupational Research Agenda for Healthcare and Social Assistance (HCSA) is intended to identify the knowledge and actions most urgently needed to improve occupational safety and health in this industry sector. This agenda provides a vehicle for stakeholders to describe the most relevant issues, research gaps, and needs for the HCSA workforce. It is meant to be broader than any one agency or organization.
 	 - Objective 1: Assess how work organization impacts both worker and patient safety.
 	 - Objective 2: Assess the impact of organizational culture and leadership on worker and patient safety including satisfaction/quality of life.
