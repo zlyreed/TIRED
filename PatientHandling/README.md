@@ -85,6 +85,8 @@
 		      - [Healthcare Recipient Sling and Lift Hanger Bar Compatibility Guidelines 2016](https://aasphm.org/wp-content/uploads/Sling-Hanger-Bar-Guidance-meeting-SPHM-conf-April-2016.pdf)
 			  - [Healthcare Recipient Sling and Lift Hanger Bar Compatibility Guidelines Presentation made at the 2017 SPHM conference](https://aasphm.org/wp-content/uploads/sling-and-hangerbar-ppt-sphm-2017-Enos-Deter.pdf)
 			  - [Poster about the Guidelines and Sling and Hangerbar compatibility displayed at the 2018 SPHM conference in Orlando](https://aasphm.org/wp-content/uploads/AASPHM-Poster-2018-final.pdf)
+		  -[2019 Safe Patient Handling and Mobility Conference](https://www.visn8.va.gov/VISN8/PatientSafetyCenter/default.asp)
+		  
 		  - Existing issues:
  		     - [Noble, 2018](https://www.ncbi.nlm.nih.gov/pubmed/28486032): 
 			   - Although assistive devices are used more often when repositioning a patient in bed (e.g., moving patients up in bed or transferring patients to a stretcher), the devices are used much less frequent when assisting patients with ambulation, transferring to the bathroom, and transferring to the bedside commode.
