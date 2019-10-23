@@ -22,11 +22,16 @@
   - y = rms(signal, windowlength, overlap, zeropad)
 
 4. **Frequency domain**:
-- Median frequency and Mean frenqency: use [MedianFMeanF.m](MedianFMeanF.m)
+- Median frequency and Mean frenqency:
   - input **filtered** signal;
-  - basically: MedianFr=medfreq(signal, fs); MeanFr=meanfreq(signal, fs);
-- high and lower frequency/power and ratios: use [HMLpowerRatio.m](HMLpowerRatio.m)
-  - fixed error of calcualting power 
+  - use the matlab functions instead: MedianFr=medfreq(signalS, SamplingFq); MeanFr=meanfreq(signalS, SamplingFq);
+    - similarly, use [MedianFMeanF.m](MedianFMeanF.m): [pxx, f,MedianFr,MeanFr]=MedianFMeanF(signal, fs)
+- High, Medium and Lower frequency/power and ratios:
+  - lower frequency (15-45Hz), mid (45-95Hz)and high (>95 Hz and <450Hz)
+  - powerL = bandpower(signalS, SamplingFq,[15 45]);
+    - similarly use [HMLpowerRatio.m](HMLpowerRatio.m): [H2Lratio,H2Mratio,M2Lratio,powerL,powerM,powerH]=HMLpowerRatio(f,pxx); 
+    - note: results are different than the bandpower results
+    - fixed error in calcualting power 
  
 
 
