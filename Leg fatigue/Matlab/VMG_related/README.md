@@ -6,22 +6,27 @@
 ### Measurement from our lab: 
 - used tri-axial accelerometers (Endevco, M35B, mass = 0.55g).The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape
 
-1. Raw data
+1. **Raw data**
 - Use the recording from SX: SamplingFq=8192 Hz
 - The data recorded in Vicon didn't seem right (1000Hz);
 - X: along the surface; Y: perpendicular to the surface 
 
 
-2. Filtering
+2. **Filtering**
 - recommend to **detrend** data first: rawdata=detrend(rawdata); 
 - use [VMG_filter.m](VMG_filter.m): band-pass filtered at 2–100 Hz and remove 60 Hz
 
-3. Time domain: Rectify/RMS
+3. **Time domain**: Rectify/RMS
 - use [VMG_RecRms.m](VMG_RecRms.m): 
   - Calculates windowed (over- and non-overlapping) RMS of a signal using the specified windowlength;
   - y = rms(signal, windowlength, overlap, zeropad)
 
-4. Frequency domain
+4. **Frequency domain**:
+- Median frequency and Mean frenqency: use [MedianFMeanF.m](MedianFMeanF.m)
+  - input **filtered** signal;
+  - basically: MedianFr=medfreq(signal, fs); MeanFr=meanfreq(signal, fs);
+- high and lower frequency/power and ratios: use [HMLpowerRatio.m](HMLpowerRatio.m)
+  - fixed error of calcualting power 
  
 
 
