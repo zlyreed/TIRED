@@ -1,10 +1,32 @@
 ## VMG analysis
-### Measurement: 
+### Basic Concept of Accelerometer:
+- from [wikipedia](https://en.wikipedia.org/wiki/Accelerometer): An accelerometer is a device that measures proper acceleration.[1] Proper acceleration, being the acceleration (or rate of change of velocity) of a body in its own instantaneous rest frame,[2] is not the same as coordinate acceleration, being the acceleration in a fixed coordinate system. For example, an accelerometer at rest on the surface of the Earth will measure an acceleration due to Earth's gravity, straight upwards (by definition) of g ≈ 9.81 m/s2. By contrast, accelerometers in free fall (falling toward the center of the Earth at a rate of about 9.81 m/s2) will measure zero. 
+
+
+### Measurement from our lab: 
 - used tri-axial accelerometers (Endevco, M35B, mass = 0.55g).The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape
-- Accelerometer basic concept at [wikipedia](https://en.wikipedia.org/wiki/Accelerometer): An accelerometer is a device that measures proper acceleration.[1] Proper acceleration, being the acceleration (or rate of change of velocity) of a body in its own instantaneous rest frame,[2] is not the same as coordinate acceleration, being the acceleration in a fixed coordinate system. For example, an accelerometer at rest on the surface of the Earth will measure an acceleration due to Earth's gravity, straight upwards (by definition) of g ≈ 9.81 m/s2. By contrast, accelerometers in free fall (falling toward the center of the Earth at a rate of about 9.81 m/s2) will measure zero. 
+
+1. Raw data
+- Use the recording from SX: SamplingFq=8192 Hz
+- The data recorded in Vicon didn't seem right (1000Hz);
+- X: along the surface; Y: perpendicular to the surface 
 
 
-### Filtering:
+2. Filtering
+- recommend to **detrend** data first: rawdata=detrend(rawdata); 
+- use [VMG_filter.m](VMG_filter.m): band-pass filtered at 2–100 Hz and remove 60 Hz
+
+3. Time domain: Rectify/RMS
+- use [VMG_RecRms.m](VMG_RecRms.m): 
+  - Calculates windowed (over- and non-overlapping) RMS of a signal using the specified windowlength;
+  - y = rms(signal, windowlength, overlap, zeropad)
+
+4. Frequency domain
+ 
+
+
+
+### Previous filtering/analysis information:
 - In general:
   - [The Scientist and Engineer's Guide to Digital Signal Processing](http://www.dspguide.com/pdfbook.htm)
   - Cognitive and Neural Dynamics Lab Tutorials: 
