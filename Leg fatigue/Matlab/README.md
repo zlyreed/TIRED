@@ -93,6 +93,7 @@
 
 **7. Feature selection approach**
   - Use [ClassificationModels_test.m](ClassificationModels_test.m)
+<<<<<<< HEAD
   
   
 Notes (9/15/2018):
