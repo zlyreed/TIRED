@@ -31,6 +31,27 @@
 		- similarly, use [HMLpowerRatio.m](HMLpowerRatio.m): [H2Lratio,H2Mratio,M2Lratio,powerL,powerM,powerH]=HMLpowerRatio(f,pxx); 
 		- note: results are different than the bandpower results
 		- fixed error in calcualting power 
+
+### Analysis workflow for our VMG measurements
+1. 	**Reorganize related recordings into .mat files** (so that the recordings are easy to acess in future analysis)
+-  use [ReOrganize_VMG.m](ReOrganize_VMG.m): to output a .mat file ("VMG_Cell_T14_to_T21.mat") which contains a "VMG_Cell" including the VMG data from  T14 to T21.
+    - note: use "save('VMG_Cell_T14_to_T21.mat','VMG_Cell','-v7.3')" to save a large cell ('-v7.3')
+-  use [ReOrganize_Force.m](ReOrganize_Force.m): to output a .mat file ("T14_to_T21_ForceCell.mat" ) which contains a "Force_Cell" including the force data from  T14 to T21.
+    - or use [ReOrganize_Force_total.m](ReOrganize_Force_total.m): to output a .mat file ("ForceCell_total.mat" ) which contains a "Force_Cell" including all the force data.
+-  use [ReOrganize_RPE.m](ReOrganize_RPE.m): to output a .mat file ("T14_to_T21_RPECell.mat" ) which contains a "RPE_Cell" including the RPE data from  T14 to T21.
+    - or use [ReOrganize_RPE_total.m](ReOrganize_RPE_total.m): to output a .mat file ("RPECell_total.mat" ) which contains a "RPE_Cell" including all the RPE data.
+
+2. **Calculate the desired parameters in time and frequency domains:**
+- In time domain ("rms"; magnitude): 
+  - calculated for each location (Fat, Muscle and Bone) and each direction (X,Y,Z and total): magnitude for FatX, FatY, FatZ,... and FatTotal
+  - call functions: [VMG_filter.m](VMG_filter.m) and [VMG_RecRms.m](VMG_RecRms.m)
+- In frequency domain:
+  - calculated for each location (Fat, Muscle and Bone) and each direction (X,Y and Z)
+  - Parameters: Median Frequency, Mean Frequency, H2Lratio, H2Mratio, M2Lratio, powerLow, powerMed, powerHigh, powerTotal
+  - use matlab functions: "medfreq", "meanfreq" and "bandpower"
+- Use [VMG_Force_RPE_plot_RmsFft_mat.m](VMG_Force_RPE_plot_RmsFft_mat.m) to process the data and output those parameters for each trial:
+  - for example: "Testing14_MVC30_Fatigue1_VMG_rms.mat" and "Testing14_MVC30_Fatigue1_VMG_fft.mat" (data in in a structure)
+  
  
 
 
