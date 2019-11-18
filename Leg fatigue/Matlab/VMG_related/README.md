@@ -53,7 +53,7 @@
 - Use [VMG_Force_RPE_plot_RmsFft_mat.m](VMG_Force_RPE_plot_RmsFft_mat.m) to process the data and output those parameters for each trial:
   - output example files for a trial: "Testing14_MVC30_Fatigue1_VMG_rms.mat" and "Testing14_MVC30_Fatigue1_VMG_fft.mat" (data in in a structure)
   
-3. ** Save grouped slope and begin/end data into tables  (.mat file) **
+3. **Save grouped slope and begin/end data into tables  (.mat file)**
 - Obtain Begin ("non-fatiguing"), End ("fatiguing") and total ("Begin to End") windows for each trial 
   - use function [selectedWindows.m](selectedWindows.m)
 - Calculate mean, SD and fitted functions (e.g., slope) of the different time- and frenqency-domain parameters for each windowed
