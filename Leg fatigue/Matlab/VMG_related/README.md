@@ -6,9 +6,10 @@
 ### Measurement from our lab: 
 
 - **Raw data**
-	- Device: used tri-axial accelerometers (Endevco, M35B, mass = 0.55g).The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape.
-	- Use the recording from SX: SamplingFq=8192 Hz
-	- The data recorded in Vicon didn't seem right (1000Hz);
+	- Device: a tri-axial accelerometers (Endevco, M35B, mass = 0.55g)
+	  - The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape.
+	- Use the recordings from SX: SamplingFq=8192 Hz
+	- The data recorded in Vicon didn't seem right (1000Hz): further investigation is needed!
 	- X: along the surface; Y: perpendicular to the surface.
 
 - **Filtering**
