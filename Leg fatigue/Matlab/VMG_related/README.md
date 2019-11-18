@@ -27,8 +27,8 @@
   - use the matlab functions (recommended): MedianFr=medfreq(signalS, SamplingFq); MeanFr=meanfreq(signalS, SamplingFq);
     - similarly, use [MedianFMeanF.m](MedianFMeanF.m): [pxx, f,MedianFr,MeanFr]=MedianFMeanF(signal, fs)
 - High, Medium and Lower frequency/power and ratios:
-  - lower frequency (15-45Hz), mid (45-95Hz)and high (>95 Hz and <450Hz)
-  - use the matlab functions (recommended): powerL = bandpower(signalS, SamplingFq,[15 45]);
+  - lower frequency (2-20Hz), mid (20-40Hz)and high (>40 Hz and <100Hz)
+  - use the matlab functions (recommended): powerL = bandpower(signalS, SamplingFq,[2 20]);
     - similarly, use [HMLpowerRatio.m](HMLpowerRatio.m): [H2Lratio,H2Mratio,M2Lratio,powerL,powerM,powerH]=HMLpowerRatio(f,pxx); 
     - note: results are different than the bandpower results
     - fixed error in calcualting power 

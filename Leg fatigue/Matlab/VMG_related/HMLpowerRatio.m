@@ -2,7 +2,7 @@ function [H2Lratio,H2Mratio,M2Lratio,powerL,powerM,powerH]=HMLpowerRatio(f,pxx)
 
 % f: a frequency vector, f
 % pxx: periodogram power spectral density (PSD)
-% lower frequency (15-45Hz), mid (45-95Hz)and high (>95 Hz and <450Hz)
+% lower frequency (15-45Hz), med (45-95Hz)and high (>95 Hz and <450Hz)
 
 indL=find(f>15&f<45);
 powerL=sum(pxx(indL));
