@@ -88,7 +88,6 @@
     - output file: "StatsResults_slope.xls"
   - Alternatively, use [VMG_SlopeResults_Stats_normalized.m](VMG_SlopeResults_Stats_normalized.m)to ouput a results .xls file 
     - output file: "StatsResults_slope_normalized.xls" (using "slopeTotal_MVC30_fftTable_normalized.mat", "slopeTotal_MVC60_fftTable_normalized.mat" and "slopeTotal_fftTable_normalized.mat")
-
 - Compare the parameters between Begin and End windows  
   - average the data between two trials: 
     - use function [aveTrials.m](aveTrials.m)
