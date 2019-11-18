@@ -4,34 +4,33 @@
 
 
 ### Measurement from our lab: 
-- used tri-axial accelerometers (Endevco, M35B, mass = 0.55g).The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape
 
-1. **Raw data**
-- Use the recording from SX: SamplingFq=8192 Hz
-- The data recorded in Vicon didn't seem right (1000Hz);
-- X: along the surface; Y: perpendicular to the surface 
+- **Raw data**
+	- Device: used tri-axial accelerometers (Endevco, M35B, mass = 0.55g).The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape.
+	- Use the recording from SX: SamplingFq=8192 Hz
+	- The data recorded in Vicon didn't seem right (1000Hz);
+	- X: along the surface; Y: perpendicular to the surface.
 
+- **Filtering**
+	- recommend to **detrend** data first: rawdata=detrend(rawdata); 
+	- use [VMG_filter.m](VMG_filter.m): band-pass filtered at 2–100 Hz and remove 60 Hz
 
-2. **Filtering**
-- recommend to **detrend** data first: rawdata=detrend(rawdata); 
-- use [VMG_filter.m](VMG_filter.m): band-pass filtered at 2–100 Hz and remove 60 Hz
+- **Time domain**: Rectify/RMS
+	- use [VMG_RecRms.m](VMG_RecRms.m): 
+	  - Calculates windowed (over- and non-overlapping) RMS of a signal using the specified windowlength;
+	  - y = rms(signal, windowlength, overlap, zeropad)
 
-3. **Time domain**: Rectify/RMS
-- use [VMG_RecRms.m](VMG_RecRms.m): 
-  - Calculates windowed (over- and non-overlapping) RMS of a signal using the specified windowlength;
-  - y = rms(signal, windowlength, overlap, zeropad)
-
-4. **Frequency domain**:
-- Median frequency and Mean frenqency:
-  - input **filtered** signal;
-  - use the matlab functions (recommended): MedianFr=medfreq(signalS, SamplingFq); MeanFr=meanfreq(signalS, SamplingFq);
-    - similarly, use [MedianFMeanF.m](MedianFMeanF.m): [pxx, f,MedianFr,MeanFr]=MedianFMeanF(signal, fs)
-- High, Medium and Lower frequency/power and ratios:
-  - lower frequency (2-20Hz), mid (20-40Hz)and high (>40 Hz and <100Hz)
-  - use the matlab functions (recommended): powerL = bandpower(signalS, SamplingFq,[2 20]);
-    - similarly, use [HMLpowerRatio.m](HMLpowerRatio.m): [H2Lratio,H2Mratio,M2Lratio,powerL,powerM,powerH]=HMLpowerRatio(f,pxx); 
-    - note: results are different than the bandpower results
-    - fixed error in calcualting power 
+- **Frequency domain**:
+	- Median frequency and Mean frenqency:
+	  - input **filtered** signal;
+	  - use the matlab functions (recommended): MedianFr=medfreq(signalS, SamplingFq); MeanFr=meanfreq(signalS, SamplingFq);
+		- similarly, use [MedianFMeanF.m](MedianFMeanF.m): [pxx, f,MedianFr,MeanFr]=MedianFMeanF(signal, fs)
+	- High, Medium and Lower frequency/power and ratios:
+	  - lower frequency (2-20Hz), mid (20-40Hz)and high (>40 Hz and <100Hz)
+	  - use the matlab functions (recommended): powerL = bandpower(signalS, SamplingFq,[2 20]);
+		- similarly, use [HMLpowerRatio.m](HMLpowerRatio.m): [H2Lratio,H2Mratio,M2Lratio,powerL,powerM,powerH]=HMLpowerRatio(f,pxx); 
+		- note: results are different than the bandpower results
+		- fixed error in calcualting power 
  
 
 
