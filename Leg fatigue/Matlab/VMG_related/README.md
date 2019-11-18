@@ -59,7 +59,6 @@
 - Calculate mean, SD and fitted functions (e.g., slope) of the different time- and frenqency-domain parameters for each windowed
   - use function [fittedWindow.m](fittedWindow.m)
 - Use [VMG_Force_RPE_BeginEnd_Slope.m](VMG_Force_RPE_BeginEnd_Slope.m) to organize and output grouped parameters
-  - output .mat files: 
     - BeginEnd_rmsTable.mat (magnitude results in Begin and End windows)
 		- BeginEnd_MVC30_rmsTable.mat (magnitude results in Begin and End windows, grouped MVC30 trials only)
 		- BeginEnd_MVC60_rmsTable.mat (magnitude results in Begin and End windows, grouped MVC60 trials only)
