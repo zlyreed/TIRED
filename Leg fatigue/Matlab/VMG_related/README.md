@@ -76,8 +76,8 @@
 - Alternatively,use [VMG_Force_RPE_NormalizedSlope.m](VMG_Force_RPE_NormalizedSlope.m) to obtain the slopes using normalized time (similar to "% of fatigue procedure")
   - note: x_time_normalized=(VMG_rms.time-Win_total(1,1))/(Win_total(1,2)-Win_total(1,1))*100
   
-4. **Run simple statistial tests** 
-- Compare the slope results  
+4. **Run simple statistial tests (one-sample t-test or paired t-test)** 
+- Compare the slope results (compare to zero; compare MVC30 vs. MVC60) 
   - average the data between two trials: 
     - use function [aveTrials.m](aveTrials.m)
   - one-sample t-test on the slope results (comparing to zero): "h=1" indicates that the slope is significantly different than 0 (p<0.05)
@@ -87,14 +87,15 @@
   - Use [VMG_SlopeResults_Stats.m](VMG_SlopeResults_Stats.m) which calls the above functions to ouput a results .xls file 
     - output file: "StatsResults_slope.xls"
   - Alternatively, use [VMG_SlopeResults_Stats_normalized.m](VMG_SlopeResults_Stats_normalized.m)to ouput a results .xls file 
-    - output file: "StatsResults_slope_normalized.xls" (using "slopeTotal_MVC30_fftTable_normalized.mat", "slopeTotal_MVC60_fftTable_normalized.mat" and "slopeTotal_fftTable_normalized.mat")
+    - load normalized slope tables: "slopeTotal_MVC30_fftTable_normalized.mat", "slopeTotal_MVC60_fftTable_normalized.mat" and "slopeTotal_fftTable_normalized.mat"
+	- output file: "StatsResults_slope_normalized.xls" 
 - Compare the parameters between Begin and End windows  
   - average the data between two trials: 
     - use function [aveTrials.m](aveTrials.m)
   - paired t-test to compare the begin vs. end of the parameter at the same location: 
     - use function [addPairedTtest.m](addPairedTtest.m)
   - Use [VMG_BeginEndCompResults_Stats.m](VMG_BeginEndCompResults_Stats.m) which calls the above functions to ouput a results .xls file 
-    - - output file: "StatsResults_BeginEnd.xls"
+    - output file: "StatsResults_BeginEnd.xls"
 
   
 
