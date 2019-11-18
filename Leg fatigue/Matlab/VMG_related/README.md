@@ -51,12 +51,14 @@
   - Parameters: Median Frequency, Mean Frequency, H2Lratio, H2Mratio, M2Lratio, powerLow, powerMed, powerHigh, powerTotal
   - use matlab functions: "medfreq", "meanfreq" and "bandpower"
 - Use [VMG_Force_RPE_plot_RmsFft_mat.m](VMG_Force_RPE_plot_RmsFft_mat.m) to process the data and output those parameters for each trial:
-  - output example files for a trial: "Testing14_MVC30_Fatigue1_VMG_rms.mat" and "Testing14_MVC30_Fatigue1_VMG_fft.mat" (data in in a structure)
+  - output example files for a trial: 
+    - "Testing14_MVC30_Fatigue1_VMG_rms.mat" (data in in a structure)
+	- "Testing14_MVC30_Fatigue1_VMG_fft.mat" (data in in a structure)
   
 3. **Save grouped slope and begin/end data into tables  (.mat file)**
 - Obtain Begin ("non-fatiguing"), End ("fatiguing") and total ("Begin to End") windows for each trial 
   - use function [selectedWindows.m](selectedWindows.m)
-- Calculate mean, SD and fitted functions (e.g., slope) of the different time- and frenqency-domain parameters for each windowed
+- Calculate mean, SD and fitted functions (e.g., slope) of the different time- and frenqency-domain parameters for each window
   - use function [fittedWindow.m](fittedWindow.m)
 - Use [VMG_Force_RPE_BeginEnd_Slope.m](VMG_Force_RPE_BeginEnd_Slope.m) to organize and output grouped parameters
     - BeginEnd_rmsTable.mat (magnitude results in Begin and End windows)
@@ -71,7 +73,30 @@
 	- slopeTotal_fftTable.mat (slopes of the fitted lines of the frenqency-domain results in total (from begin to end) window)
 	    - slopeTotal_MVC30_fftTable.mat
 		- slopeTotal_MVC60_fftTable.mat
+- Alternatively,use [VMG_Force_RPE_NormalizedSlope.m](VMG_Force_RPE_NormalizedSlope.m) to obtain the slopes using normalized time (similar to "% of fatigue procedure")
+  - note: x_time_normalized=(VMG_rms.time-Win_total(1,1))/(Win_total(1,2)-Win_total(1,1))*100
   
+4. **Run simple statistial tests** 
+- Compare the slope results  
+  - average the data between two trials: 
+    - use function [aveTrials.m](aveTrials.m)
+  - one-sample t-test on the slope results (comparing to zero): "h=1" indicates that the slope is significantly different than 0 (p<0.05)
+    - use function [addOneSampleTtest.m](addOneSampleTtest.m)
+  - paried t-test to compare the slope values between MVC 30 vs. MVC 60 (rms/magnitude and fft/frequency results): 
+    - use function [add3060PairedTtest.m](add3060PairedTtest.m)
+  - Use [VMG_SlopeResults_Stats.m](VMG_SlopeResults_Stats.m) which calls the above functions to ouput a results .xls file 
+    - output file: "StatsResults_slope.xls"
+  - Alternatively, use [VMG_SlopeResults_Stats_normalized.m](VMG_SlopeResults_Stats_normalized.m)to ouput a results .xls file 
+    - output file: "StatsResults_slope_normalized.xls" (using "slopeTotal_MVC30_fftTable_normalized.mat", "slopeTotal_MVC60_fftTable_normalized.mat" and "slopeTotal_fftTable_normalized.mat")
+
+- Compare the parameters between Begin and End windows  
+  - average the data between two trials: 
+    - use function [aveTrials.m](aveTrials.m)
+  - paired t-test to compare the begin vs. end of the parameter at the same location: 
+    - use function [addPairedTtest.m](addPairedTtest.m)
+  - Use [VMG_BeginEndCompResults_Stats.m](VMG_BeginEndCompResults_Stats.m) which calls the above functions to ouput a results .xls file 
+    - - output file: "StatsResults_BeginEnd.xls"
+
   
 
 
