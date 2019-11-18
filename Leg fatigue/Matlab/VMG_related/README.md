@@ -35,9 +35,10 @@
 ### Analysis workflow for our VMG measurements
 1. 	**Reorganize related recordings into .mat files** (so that the recordings are easy to acess in future analysis)
 -  use [ReOrganize_VMG.m](ReOrganize_VMG.m): to output a .mat file ("VMG_Cell_T14_to_T21.mat") which contains a "VMG_Cell" including the VMG data from  T14 to T21.
-    - note: use "save('VMG_Cell_T14_to_T21.mat','VMG_Cell','-v7.3')" to save a large cell ('-v7.3')
+    - Note: use "save('VMG_Cell_T14_to_T21.mat','VMG_Cell','-v7.3')" to save a large cell ('-v7.3')
 -  use [ReOrganize_Force.m](ReOrganize_Force.m): to output a .mat file ("T14_to_T21_ForceCell.mat" ) which contains a "Force_Cell" including the force data from  T14 to T21.
-    - or use [ReOrganize_Force_total.m](ReOrganize_Force_total.m): to output a .mat file ("ForceCell_total.mat" ) which contains a "Force_Cell" including all the force data.
+    - Note: "MVC100_cell.mat" will be needed for percetage force calcualtion
+	- or use [ReOrganize_Force_total.m](ReOrganize_Force_total.m): to output a .mat file ("ForceCell_total.mat" ) which contains a "Force_Cell" including all the force data.
 -  use [ReOrganize_RPE.m](ReOrganize_RPE.m): to output a .mat file ("T14_to_T21_RPECell.mat" ) which contains a "RPE_Cell" including the RPE data from  T14 to T21.
     - or use [ReOrganize_RPE_total.m](ReOrganize_RPE_total.m): to output a .mat file ("RPECell_total.mat" ) which contains a "RPE_Cell" including all the RPE data.
 
@@ -50,9 +51,29 @@
   - Parameters: Median Frequency, Mean Frequency, H2Lratio, H2Mratio, M2Lratio, powerLow, powerMed, powerHigh, powerTotal
   - use matlab functions: "medfreq", "meanfreq" and "bandpower"
 - Use [VMG_Force_RPE_plot_RmsFft_mat.m](VMG_Force_RPE_plot_RmsFft_mat.m) to process the data and output those parameters for each trial:
-  - for example: "Testing14_MVC30_Fatigue1_VMG_rms.mat" and "Testing14_MVC30_Fatigue1_VMG_fft.mat" (data in in a structure)
+  - output example files for a trial: "Testing14_MVC30_Fatigue1_VMG_rms.mat" and "Testing14_MVC30_Fatigue1_VMG_fft.mat" (data in in a structure)
   
- 
+3. ** Save grouped slope and begin/end data into tables  (.mat file) **
+- Obtain Begin ("non-fatiguing"), End ("fatiguing") and total ("Begin to End") windows for each trial 
+  - use function [selectedWindows.m](selectedWindows.m)
+- Calculate mean, SD and fitted functions (e.g., slope) of the different time- and frenqency-domain parameters for each windowed
+  - use function [fittedWindow.m](fittedWindow.m)
+- Use [VMG_Force_RPE_BeginEnd_Slope.m](VMG_Force_RPE_BeginEnd_Slope.m) to organize and output grouped parameters
+  - output .mat files: 
+    - BeginEnd_rmsTable.mat (magnitude results in Begin and End windows)
+		- BeginEnd_MVC30_rmsTable.mat (magnitude results in Begin and End windows, grouped MVC30 trials only)
+		- BeginEnd_MVC60_rmsTable.mat (magnitude results in Begin and End windows, grouped MVC60 trials only)
+	- BeginEnd_fftTable.mat (frenqency results in Begin and End windows)
+		- BeginEnd_MVC30_fftTable.mat (frenqency results in Begin and End windows, grouped MVC30 trials only)
+		- BeginEnd_MVC60_fftTable.mat (frenqency results in Begin and End windows, grouped MVC60 trials only)
+	- slopeTotal_rmsTable.mat (slopes of the fitted lines of the magnitude-domain results in total (from begin to end) window)
+	    - slopeTotal_MVC30_rmsTable.mat 
+		- slopeTotal_MVC60_rmsTable.mat
+	- slopeTotal_fftTable.mat (slopes of the fitted lines of the frenqency-domain results in total (from begin to end) window)
+	    - slopeTotal_MVC30_fftTable.mat
+		- slopeTotal_MVC60_fftTable.mat
+  
+  
 
 
 
