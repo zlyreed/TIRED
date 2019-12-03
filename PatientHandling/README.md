@@ -161,12 +161,12 @@
    - Device Classification Name-Powered Exoskeleton: [REWALK](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN130034)
    
 ## Other resources from NIOSH internal seminar
-•       [List of links to current NIOSH surveillance initiatives](https://www.cdc.gov/niosh/topics/surveillance/data.html) 
-•       [Work-related Injury Statistics and Resource Data Systems (WISARDS)](https://wwwn.cdc.gov/wisards/)
-•       [The Work-Related Lung Disease Surveillance System (eWoRLD)](https://wwwn.cdc.gov/eworld)
-•       [Ohio Workers' Compensation Injury Summary (2001 - 2015) - Private Industries dashboard](https://www.cdc.gov/niosh/topics/workercomp/cwcs/wcsummarydashboards.html) 
-•       [Worker Health Charts](https://wwwn.cdc.gov/Niosh-whc/) 
-•       [Burden of occupational morbidity from selected causes in the United States overall and by NORA industry sector, 2012: A conservative estimate](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/foabni/Groenewold_et_al-2019-American_Journal_of_Industrial_Medicine.pdf) 
+- [List of links to current NIOSH surveillance initiatives](https://www.cdc.gov/niosh/topics/surveillance/data.html) 
+- [Work-related Injury Statistics and Resource Data Systems (WISARDS)](https://wwwn.cdc.gov/wisards/)
+- [The Work-Related Lung Disease Surveillance System (eWoRLD)](https://wwwn.cdc.gov/eworld)
+- [Ohio Workers' Compensation Injury Summary (2001 - 2015) - Private Industries dashboard](https://www.cdc.gov/niosh/topics/workercomp/cwcs/wcsummarydashboards.html) 
+- [Worker Health Charts](https://wwwn.cdc.gov/Niosh-whc/) 
+- [Burden of occupational morbidity from selected causes in the United States overall and by NORA industry sector, 2012: A conservative estimate](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/foabni/Groenewold_et_al-2019-American_Journal_of_Industrial_Medicine.pdf) 
 
 
 
