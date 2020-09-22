@@ -103,12 +103,20 @@
 	- [Wearable Robots, Exoskeletons: Market Shares, Strategies, and Forecasts, Worldwide, 2019-2025; by Wintergreen Research, Inc](https://www.researchandmarkets.com/research/72xpv2/global_5_2_bn?w=12)
 	
  Exoskeletons in house:
+ - **Passive**
   - EksoVest by [Ekso Bionics](http://2t2ine2n47g337am722tf6ek.wpengine.netdna-cdn.com/wp-content/uploads/2017/07/EksoVest-Sell-Sheet.pdf)
   - SuitX modular system [(BackX, LegX and ShoulderX ) by U.S. Bionics](http://www.suitx.com/)
   - Airframe by [Levitate](http://www.levitatetech.com/)
+  
+  - Hunic SoftExo by [Hunic](https://hunic.com/softexo-exoskelett-fur-die-logistik/)
+  - [Laevo](https://laevo-exoskeletons.com/laevo-v2)
+  - Muscle Suit Every by [Innophys](https://www.japantrendshop.com/muscle-suit-every-wearable-exoskeleton-soft-fit-p-5133.html)
+  - [HeroWear](https://herowearexo.com)
+  
+ - **Powered**
   - working prototype (Harvard biodesign lab): [back-assist exosuit](https://wyss.harvard.edu/technology/soft-exosuits-for-back-support-during-strenuous-tasks/)
-  
-  
+  - HAL lumbar type by [Cyberdyne](https://www.cyberdyne.jp/english/products/Lumbar_CareSupport.html)
+   
  Exoskeleton research at pitt ([Dr. Nitin Sharma Lab](http://www.pittsharmalab.org/)) : 
    - [Reducing Exoskeleton Muscle Fatigue](https://www.asme.org/engineering-topics/articles/robotics/reducing-exoskeleton-muscle-fatigue): The hope is that using ultrasound, which supplies image-based, real-time image sensing, the exoskeleton will better sense fatigue and will know when to switch from joint actuators to electrical stimulation of the muscles themselves, something that has been difficult to determine to this point.
    - Ultrasound-based Intent Modeling and Control Framework for Neurorehabilitation and Educating Children with Disabilities and High School Students; [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1750748&HistoricalAwards=false)
