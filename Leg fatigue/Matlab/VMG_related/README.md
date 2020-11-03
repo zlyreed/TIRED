@@ -1,7 +1,7 @@
 ## VMG analysis
 ### Basic Concept of Accelerometer:
 - from [wikipedia](https://en.wikipedia.org/wiki/Accelerometer): An accelerometer is a device that measures proper acceleration.[1] Proper acceleration, being the acceleration (or rate of change of velocity) of a body in its own instantaneous rest frame,[2] is not the same as coordinate acceleration, being the acceleration in a fixed coordinate system. For example, an accelerometer at rest on the surface of the Earth will measure an acceleration due to Earth's gravity, straight upwards (by definition) of g ≈ 9.81 m/s2. By contrast, accelerometers in free fall (falling toward the center of the Earth at a rate of about 9.81 m/s2) will measure zero. 
-
+- "Muscle sound or vibration is a mechanical phenomenon detectable at the surface of an active muscle, which has been known and described since 1800 [ref; Orizo,1993]. As the advancement in instrumentation and analytical techniques, this type of myomechanical signal has become attractive for monitoring the mechanical aspects of muscle contraction.  Based on the different instrumentation for measuring the signal, different terminology was used in literature, such as phonomyography (PMG), acoustic myography (AMG) and vibromyography (VMG). Nevertheless, they are all referring to the same type of myogram that records low-frequency lateral oscillations during the muscle contraction (Trevino, 2015; Barry and Cole 1990). The term “Mechanomyogram (MMG)” was suggested to describe the myomechanical signal without misunderstanding or lack of accuracy in the identification of the signal’s mechanical nature [Orizio, 1993]. "
 
 ### Measurement from our lab: 
 
