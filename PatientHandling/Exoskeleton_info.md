@@ -111,7 +111,11 @@
     - Hunic SoftExo by [Hunic](https://hunic.com/softexo-exoskelett-fur-die-logistik/)
     - [Laevo](https://laevo-exoskeletons.com/laevo-v2)
     - Muscle Suit Every by [Innophys](https://www.japantrendshop.com/muscle-suit-every-wearable-exoskeleton-soft-fit-p-5133.html)
-    - [HeroWear](https://herowearexo.com)
+    
+	
+	- [HeroWear](https://herowearexo.com) (plan to order)
+	- [Hapo, France](https://exoskeletonreport.com/product/hapo) (plan to order)
+	
   
  - **Powered**
     - working prototype (Harvard biodesign lab): [back-assist exosuit](https://wyss.harvard.edu/technology/soft-exosuits-for-back-support-during-strenuous-tasks/)
