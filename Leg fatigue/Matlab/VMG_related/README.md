@@ -6,7 +6,7 @@
 ### Measurement from our lab: 
 
 - **Raw data**
-	- Device: a tri-axial accelerometers (Endevco, M35B, mass = 0.55g)
+	- Device: a tri-axial accelerometers (Endevco, [M35B](https://buy.endevco.com/accelerometer/35b-miniature-triaxial-iepe-accelerometer), mass = 0.55g)
 	  - The accelerometers were glue onto 3D-printed flat adapters, which were attached to the skin surface using double-sided adhesive tape.
 	- Use the recordings from SX: SamplingFq=8192 Hz
 	- The data recorded in Vicon didn't seem right (1000Hz): further investigation is needed!
