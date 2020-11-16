@@ -80,7 +80,7 @@
 	  
 	
 	
-  - extractAccelerationFeatures (VMG):
+  - extractAccelerationFeatures (VMG/MMG):
     - [VMG analysis](VMG_related/README.md) about filtering and spectral analysis 
 	- **Input**:
 	- **Output**: 
