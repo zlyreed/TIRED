@@ -96,7 +96,7 @@
   - paired t-test to compare the begin vs. end of the parameter at the same location: 
     - use function [addPairedTtest.m](addPairedTtest.m)
   - Use [VMG_BeginEndCompResults_Stats.m](VMG_BeginEndCompResults_Stats.m) which calls the above functions to ouput a results .xls file 
-    - output file: "StatsResults_BeginEnd.xls"
+    - output file: **"StatsResults_BeginEnd.xls"**, which was used for statistical analysis in the MMG manuscript.
 
   
 
