@@ -2,6 +2,9 @@
 - one lifting task
 - 8 patient handling tasks
 
+Notes about file names: 
+use "[Guideline of file names](files/Guideline_of_file_names.pdf)"; 
+
 ### Analysis at NIOSH
 ### Analysis at NIU
 ### Analysis at UofD
