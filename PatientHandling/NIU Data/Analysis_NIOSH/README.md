@@ -3,10 +3,15 @@
 - 8 patient handling tasks
 
 ### EMG data
-Two EMG data? Names of the muscles?
+- Two EMG data: left and right erector spine
+
 
 In Results folder: 
-What are LES and RES? What is PH and LL
+- LES: left erector spine
+- RES: right erector spinae
+
+- PH: patient handling
+- LL: lifting/lowering session
 
 
 ### Heart Rate
