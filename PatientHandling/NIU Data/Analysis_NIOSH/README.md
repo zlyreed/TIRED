@@ -4,6 +4,8 @@
 
 ### EMG data
 - EMG on two muscles: left and right erector spine
+- time (s) vs. EMG rms
+- Question: EMG sampling rate?
 
   ![erector_spinae](figures/erector_spinae_group.png "erector_spinae")
 
