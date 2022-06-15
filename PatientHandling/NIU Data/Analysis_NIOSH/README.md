@@ -5,6 +5,8 @@
 ### EMG data
 - Two EMG data: left and right erector spine
 
+     - ![erector_spinae](figures/erector_spinae_group.png "erector_spinae")
+
 
 In Results folder: 
 - LES: left erector spine
