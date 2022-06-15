@@ -3,7 +3,7 @@
 - 8 patient handling tasks
 
 ### EMG data
-- Two EMG data: left and right erector spine
+- EMG on two muscles: left and right erector spine
 
   ![erector_spinae](figures/erector_spinae_group.png "erector_spinae")
 
