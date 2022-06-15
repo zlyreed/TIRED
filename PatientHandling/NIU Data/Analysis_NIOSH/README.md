@@ -17,6 +17,8 @@ In Results folder:
 
 
 ### Heart Rate
+- time (s) vs. ECG (mV)
+
 ### Kinematics
 
 ### Force plate data
