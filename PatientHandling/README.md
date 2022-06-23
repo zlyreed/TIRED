@@ -68,7 +68,7 @@
 		
 		  - Other links on NIOSH webpages:
 		    - [Work-Related Injury Statistics Query System](https://wwwn.cdc.gov/Wisards/workrisqs/default.aspx)
-			- [TRAUMATIC OCCUPATIONAL INJURIES (Fatal injury data and Nonfatal injury data](https://www.cdc.gov/niosh/injury/data.html)
+			- [TRAUMATIC OCCUPATIONAL INJURIES (Fatal injury data and Nonfatal injury data)](https://www.cdc.gov/niosh/injury/data.html)
 			- [Worker Health Surveillance](https://www.cdc.gov/niosh/topics/surveillance/)
 			- [Occupational Injury Surveillance of Production Agriculture (OISPA) Survey](https://www.cdc.gov/niosh/topics/aginjury/oispa/injtables.html)
 			- [Center for Workers’ Compensation Studies (CWCS)](https://www.cdc.gov/niosh/topics/workercomp/cwcs/default.html)
