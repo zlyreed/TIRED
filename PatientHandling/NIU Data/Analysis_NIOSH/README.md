@@ -21,8 +21,8 @@ In Results folder:
 ### Heart Rate
 - time (s) vs. ECG (mV)
 - Analysis (look at the previous [ECG notes](https://github.com/zlyreed/TIRED/tree/master/Leg%20fatigue/Matlab/ECG_related))
-- time-domain analysis (HR, HRV)
-- frequency-domain analysis
+  - time-domain analysis (HR, HRV)
+  - frequency-domain analysis
 
 ### Kinematics
 - Joint angles (3D angles at 10 joints; total 30 angles): time (s) vs. Angle (deg)
