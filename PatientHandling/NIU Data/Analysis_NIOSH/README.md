@@ -27,7 +27,7 @@ In Results folder:
 ### Kinematics
 - Joint angles (3D angles at 10 joints; total 30 angles): time (s) vs. Angle (deg)
 - Questions:
-  - definition for each joint angle
+  - definition for each joint angle (e.g., neck angle, trunk angle, etc.)
   - cooridinate systems (X, Y, and Z)
   - unit? Deg?
 
