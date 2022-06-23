@@ -20,8 +20,15 @@ In Results folder:
 
 ### Heart Rate
 - time (s) vs. ECG (mV)
+- time-domain analysis (HR, HRV)
+- frequency-domain analysis
 
 ### Kinematics
+- Joint angles (3D angles at 10 joints; total 30 angles): time (s) vs. Angle (deg)
+- Questions:
+  - definition for each joint angle
+  - cooridinate systems (X, Y, and Z)
+  - unit? Deg?
 
 ### Force plate data
 ### Modeling
