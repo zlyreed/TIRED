@@ -65,7 +65,18 @@
 			
 		  - Survey (Nonfatal Occupational Injuries and Illnesses: Cases with days of job transfer or restriction):[2016](https://www.bls.gov/iif/oshwc/osh/case/osch0061.pdf) and [2015](https://www.bls.gov/iif/oshwc/osh/case/osch0059.pdf)
 		  - [Thirty fastest growing occupations projected to account for 19 percent of new jobs from 2016 to 2026](https://www.bls.gov/opub/ted/2017/thirty-fastest-growing-occupations-projected-to-account-for-19-percent-of-new-jobs-from-2016-to-2026.htm)
-			 
+		
+		  - Other links on NIOSH webpages:
+		    - [Work-Related Injury Statistics Query System](https://wwwn.cdc.gov/Wisards/workrisqs/default.aspx)
+			- [TRAUMATIC OCCUPATIONAL INJURIES (Fatal injury data and Nonfatal injury data](https://www.cdc.gov/niosh/injury/data.html)
+			- [Worker Health Surveillance](https://www.cdc.gov/niosh/topics/surveillance/)
+			- [Occupational Injury Surveillance of Production Agriculture (OISPA) Survey](https://www.cdc.gov/niosh/topics/aginjury/oispa/injtables.html)
+			- [Center for Workers’ Compensation Studies (CWCS)](https://www.cdc.gov/niosh/topics/workercomp/cwcs/default.html)
+			- [Work-related Injury Statistics and Resource Data Systems (WISARDS)](https://wwwn.cdc.gov/wisards/)
+			- [Occupational Injury and Illness Classification System](https://wwwn.cdc.gov/wisards/oiics/)
+			
+			
+			
 	  - OSHA
 		- [Safe Patient Handling, tools and resources](https://www.osha.gov/dsg/hospitals/patient_handling.html)
 		- [Safe Patient Handling in Health Care on Youtube](https://www.youtube.com/watch?v=Vy8T8BUAbE4)
