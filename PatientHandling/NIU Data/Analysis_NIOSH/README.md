@@ -20,6 +20,7 @@ In Results folder:
 
 ### Heart Rate
 - time (s) vs. ECG (mV)
+- Analysis (look at the previous [ECG notes](https://github.com/zlyreed/TIRED/tree/master/Leg%20fatigue/Matlab/ECG_related))
 - time-domain analysis (HR, HRV)
 - frequency-domain analysis
 
