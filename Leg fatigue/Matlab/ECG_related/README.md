@@ -8,7 +8,7 @@
      - The difference between RR interval and NN interval: NN intervals refer to the intervals between **normal** R-peaks. During a measurement, artifacts may arise due to arrhythmic events or faulty sensors, for example (Citi, Brown & Barbieri, 2012). This may lead to abnormal R-peaks, which may in turn distort the statistical measures. To ensure reliable and valid data, only normal R-peaks are selected. Alternatively, the abnormal R-peaks can be corrected. 
 	 In practice, however, RR-intervals and NN-intervals are synonymous (Tarvainen, 2014; Wiki). The use of "NN-intervals" is merely used to emphasize that normal R-peaks were used. 
   - [Heart Rate](https://en.wikipedia.org/wiki/Heart_rate): [The instantaneous heart rate](https://courses.kcumb.edu/physio/ecg%20primer/normecgcalcs.htm) can be calculated from the time between any two QRS complexes. 
-  - RR Intervals, Heart Rate, and HRV Howto (by [George B. Moody, Harvard-MIT Division of Health Sciences and Technology](https://www.physionet.org/tutorials/hrv/#hr-extraction))
+  - RR Intervals, Heart Rate, and HRV Howto (by [George B. Moody, Harvard-MIT Division of Health Sciences and Technology](https://archive.physionet.org/tutorials/hrv/))
 
 ### Heart rate variability:
   - [HRV standards,1996](https://www.ncbi.nlm.nih.gov/pubmed/8737210)
