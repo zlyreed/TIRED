@@ -16,6 +16,7 @@
 	      - Intermediate goal 4.8E: Evaluation of exoskeletons or other innovative approaches to reduce risk of MSDs during patient handling or performing healthcare procedures.
 		  - Activity Goal 4.8.1 (Intervention research): Conduct studies to evaluate the effectiveness (usefulness and unexpected results) of innovative approaches to reduce risk for MSDs and to reduce the return-to-work time among healthcare and social assistance workers with MSDs.
 	- [Burden Data](http://inside.niosh.cdc.gov/nora/IntramuralResearchCompetition/FOABNI.html)
+	- [Previous funded NORA projects](https://intranet.cdc.gov/niosh/offices/ori/nora/competitions.html)
 	
   - [National Occupational Research Agenda for Musculoskeletal Health](https://www.cdc.gov/nora/councils/mus/researchagenda.html):
     The National Occupational Research Agenda for Musculoskeletal Health is intended to identify the knowledge and actions most urgently needed to prevent musculoskeletal disorders (MSDs). This agenda provides a vehicle for stakeholders to describe the most relevant issues, research gaps, and needs for occupational musculosketetal health. It is meant to be broader than any one agency or organization.
