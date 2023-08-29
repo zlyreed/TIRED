@@ -20,6 +20,8 @@
   - [wikipedia HRV](https://en.wikipedia.org/wiki/Heart_rate_variability)
   - [Heart rate variability – a historical perspective, 2011](https://www.frontiersin.org/articles/10.3389/fphys.2011.00086/full)
   - [An introduction to heart rate variability: methodological considerations and clinical applications, 2015](https://www.frontiersin.org/articles/10.3389/fphys.2015.00055/full#B1)
+
+
   
 #### PhysioNet, 2016: 
   - [WFDB Toolbox for MATLAB and Octave](https://www.physionet.org/physiotools/matlab/wfdb-app-matlab/)
@@ -160,6 +162,10 @@
    - Biomonitor
    - Holter Monitor
    - Biopac MP35 or 36
+ - [hrv_Python module] (https://hrv.readthedocs.io/en/latest/index.html)
+[Non-stationary RRi series](https://hrv.readthedocs.io/en/latest/nonstationary.html#non-stationary-rri-series): In some situations like physical exercise, the RRi series might present a non-stationary behavior. In cases like these, classical approaches are not recommended once the statistical properties of the signal vary over time.
+    - [Time Varying](https://hrv.readthedocs.io/en/latest/nonstationary.html#time-varying)
+    - [Short Time Fourier Transform](https://hrv.readthedocs.io/en/latest/index.html)
 
 ### Readings on heart dynamics	
 #### HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
