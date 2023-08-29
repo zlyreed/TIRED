@@ -162,10 +162,10 @@
    - Biomonitor
    - Holter Monitor
    - Biopac MP35 or 36
- - [hrv_Python module] (https://hrv.readthedocs.io/en/latest/index.html)
-[Non-stationary RRi series](https://hrv.readthedocs.io/en/latest/nonstationary.html#non-stationary-rri-series): In some situations like physical exercise, the RRi series might present a non-stationary behavior. In cases like these, classical approaches are not recommended once the statistical properties of the signal vary over time.
-    - [Time Varying](https://hrv.readthedocs.io/en/latest/nonstationary.html#time-varying)
-    - [Short Time Fourier Transform](https://hrv.readthedocs.io/en/latest/index.html)
+ - [hrv_Python module](https://hrv.readthedocs.io/en/latest/index.html)
+    - [Non-stationary RRi series](https://hrv.readthedocs.io/en/latest/nonstationary.html): In some situations like physical exercise, the RRi series might present a non-stationary behavior. In cases like these, classical approaches are not recommended once the statistical properties of the signal vary over time.
+      - [Time Varying](https://hrv.readthedocs.io/en/latest/nonstationary.html#time-varying)
+      - [Short Time Fourier Transform](https://hrv.readthedocs.io/en/latest/index.html)
 
 ### Readings on heart dynamics	
 #### HRV on Autonomic Nervous System (ANS) — PSN and SNS (notes from SX):
