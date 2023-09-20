@@ -175,6 +175,9 @@
   - Root Mean Square Successive Differences (RMSSD) and measures of baroreflex sensitivity (an index of the responsiveness of the cardiovascular system to changes in blood pressure) have been shown to be useful indices of vagal activity. 	
 
   - Notes: Difference between [parasympathetic nervous system(**PNS**) and sympathetic nervous system (**SNS**)](https://www.diffen.com/difference/Parasympathetic_nervous_system_vs_Sympathetic_nervous_system)
+     - The parasympathetic nervous system (PNS) controls homeostasis and the body at rest and is responsible for the body's "rest and digest" function.
+     - The sympathetic nervous system (SNS) controls the body's responses to a perceived threat and is responsible for the "fight or flight" response.
+     - The PNS and SNS are part of the autonomic nervous system (ANS), which is responsible for the involuntary functions of the human body.
 
 #### HRV studies during resting and exercise
   - [Fatigue shifts and scatters heart rate variability in elite endurance athletes,2013](https://www.ncbi.nlm.nih.gov/pubmed/23951198)
