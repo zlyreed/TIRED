@@ -43,7 +43,7 @@
 		- [Nursing Assistants and Orderlies summary](https://www.bls.gov/ooh/healthcare/nursing-assistants.htm)
 		
 		- Notes:
-		  - How to use BLS to find the data that you are interested: [One-Screen Data Search ](https://data.bls.gov/PDQWeb/cs) and [Multi-Screen Data Search](https://data.bls.gov/cgi-bin/dsrv?cs)
+		  - How to use BLS to find the data that you are interested: [One-Screen Data Search ](https://data.bls.gov/PDQWeb/cs) 
 		  - [More data in 2015](https://www.bls.gov/news.release/pdf/osh2.pdf)
 		  -  Numbers related to nurse assistants
 			 - [Back injuries prominent in work-related musculoskeletal disorder cases in 2016](https://www.bls.gov/opub/ted/2018/back-injuries-prominent-in-work-related-musculoskeletal-disorder-cases-in-2016.htm)
